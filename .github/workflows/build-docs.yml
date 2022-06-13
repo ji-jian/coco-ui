@@ -28,4 +28,4 @@ jobs:
         run: npm run build:docs
 
       - name: copy # 运行 yarn build
-        run: rm -r ./docs/* && cp -r ./packages/docs/dist/* ./docss
+        run: rm -r ./docs/* && cp -r ./packages/docs/dist/* ./docs

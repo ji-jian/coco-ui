@@ -1,0 +1,18 @@
+name: Build and Deploy
+on: # 监听 master 分支上的 push 事件
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3 # git 克隆到当前机器上
+      - name: Use Node.js
+        uses: actions/setup-node@v3 # 设置node环境
+        with:
+          node-version: 14.x # 指定版本
+      - run: npm install -g pnpm # 运行 yarn
+      - run: pnpm build:docs # 运行 yarn build
+      - run: rm -r ./docs/* && cp ./packages/docs/dist/* ./docs

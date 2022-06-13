@@ -18,6 +18,9 @@ jobs:
       - name: Install pnpm
         run: npm i pnpm@7 -g
 
+      - name: pwd
+        run: pwd
+
       - name: Install dependencies
         run: pnpm install
 

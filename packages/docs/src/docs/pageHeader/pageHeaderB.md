@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-page-header title="返回上一层" content="详情页面" @back="goBack" />
+  <coco-page-header title="返回上一层" content="详情页面" @back="goBack" />
 </template>
 
 <script setup>
@@ -14,7 +14,7 @@
 | ------- | ---- | ------ | ------ | --------------------- |
 | title   | 标题 | string | ——     | 返回                  |
 | content | 内容 | string | ——     | ——                    |
-| icon    | icon | string | ——     | tyh-ui-direction-left |
+| icon    | icon | string | ——     | coco-ui-direction-left |
 
 ## Events
 
@@ -22,11 +22,11 @@
 | -------- | ---------------- | -------- |
 | back     | 点击左侧区域触发 | ——       |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/tree">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/tree">
     Tree 树形控件
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/info">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/info">
     Info 信息栏
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

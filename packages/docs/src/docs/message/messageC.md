@@ -1,10 +1,10 @@
 ```html
 <template>
-  <tyh-button type="primary" @click="change6">展示5000毫秒</tyh-button>
+  <coco-button type="primary" @click="change6">展示5000毫秒</coco-button>
 </template>
 
 <script setup>
-  import { Message } from 'tyh-ui2'
+  import { Message } from 'coco-ui2'
   function change6() {
     Message({ message: '5000毫秒后隐藏', type: 'primary', time: 5000 })
   }

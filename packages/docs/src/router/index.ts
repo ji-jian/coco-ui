@@ -15,143 +15,143 @@ const routes: RouteRecordRaw[] = [
         children: [
           {
             path: '/component/install',
-            component: () => import('@/views/tyhUi/install.vue')
+            component: () => import('@/views/cocoUi/install.vue')
           },
           {
             path: '/component/color',
-            component: () => import('@/views/tyhUi/color.vue')
+            component: () => import('@/views/cocoUi/color.vue')
           },
           {
             path: '/component/container',
-            component: () => import('@/views/tyhUi/container.vue')
+            component: () => import('@/views/cocoUi/container.vue')
           },
           {
             path: '/component/button',
-            component: () => import('@/views/tyhUi/button.vue')
+            component: () => import('@/views/cocoUi/button.vue')
           },
           {
             path: '/component/list',
-            component: () => import('@/views/tyhUi/list.vue')
+            component: () => import('@/views/cocoUi/list.vue')
           },
           {
             path: '/component/card',
-            component: () => import('@/views/tyhUi/card.vue')
+            component: () => import('@/views/cocoUi/card.vue')
           },
           {
             path: '/component/tag',
-            component: () => import('@/views/tyhUi/tag.vue')
+            component: () => import('@/views/cocoUi/tag.vue')
           },
           {
             path: '/component/link',
-            component: () => import('@/views/tyhUi/link.vue')
+            component: () => import('@/views/cocoUi/link.vue')
           },
           {
             path: '/component/input',
-            component: () => import('@/views/tyhUi/input.vue')
+            component: () => import('@/views/cocoUi/input.vue')
           },
           {
             path: '/component/menu',
-            component: () => import('@/views/tyhUi/menu.vue')
+            component: () => import('@/views/cocoUi/menu.vue')
           },
           {
             path: '/component/division',
-            component: () => import('@/views/tyhUi/division.vue')
+            component: () => import('@/views/cocoUi/division.vue')
           },
           {
             path: '/component/icon',
-            component: () => import('@/views/tyhUi/icon.vue')
+            component: () => import('@/views/cocoUi/icon.vue')
           },
           {
             path: '/component/crumbs',
-            component: () => import('@/views/tyhUi/crumbs.vue')
+            component: () => import('@/views/cocoUi/crumbs.vue')
           },
           {
             path: '/component/turnPage',
-            component: () => import('@/views/tyhUi/turnPage.vue')
+            component: () => import('@/views/cocoUi/turnPage.vue')
           },
           {
             path: '/component/backTop',
-            component: () => import('@/views/tyhUi/backTop.vue')
+            component: () => import('@/views/cocoUi/backTop.vue')
           },
           {
             path: '/component/message',
-            component: () => import('@/views/tyhUi/message.vue')
+            component: () => import('@/views/cocoUi/message.vue')
           },
           {
             path: '/component/skeleton',
-            component: () => import('@/views/tyhUi/skeleton.vue')
+            component: () => import('@/views/cocoUi/skeleton.vue')
           },
           {
             path: '/component/alert',
-            component: () => import('@/views/tyhUi/alert.vue')
+            component: () => import('@/views/cocoUi/alert.vue')
           },
           {
             path: '/component/rate',
-            component: () => import('@/views/tyhUi/rate.vue')
+            component: () => import('@/views/cocoUi/rate.vue')
           },
           {
             path: '/component/image',
-            component: () => import('@/views/tyhUi/image.vue')
+            component: () => import('@/views/cocoUi/image.vue')
           },
           {
             path: '/component/avatar',
-            component: () => import('@/views/tyhUi/avatar.vue')
+            component: () => import('@/views/cocoUi/avatar.vue')
           },
           {
             path: '/component/text',
-            component: () => import('@/views/tyhUi/text.vue')
+            component: () => import('@/views/cocoUi/text.vue')
           },
           {
             path: '/component/table',
-            component: () => import('@/views/tyhUi/table.vue')
+            component: () => import('@/views/cocoUi/table.vue')
           },
           {
             path: '/component/switch',
-            component: () => import('@/views/tyhUi/switch.vue')
+            component: () => import('@/views/cocoUi/switch.vue')
           },
           {
             path: '/component/calendar',
-            component: () => import('@/views/tyhUi/calendar.vue')
+            component: () => import('@/views/cocoUi/calendar.vue')
           },
           {
             path: '/component/radio',
-            component: () => import('@/views/tyhUi/radio.vue')
+            component: () => import('@/views/cocoUi/radio.vue')
           },
           {
             path: '/component/tree',
-            component: () => import('@/views/tyhUi/tree.vue')
+            component: () => import('@/views/cocoUi/tree.vue')
           },
           {
             path: '/component/pageHeader',
-            component: () => import('@/views/tyhUi/pageHeader.vue')
+            component: () => import('@/views/cocoUi/pageHeader.vue')
           },
           {
             path: '/component/info',
-            component: () => import('@/views/tyhUi/info.vue')
+            component: () => import('@/views/cocoUi/info.vue')
           },
           {
             path: '/component/textarea',
-            component: () => import('@/views/tyhUi/textarea.vue')
+            component: () => import('@/views/cocoUi/textarea.vue')
           },
           {
             path: '/component/select',
-            component: () => import('@/views/tyhUi/select.vue')
+            component: () => import('@/views/cocoUi/select.vue')
           },
           {
             path: '/component/tagging',
-            component: () => import('@/views/tyhUi/tagging.vue')
+            component: () => import('@/views/cocoUi/tagging.vue')
           },
           {
             path: '/component/notification',
-            component: () => import('@/views/tyhUi/notification.vue')
+            component: () => import('@/views/cocoUi/notification.vue')
           },
           {
             path: '/component/drawer',
-            component: () => import('@/views/tyhUi/drawer.vue')
+            component: () => import('@/views/cocoUi/drawer.vue')
           },
           {
             path: '/component/dialog',
-            component: () => import('@/views/tyhUi/dialog.vue')
+            component: () => import('@/views/cocoUi/dialog.vue')
           }
         ]
       }

@@ -1,10 +1,10 @@
 $primary: #3a6ff4;
 
-.tyh-turn-page-item {
+.coco-turn-page-item {
   flex: 1;
   transition: 0.2s;
 
-  .tyh-turn-page-item-link {
+  .coco-turn-page-item-link {
     text-decoration: none;
     color: #515a6e;
     cursor: pointer;
@@ -12,17 +12,17 @@ $primary: #3a6ff4;
     &:hover {
       color: $primary;
 
-      .tyh-icon {
+      .coco-icon {
         color: $primary !important;
       }
     }
   }
 
-  .tyh-turn-page-item-prohibit {
+  .coco-turn-page-item-prohibit {
     opacity: 0.5;
     cursor: not-allowed;
 
-    .tyh-icon {
+    .coco-icon {
       opacity: 0.5 !important;
       color: #515a6e !important;
     }
@@ -31,7 +31,7 @@ $primary: #3a6ff4;
       opacity: 0.5;
       color: #515a6e;
 
-      .tyh-icon {
+      .coco-icon {
         color: #515a6e !important;
       }
     }

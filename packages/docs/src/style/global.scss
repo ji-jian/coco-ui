@@ -4,61 +4,61 @@
   font-size: '微软雅黑';
 }
 
-.tyh-button,
-.tyh-turn-page,
-.tyh-tag,
-.tyh-link,
-.tyh-input,
-.tyh-tagging,
-.tyh-alert,
-.tyh-table,
-.tyh-select,
-.tyh-button-group {
+.coco-button,
+.coco-turn-page,
+.coco-tag,
+.coco-link,
+.coco-input,
+.coco-tagging,
+.coco-alert,
+.coco-table,
+.coco-select,
+.coco-button-group {
   margin: 10px;
 }
 
-.tyh-input {
+.coco-input {
   width: 260px;
   display: block;
 }
 
-.tyh-button-group .tyh-button,
-.tyh-info .tyh-link {
+.coco-button-group .coco-button,
+.coco-info .coco-link {
   margin: 0;
 }
 
-.tyh-header,
-.tyh-footer {
+.coco-header,
+.coco-footer {
   background-color: #b3c0d1;
   color: #333;
   text-align: center;
   line-height: 60px;
 }
 
-.tyh-aside {
+.coco-aside {
   background-color: #d3dce6;
   color: #333;
   text-align: center;
   line-height: 200px;
 }
 
-.tyh-main {
+.coco-main {
   background-color: #e9eef3;
   color: #333;
   text-align: center;
   line-height: 160px;
 }
 
-body > .tyh-container {
+body > .coco-container {
   margin-bottom: 40px;
 }
 
-.tyh-container:nth-child(5) .tyh-aside,
-.tyh-container:nth-child(6) .tyh-aside {
+.coco-container:nth-child(5) .coco-aside,
+.coco-container:nth-child(6) .coco-aside {
   line-height: 260px;
 }
 
-.tyh-container:nth-child(7) .tyh-aside {
+.coco-container:nth-child(7) .coco-aside {
   line-height: 320px;
 }
 
@@ -72,7 +72,7 @@ body > .tyh-container {
   border-radius: 6px;
 }
 
-.tyh-card-item {
+.coco-card-item {
   width: 240px;
   margin-left: 10px;
   display: inline-block;
@@ -119,7 +119,7 @@ body > .tyh-container {
   align-items: center;
 }
 
-#allIcon .allIcon-ui .allIcon-li .tyh-icon {
+#allIcon .allIcon-ui .allIcon-li .coco-icon {
   font-size: 30px;
 }
 

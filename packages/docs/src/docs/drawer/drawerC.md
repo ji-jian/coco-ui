@@ -1,10 +1,10 @@
 ```html
 <template>
-  <tyh-button type="primary" @click="open2 = true">点我打开</tyh-button>
+  <coco-button type="primary" @click="open2 = true">点我打开</coco-button>
 
-  <tyh-drawer v-model="open2" direction="right" :showHeader="false">
-    hello，欢迎使用 tyh-ui!
-  </tyh-drawer>
+  <coco-drawer v-model="open2" direction="right" :showHeader="false">
+    hello，欢迎使用 coco-ui!
+  </coco-drawer>
 </template>
 
 <script setup>

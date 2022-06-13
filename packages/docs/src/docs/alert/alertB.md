@@ -1,33 +1,33 @@
 ```html
 <template>
-  <tyh-alert
+  <coco-alert
     v-show="isShow1"
     close
     message="点击关闭普通提示"
     @close="isShow1 = false"
   />
-  <tyh-alert
+  <coco-alert
     v-show="isShow2"
     close
     type="primary"
     message="点击关闭主要提示"
     @close="isShow2 = false"
   />
-  <tyh-alert
+  <coco-alert
     v-show="isShow3"
     close
     type="success"
     message="点击关闭成功提示"
     @close="isShow3 = false"
   />
-  <tyh-alert
+  <coco-alert
     v-show="isShow4"
     close
     type="danger"
     message="点击关闭危险提示"
     @close="isShow4 = false"
   />
-  <tyh-alert
+  <coco-alert
     v-show="isShow5"
     close
     type="warning"
@@ -50,36 +50,36 @@
 
 center 属性可以配置文字居中
 
-<tyh-alert center message="这是一个普通提示" />
-<tyh-alert center type="primary" message="这是一个主要提示" />
-<tyh-alert center type="success" message="这是一个成功提示" />
-<tyh-alert center type="danger" message="这是一个危险提示" />
-<tyh-alert center type="warning" message="这是一个警告提示" />
+<coco-alert center message="这是一个普通提示" />
+<coco-alert center type="primary" message="这是一个主要提示" />
+<coco-alert center type="success" message="这是一个成功提示" />
+<coco-alert center type="danger" message="这是一个危险提示" />
+<coco-alert center type="warning" message="这是一个警告提示" />
 
 ```html
-<tyh-alert center message="这是一个普通提示" />
-<tyh-alert center type="primary" message="这是一个主要提示" />
-<tyh-alert center type="success" message="这是一个成功提示" />
-<tyh-alert center type="danger" message="这是一个危险提示" />
-<tyh-alert center type="warning" message="这是一个警告提示" />
+<coco-alert center message="这是一个普通提示" />
+<coco-alert center type="primary" message="这是一个主要提示" />
+<coco-alert center type="success" message="这是一个成功提示" />
+<coco-alert center type="danger" message="这是一个危险提示" />
+<coco-alert center type="warning" message="这是一个警告提示" />
 ```
 
 ## 简约提示
 
 simple 属性可以配置简约提示
 
-<tyh-alert simple message="简约的普通提示" />
-<tyh-alert simple type="primary" message="简约的主要提示" />
-<tyh-alert simple type="success" message="简约的成功提示" />
-<tyh-alert simple type="danger" message="简约的危险提示" />
-<tyh-alert simple type="warning" message="简约的警告提示" />
+<coco-alert simple message="简约的普通提示" />
+<coco-alert simple type="primary" message="简约的主要提示" />
+<coco-alert simple type="success" message="简约的成功提示" />
+<coco-alert simple type="danger" message="简约的危险提示" />
+<coco-alert simple type="warning" message="简约的警告提示" />
 
 ```html
-<tyh-alert simple message="简约的普通提示" />
-<tyh-alert simple type="primary" message="简约的主要提示" />
-<tyh-alert simple type="success" message="简约的成功提示" />
-<tyh-alert simple type="danger" message="简约的危险提示" />
-<tyh-alert simple type="warning" message="简约的警告提示" />
+<coco-alert simple message="简约的普通提示" />
+<coco-alert simple type="primary" message="简约的主要提示" />
+<coco-alert simple type="success" message="简约的成功提示" />
+<coco-alert simple type="danger" message="简约的危险提示" />
+<coco-alert simple type="warning" message="简约的警告提示" />
 ```
 
 ## Attributes
@@ -99,11 +99,11 @@ simple 属性可以配置简约提示
 | -------- | ----------------------- | -------- |
 | close    | 关闭 Alert 时触发的回调 |          |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/skeleton">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/skeleton">
     Skeleton 骨架
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/rate">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/rate">
     Rate 评分
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

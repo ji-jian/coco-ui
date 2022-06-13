@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-table
+  <coco-table
     :data="tableData"
     :columns="columns"
     align="center"

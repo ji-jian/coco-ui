@@ -1,7 +1,7 @@
 ```html
 <template>
-  <tyh-textarea v-model="value3" rows="5" />
-  <tyh-textarea v-model="value4" cols="10" />
+  <coco-textarea v-model="value3" rows="5" />
+  <coco-textarea v-model="value4" cols="10" />
 </template>
 
 <script setup>

@@ -1,13 +1,13 @@
 $primary: #3a6ff4;
 
-.tyh-input {
+.coco-input {
   display: inline-block;
   position: relative;
   width: 100%;
   box-sizing: border-box;
   transition: 0.35s;
 
-  .tyh-input-input {
+  .coco-input-input {
     width: 100%;
     border-radius: 5px;
     color: #3f536e;
@@ -23,7 +23,7 @@ $primary: #3a6ff4;
     }
   }
 
-  .tyh-input-icon {
+  .coco-input-icon {
     position: absolute;
     left: 10px;
     user-select: none;
@@ -31,39 +31,39 @@ $primary: #3a6ff4;
     font-size: 12px;
   }
 
-  .tyh-input-input-large,
-  .tyh-input-icon-large {
+  .coco-input-input-large,
+  .coco-input-icon-large {
     line-height: 40px;
     font-size: 15px;
   }
 
-  .tyh-input-input-medium,
-  .tyh-input-icon-medium {
+  .coco-input-input-medium,
+  .coco-input-icon-medium {
     line-height: 35px;
     font-size: 14px;
   }
 
-  .tyh-input-input-small,
-  .tyh-input-icon-small {
+  .coco-input-input-small,
+  .coco-input-icon-small {
     line-height: 30px;
     font-size: 13px;
   }
 
-  .tyh-input-input-mini,
-  .tyh-input-icon-mini {
+  .coco-input-input-mini,
+  .coco-input-icon-mini {
     line-height: 25px;
     font-size: 12px;
   }
 
-  .tyh-input-icon-padding {
+  .coco-input-icon-padding {
     padding-left: 26px;
   }
 
-  .tyh-input-clear-padding {
+  .coco-input-clear-padding {
     padding-right: 26px;
   }
 
-  .tyh-input-clear {
+  .coco-input-clear {
     position: absolute;
     right: 10px;
     margin: auto;
@@ -72,7 +72,7 @@ $primary: #3a6ff4;
   }
 }
 
-.tyh-input-disabled {
+.coco-input-disabled {
   background: #f5f7fa !important;
   border-color: #e4e7ed !important;
   color: #c0c4cc !important;

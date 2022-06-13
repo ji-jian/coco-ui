@@ -1,7 +1,7 @@
 ```html
 <template>
-  <tyh-switch v-model="value5" closeColor="red" openColor="green" />
-  <tyh-switch v-model="value6" closeColor="black" openColor="#eee" />
+  <coco-switch v-model="value5" closeColor="red" openColor="green" />
+  <coco-switch v-model="value6" closeColor="black" openColor="#eee" />
 </template>
 
 <script setup>

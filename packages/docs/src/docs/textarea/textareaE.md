@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-textarea v-model="value5" disabled />
+  <coco-textarea v-model="value5" disabled />
 </template>
 
 <script setup>

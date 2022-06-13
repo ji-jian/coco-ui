@@ -1,9 +1,9 @@
 ```html
 <template>
-  <tyh-input size="large" v-model="text4" />
-  <tyh-input size="medium" v-model="text5" />
-  <tyh-input size="small" v-model="text6" />
-  <tyh-input size="mini" v-model="text7" />
+  <coco-input size="large" v-model="text4" />
+  <coco-input size="medium" v-model="text5" />
+  <coco-input size="small" v-model="text6" />
+  <coco-input size="mini" v-model="text7" />
 </template>
 
 <script setup>

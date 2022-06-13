@@ -6,75 +6,75 @@
 
 direction 属性用于配置子组件，此属性为必传参数，它决定了你的翻页标识文字的显示位置
 
-<tyh-turn-page>
-  <tyh-turn-page-item direction="left" url="">上一页</tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="">下一页</tyh-turn-page-item>
-</tyh-turn-page>
+<coco-turn-page>
+  <coco-turn-page-item direction="left" url="">上一页</coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="">下一页</coco-turn-page-item>
+</coco-turn-page>
 
 ```html
-<tyh-turn-page>
-  <tyh-turn-page-item direction="left" url="">上一页</tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="">下一页</tyh-turn-page-item>
-</tyh-turn-page>
+<coco-turn-page>
+  <coco-turn-page-item direction="left" url="">上一页</coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="">下一页</coco-turn-page-item>
+</coco-turn-page>
 ```
 
 ## 居中显示
 
 center 属性可以配置居中显示
 
-<tyh-turn-page center>
-  <tyh-turn-page-item direction="left" url="">
+<coco-turn-page center>
+  <coco-turn-page-item direction="left" url="">
     上一页 - 居中
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="">
     下一页 - 居中
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>
 
 ```html
-<tyh-turn-page center>
-  <tyh-turn-page-item direction="left" url="">
+<coco-turn-page center>
+  <coco-turn-page-item direction="left" url="">
     上一页 - 居中
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="">
     下一页 - 居中
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>
 ```
 
 ## 自定义图标
 
 icon 属性可以配置其他 icon
 
-<tyh-turn-page>
-  <tyh-turn-page-item direction="left" url="" icon="tyh-ui-shouye-xianxing">
+<coco-turn-page>
+  <coco-turn-page-item direction="left" url="" icon="coco-ui-shouye-xianxing">
   首页
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="" icon="tyh-ui-direction-right">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="" icon="coco-ui-direction-right">
   下一页
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>
 
 ```html
-<tyh-turn-page>
-  <tyh-turn-page-item direction="left" url="" icon="tyh-ui-shouye-xianxing">
+<coco-turn-page>
+  <coco-turn-page-item direction="left" url="" icon="coco-ui-shouye-xianxing">
     首页
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="" icon="tyh-ui-direction-right">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="" icon="coco-ui-direction-right">
     下一页
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>
 ```
 
 ## Attributes
 
-tyh-turn-page
+coco-turn-page
 
 | 参数   | 说明     | 类型    | 可选值 | 默认值 |
 | ------ | -------- | ------- | ------ | ------ |
 | center | 居中显示 | boolean | ——     | false  |
 
-tyh-turn-page-item
+coco-turn-page-item
 
 | 参数      | 说明       | 类型    | 可选值       | 默认值 |
 | --------- | ---------- | ------- | ------------ | ------ |
@@ -83,11 +83,11 @@ tyh-turn-page-item
 | icon      | 左右的图标 | string  | ——           | ——     |
 | prohibit  | 是否禁用   | boolean | ——           | false  |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/crumbs">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/crumbs">
     Crumbs 面包屑
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/backtop">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/backtop">
     BackTop 回到顶部
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

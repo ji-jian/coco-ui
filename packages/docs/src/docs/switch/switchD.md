@@ -1,7 +1,7 @@
 ```html
 <template>
-  <tyh-switch v-model="value3" disabled />
-  <tyh-switch v-model="value4" disabled />
+  <coco-switch v-model="value3" disabled />
+  <coco-switch v-model="value4" disabled />
 </template>
 
 <script setup>

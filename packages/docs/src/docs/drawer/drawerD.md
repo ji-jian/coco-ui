@@ -1,12 +1,12 @@
 ```html
 <template>
-  <tyh-button type="primary" @click="open3 = true">点我打开</tyh-button>
+  <coco-button type="primary" @click="open3 = true">点我打开</coco-button>
 
-  <tyh-drawer v-model="open3" direction="right" size="50%">
-    <tyh-button type="primary" @click="open4 = true">点我打开内层</tyh-button>
-    hello，欢迎使用 tyh-ui!
-    <tyh-drawer v-model="open4" direction="right"> 这是内层的 </tyh-drawer>
-  </tyh-drawer>
+  <coco-drawer v-model="open3" direction="right" size="50%">
+    <coco-button type="primary" @click="open4 = true">点我打开内层</coco-button>
+    hello，欢迎使用 coco-ui!
+    <coco-drawer v-model="open4" direction="right"> 这是内层的 </coco-drawer>
+  </coco-drawer>
 </template>
 
 <script setup>
@@ -47,11 +47,11 @@
 | title    | 自定义标题 |
 | default  | 内容       |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/notification">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/notification">
     Notification 通知
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/dialog">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/dialog">
     Dialog 对话框
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

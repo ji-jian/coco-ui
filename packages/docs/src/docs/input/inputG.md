@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-input v-model="text10" disabled />
+  <coco-input v-model="text10" disabled />
 </template>
 
 <script setup>

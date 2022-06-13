@@ -1,10 +1,10 @@
 <template>
-  <tyh-collapse v-model="value">
-    <tyh-collapse-item title="标题1" name="1">哈哈哈哈</tyh-collapse-item>
-    <tyh-collapse-item title="标题2" name="2">哈哈哈哈</tyh-collapse-item>
-    <tyh-collapse-item title="标题3" name="3">哈哈哈哈</tyh-collapse-item>
-    <tyh-collapse-item title="标题4" name="4">哈哈哈哈</tyh-collapse-item>
-  </tyh-collapse>
+  <coco-collapse v-model="value">
+    <coco-collapse-item title="标题1" name="1">哈哈哈哈</coco-collapse-item>
+    <coco-collapse-item title="标题2" name="2">哈哈哈哈</coco-collapse-item>
+    <coco-collapse-item title="标题3" name="3">哈哈哈哈</coco-collapse-item>
+    <coco-collapse-item title="标题4" name="4">哈哈哈哈</coco-collapse-item>
+  </coco-collapse>
 </template>
 
 <script lang="ts" setup>

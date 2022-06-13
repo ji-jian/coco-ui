@@ -10,7 +10,7 @@
       <p class="urlPush">关于</p>
     </router-link>
 
-    <tyh-division />
+    <coco-division />
   </template>
 
   <p

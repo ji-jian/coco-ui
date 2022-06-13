@@ -1,13 +1,13 @@
 ```html
 <template>
-  <tyh-button type="primary" @click="open6">上左</tyh-button>
-  <tyh-button type="primary" @click="open7">上右</tyh-button>
-  <tyh-button type="primary" @click="open8">下左</tyh-button>
-  <tyh-button type="primary" @click="open9">下右</tyh-button>
+  <coco-button type="primary" @click="open6">上左</coco-button>
+  <coco-button type="primary" @click="open7">上右</coco-button>
+  <coco-button type="primary" @click="open8">下左</coco-button>
+  <coco-button type="primary" @click="open9">下右</coco-button>
 </template>
 
 <script setup>
-  import { Notification } from 'tyh-ui2'
+  import { Notification } from 'coco-ui2'
   function open6() {
     Notification({
       title: '提示',

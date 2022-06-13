@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-rate v-model="value1" />
+  <coco-rate v-model="value1" />
 </template>
 
 <script setup>

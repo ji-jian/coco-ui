@@ -1,10 +1,10 @@
 ```html
 <template>
-  <tyh-button type="primary" @click="open1">展示通知</tyh-button>
+  <coco-button type="primary" @click="open1">展示通知</coco-button>
 </template>
 
 <script setup>
-  import { Notification } from 'tyh-ui2'
+  import { Notification } from 'coco-ui2'
   function open1() {
     Notification({
       title: '提示',

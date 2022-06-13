@@ -1,13 +1,13 @@
 ```html
 <template>
-  <tyh-button type="primary" @click="open2">主要通知</tyh-button>
-  <tyh-button type="success" @click="open3">成功通知</tyh-button>
-  <tyh-button type="danger" @click="open4">危险通知</tyh-button>
-  <tyh-button type="warning" @click="open5">警告通知</tyh-button>
+  <coco-button type="primary" @click="open2">主要通知</coco-button>
+  <coco-button type="success" @click="open3">成功通知</coco-button>
+  <coco-button type="danger" @click="open4">危险通知</coco-button>
+  <coco-button type="warning" @click="open5">警告通知</coco-button>
 </template>
 
 <script setup>
-  import { Notification } from 'tyh-ui2'
+  import { Notification } from 'coco-ui2'
   function open2() {
     Notification({
       title: '主要提示',

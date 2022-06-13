@@ -3,11 +3,11 @@
     <img
       draggable="false"
       class="logo"
-      src="https://tianyuhao.cn/images/tyh-ui/tyh-ui-logo.svg"
+      src="https://tianyuhao.cn/images/coco-ui/coco-ui-logo.svg"
       alt="logo"
     />
     <h1 class="MainTitle">
-      Tyh UI
+      Coco UI
       <span class="version">v&nbsp;{{ version }}</span>
     </h1>
     <p class="Subtitle">
@@ -15,29 +15,29 @@
     </p>
 
     <div class="btnBox">
-      <tyh-button type="primary" round @click="$router.push('/component')">
+      <coco-button type="primary" round @click="$router.push('/component')">
         快速开始
-      </tyh-button>
+      </coco-button>
 
-      <a target="_back" href="https://github.com/Tyh2001/tyh-ui">
-        <tyh-button round icon="tyh-ui-githublogo">Github</tyh-button>
+      <a target="_back" href="https://github.com/Coco2001/coco-ui">
+        <coco-button round icon="coco-ui-githublogo">Github</coco-button>
       </a>
     </div>
 
     <div class="summary">
       <div class="summary-left">
         <h2 class="summary-title">
-          <tyh-icon icon="tyh-ui-huojian-01" size="22" color="#67a1ff" />
+          <coco-icon icon="coco-ui-huojian-01" size="22" color="#67a1ff" />
           简洁至上
         </h2>
         <p class="summary-content">
-          tyh-ui
+          coco-ui
           整体非常简洁明了，虽没有很多高级的组件，但它是使用最简单的方式达到实用的效果。
         </p>
       </div>
       <div class="summary-right">
         <h2 class="summary-title">
-          <tyh-icon icon="tyh-ui-channel-01" size="22" color="#bd34fe" />
+          <coco-icon icon="coco-ui-channel-01" size="22" color="#bd34fe" />
           轻量容易
         </h2>
         <p class="summary-content">
@@ -51,7 +51,7 @@
 </template>
 
 <script setup>
-  import { version } from '../tyhUi'
+  import { version } from '../cocoUi'
   import Footer from '@/components/Footer.vue'
 </script>
 
@@ -102,12 +102,12 @@
     justify-content: center;
     align-items: center;
   }
-  #home .btnBox .tyh-button {
+  #home .btnBox .coco-button {
     width: 200px;
     height: 50px;
     margin: 20px;
   }
-  #home .btnBox .tyh-button .tyh-ui-github {
+  #home .btnBox .coco-button .coco-ui-github {
     color: #606266 !important;
   }
   #home .summary {

@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-switch v-model="value2" closeText="关闭" openText="开启" />
+  <coco-switch v-model="value2" closeText="关闭" openText="开启" />
 </template>
 
 <script setup>

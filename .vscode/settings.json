@@ -30,7 +30,7 @@
     "shouye",
     "stackoverflow",
     "truetype",
-    "tyhui",
+    "cocoui",
     "vant",
     "vite",
     "vitejs",
@@ -42,5 +42,6 @@
     "xianxing",
     "xiexian",
     "zhlint"
-  ]
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

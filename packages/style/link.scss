@@ -4,39 +4,39 @@ $danger: #d10f1b;
 $warning: #fbcc30;
 $default: #3f536e;
 
-.tyh-link {
+.coco-link {
   font-size: 15px;
   user-select: none;
   cursor: pointer;
 }
 
-.tyh-icon-primary,
-.tyh-link-primary {
+.coco-icon-primary,
+.coco-link-primary {
   color: $primary;
 }
 
-.tyh-icon-success,
-.tyh-link-success {
+.coco-icon-success,
+.coco-link-success {
   color: $success;
 }
 
-.tyh-icon-danger,
-.tyh-link-danger {
+.coco-icon-danger,
+.coco-link-danger {
   color: $danger;
 }
 
-.tyh-icon-warning,
-.tyh-link-warning {
+.coco-icon-warning,
+.coco-link-warning {
   color: $warning;
 }
 
-.tyh-link-,
-.tyh-icon-default,
-.tyh-link-default {
+.coco-link-,
+.coco-icon-default,
+.coco-link-default {
   color: $default;
 }
 
-.tyh-link-prohibit {
+.coco-link-prohibit {
   opacity: 0.4;
   cursor: no-drop;
 }

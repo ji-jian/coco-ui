@@ -8,9 +8,9 @@
       <router-view />
     </div>
 
-    <tyh-backTop v-if="route.path !== '/component/backtop'" bottom="150px">
-      <tyh-icon icon="tyh-ui-top" color="#409eff" />
-    </tyh-backTop>
+    <coco-backTop v-if="route.path !== '/component/backtop'" bottom="150px">
+      <coco-icon icon="coco-ui-top" color="#409eff" />
+    </coco-backTop>
   </div>
 </template>
 

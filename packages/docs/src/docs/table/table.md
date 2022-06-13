@@ -10,7 +10,7 @@ columns 属性可以配置表格的标题和键值，它接收一个数组，里
 
 ```html
 <template>
-  <tyh-table :data="tableData" :columns="columns" />
+  <coco-table :data="tableData" :columns="columns" />
 </template>
 
 <script setup>
@@ -59,7 +59,7 @@ trHeight 属性可以表格行高
 
 ```html
 <template>
-  <tyh-table :data="tableData" :columns="columns" trHeight="50px" />
+  <coco-table :data="tableData" :columns="columns" trHeight="50px" />
 </template>
 
 <script setup>
@@ -108,7 +108,7 @@ align 属性可以表格文字居中还是居两侧
 
 ```html
 <template>
-  <tyh-table :data="tableData" :columns="columns" align="center" />
+  <coco-table :data="tableData" :columns="columns" align="center" />
 </template>
 
 <script setup>
@@ -159,7 +159,7 @@ border 属性可以配置边框
 
 ```html
 <template>
-  <tyh-table :data="tableData" :columns="columns" align="center" border zebra />
+  <coco-table :data="tableData" :columns="columns" align="center" border zebra />
 </template>
 
 <script setup>
@@ -210,7 +210,7 @@ height 属性可以配置表格高度
 
 ```html
 <template>
-  <tyh-table
+  <coco-table
     :data="tableData"
     :columns="columns"
     align="center"
@@ -265,7 +265,7 @@ num 属性可以配置带有序号的表格
 
 ```html
 <template>
-  <tyh-table :data="tableData" :columns="columns" align="center" num />
+  <coco-table :data="tableData" :columns="columns" align="center" num />
 </template>
 
 <script setup>
@@ -314,7 +314,7 @@ important 属性可以配置重点行着重标注，它接收一个数组，里�
 
 ```html
 <template>
-  <tyh-table
+  <coco-table
     :data="tableData"
     :columns="columns"
     align="center"
@@ -369,7 +369,7 @@ important 属性可以配置重点行着重标注，它接收一个数组，里�
 
 ```html
 <template>
-  <tyh-table :data="tableData" :columns="columns2" align="center" />
+  <coco-table :data="tableData" :columns="columns2" align="center" />
 </template>
 
 <script setup>

@@ -1,11 +1,11 @@
-.tyh-list {
+.coco-list {
   width: 100%;
   border: 1px solid #dcdee2;
   border-radius: 6px;
   color: #515a6e;
 
   // 头部
-  .tyh-list-header {
+  .coco-list-header {
     min-height: 45px;
     font-weight: 600;
     border-bottom: 1px solid #dcdee2;
@@ -16,12 +16,12 @@
   }
 
   // 内容
-  .tyh-list-content {
-    .tyh-list-ul {
+  .coco-list-content {
+    .coco-list-ul {
       padding: 0;
       margin: 0;
 
-      .tyh-list-li {
+      .coco-list-li {
         min-height: 45px;
         list-style: none;
         border-bottom: 1px solid #dcdee2;
@@ -37,7 +37,7 @@
         }
 
         // 序号显示
-        .tyh-list-num {
+        .coco-list-num {
           width: 25px;
           display: inline-block;
           text-align: center;
@@ -47,24 +47,24 @@
       }
 
       // 斑马纹
-      .tyh-list-zebra:nth-child(odd) {
+      .coco-list-zebra:nth-child(odd) {
         background: #fafafa;
       }
 
       // 鼠标移入带有阴影效果
-      .tyh-list-hoverShow:hover {
+      .coco-list-hoverShow:hover {
         transition: 0.6s;
         box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
       }
     }
   }
 
-  .tyh-list-not {
+  .coco-list-not {
     padding: 20px;
   }
 
   // 页脚
-  .tyh-list-footer {
+  .coco-list-footer {
     min-height: 45px;
     font-weight: 600;
     display: flex;

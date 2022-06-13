@@ -5,7 +5,7 @@
 使用前，你必须先引入它
 
 ```js
-import { Message } from 'tyh-ui2'
+import { Message } from 'coco-ui2'
 ```
 
 ## 基本使用
@@ -15,15 +15,15 @@ import { Message } from 'tyh-ui2'
 
 ```html
 <template>
-  <tyh-button @click="change1">默认提示</tyh-button>
-  <tyh-button type="primary" @click="change2">主要提示</tyh-button>
-  <tyh-button type="success" @click="change3">成功提示</tyh-button>
-  <tyh-button type="danger" @click="change4">危险提示</tyh-button>
-  <tyh-button type="warning" @click="change5">警告提示</tyh-button>
+  <coco-button @click="change1">默认提示</coco-button>
+  <coco-button type="primary" @click="change2">主要提示</coco-button>
+  <coco-button type="success" @click="change3">成功提示</coco-button>
+  <coco-button type="danger" @click="change4">危险提示</coco-button>
+  <coco-button type="warning" @click="change5">警告提示</coco-button>
 </template>
 
 <script setup>
-  import { Message } from 'tyh-ui2'
+  import { Message } from 'coco-ui2'
   function change1() {
     Message({ message: '默认提示', type: 'default', round: true })
   }
@@ -48,11 +48,11 @@ time 属性可以配置提示框的显示时长，并在 xxxx 毫秒后消失
 
 ```html
 <template>
-  <tyh-button type="primary" @click="change6">展示5000毫秒</tyh-button>
+  <coco-button type="primary" @click="change6">展示5000毫秒</coco-button>
 </template>
 
 <script setup>
-  import { Message } from 'tyh-ui2'
+  import { Message } from 'coco-ui2'
   function change6() {
     Message({ message: '5000毫秒后隐藏', type: 'primary', time: 5000 })
   }
@@ -65,13 +65,13 @@ icon 属性可以配置 icon 的类名进行配置
 
 ```html
 <template>
-  <tyh-button type="primary" @click="change7">点击提示</tyh-button>
+  <coco-button type="primary" @click="change7">点击提示</coco-button>
 </template>
 
 <script setup>
-  import { Message } from 'tyh-ui2'
+  import { Message } from 'coco-ui2'
   function change7() {
-    Message({ message: '主要提示', type: 'primary', icon: 'tyh-ui-smile' })
+    Message({ message: '主要提示', type: 'primary', icon: 'coco-ui-smile' })
   }
 </script>
 ```
@@ -82,16 +82,16 @@ showClose 属性可以配置代码关闭按钮
 
 ```html
 <template>
-  <tyh-button type="primary" @click="change8">点击提示</tyh-button>
+  <coco-button type="primary" @click="change8">点击提示</coco-button>
 </template>
 
 <script setup>
-  import { Message } from 'tyh-ui2'
+  import { Message } from 'coco-ui2'
   function change8() {
     Message({
       message: '主要提示',
       type: 'primary',
-      icon: 'tyh-ui-smile',
+      icon: 'coco-ui-smile',
       showClose: true
     })
   }

@@ -22,19 +22,19 @@
       <h3 class="title-footer">链接</h3>
       <ul class="link-ul">
         <li>
-          <a target="_blank" href="https://github.com/Tyh2001/tyh-ui">
+          <a target="_blank" href="https://github.com/Coco2001/coco-ui">
             Github
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://www.npmjs.com/package/tyh-ui2">
+          <a target="_blank" href="https://www.npmjs.com/package/coco-ui2">
             NPM
           </a>
         </li>
         <li>
           <a
             target="_blank"
-            href="https://github.com/Tyh2001/tyh-ui/blob/master/CHANGELOG.md"
+            href="https://github.com/Coco2001/coco-ui/blob/master/CHANGELOG.md"
           >
             更新日志
           </a>
@@ -52,7 +52,7 @@
     {
       name: '田同学',
       photo: 'https://avatars.githubusercontent.com/u/73180970?v=4',
-      url: 'https://github.com/Tyh2001'
+      url: 'https://github.com/Coco2001'
     },
     {
       name: '话梅桔',

@@ -1,14 +1,14 @@
 ```html
 <template>
-  <tyh-button simple @click="open2 = true">点我打开</tyh-button>
+  <coco-button simple @click="open2 = true">点我打开</coco-button>
 
-  <tyh-dialog v-model="open2" title="这是标题" :showHeader="false">
-    欢迎使用 tyh-ui 的 dialog 对话框！
+  <coco-dialog v-model="open2" title="这是标题" :showHeader="false">
+    欢迎使用 coco-ui 的 dialog 对话框！
     <template v-slot:footer>
-      <tyh-button type="primary" style="margin-right: 20px">确定</tyh-button>
-      <tyh-button type="primary" simple @click="open2 = false">取消</tyh-button>
+      <coco-button type="primary" style="margin-right: 20px">确定</coco-button>
+      <coco-button type="primary" simple @click="open2 = false">取消</coco-button>
     </template>
-  </tyh-dialog>
+  </coco-dialog>
 </template>
 
 <script setup>

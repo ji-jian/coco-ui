@@ -3,9 +3,9 @@
   <div class="fitBox">
     <div class="item" v-for="fit in fits" :key="fit">
       <span class="text">{{ fit }}</span>
-      <tyh-avatar
+      <coco-avatar
         round
-        src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg"
+        src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg"
         :fit="fit"
       />
     </div>
@@ -21,25 +21,25 @@
 
 border 属性配置头像的边框
 
-<tyh-avatar border src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg" />
-<tyh-avatar border round  src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg"/>
+<coco-avatar border src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg" />
+<coco-avatar border round  src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg"/>
 
 ```html
-<tyh-avatar border src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg" />
-<tyh-avatar border round src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg" />
+<coco-avatar border src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg" />
+<coco-avatar border round src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg" />
 ```
 
 ## 加载失败
 
 errorIcon 属性配置加载失败的 icon
 
-<tyh-avatar src="https://tianyuhao.cn2/v3/assets/giraffe.jpg" />
-<tyh-avatar errorIcon="tyh-ui-githublogo" src="https://tianyuhao.cn2/v3/assets/giraffe.jpg"/>
+<coco-avatar src="https://tianyuhao.cn2/v3/assets/giraffe.jpg" />
+<coco-avatar errorIcon="coco-ui-githublogo" src="https://tianyuhao.cn2/v3/assets/giraffe.jpg"/>
 
 ```html
-<tyh-avatar src="https://tianyuhao.cn2/v3/assets/giraffe.jpg" />
-<tyh-avatar
-  errorIcon="tyh-ui-githublogo"
+<coco-avatar src="https://tianyuhao.cn2/v3/assets/giraffe.jpg" />
+<coco-avatar
+  errorIcon="coco-ui-githublogo"
   src="https://tianyuhao.cn2/v3/assets/giraffe.jpg"
 />
 ```
@@ -56,7 +56,7 @@ errorIcon 属性配置加载失败的 icon
 | alt       | 原生 alt 属性      | string  | ——     | ——                          |
 | select    | 是否可以选择       | boolean | ——     | false                       |
 | draggable | 是否可以拖动       | boolean | ——     | false                       |
-| errorIcon | 失败时显示的 icon  | string  | ——     | tyh-ui-user                 |
+| errorIcon | 失败时显示的 icon  | string  | ——     | coco-ui-user                 |
 
 ## Events
 
@@ -71,11 +71,11 @@ errorIcon 属性配置加载失败的 icon
 | -------- | -------------- |
 | error    | 自定义失败提示 |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/image">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/image">
     Image 头像
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/text">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/text">
     Text 文字
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

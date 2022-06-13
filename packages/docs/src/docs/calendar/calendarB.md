@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-calendar v-model="value" />
+  <coco-calendar v-model="value" />
 </template>
 
 <script setup>

@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-list :content="arr" keys="name" header="这是头部" footer="这是页脚" />
+  <coco-list :content="arr" keys="name" header="这是头部" footer="这是页脚" />
 </template>
 
 <script setup>

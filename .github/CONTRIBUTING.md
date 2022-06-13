@@ -1,20 +1,20 @@
-# Tyh-ui contributing Guide
+# Coco-ui contributing Guide
 
 ## Preface
 
-Hello! Welcome to use tyh-ui :blush:
+Hello! Welcome to use coco-ui :blush:
 
 Here, I don't need how excellent your technology is. I just hope you have enough love for open source. If you have technology, you can participate in major development; If you are a novice, you can write the development of UI design. Even if your technical level is in a mess, you can also look at the documents, find the wrong words, and mention issues or PR, right?
 
-I'm glad you're interested in contributing to tyh UI. Before submitting your contribution, be sure to take some time to read the following guide.
+I'm glad you're interested in contributing to coco UI. Before submitting your contribution, be sure to take some time to read the following guide.
 
 ## Installation startup
 
 Start the project first
 
-- Fork [tyh-ui](https://github.com/Tyh2001/tyh-ui)
+- Fork [coco-ui](https://github.com/Coco2001/coco-ui)
 - `git clone xxxxx`
-- `cd tyh-ui`
+- `cd coco-ui`
 - `pnpm i`
 - `pnpm dev:docs`
 
@@ -63,9 +63,9 @@ git commit -m 'feat: Add XXX function'
 ├── .vscode
 ├── packages                      Primary source file
 |  ├── demo                       Test items
-|  ├── docs                       Tyh-ui2 docs
+|  ├── docs                       Coco-ui2 docs
 |  ├── style                      Main style sheet
-|  └── tyh-ui2                    Tyh-ui2 Source code
+|  └── coco-ui2                    Coco-ui2 Source code
 ├── .editorconfig                 Editor configuration because developers' editors are different
 ├── .eslintignore                 Files that do not require eslint verification
 ├── .eslintrc.js                  Configuration file of eslintrc specification
@@ -99,16 +99,16 @@ git commit -m 'feat: Add XXX function'
 
 Development is not easy, welcome to sponsor!
 
-<img width="200px" align="center" src="https://tianyuhao.cn/images/tyh-ui/weixin.jpg" alt="weixin"><img width="200px" align="center" src="https://tianyuhao.cn/images/tyh-ui/zhifubao.jpg" alt="zhifubao">
+<img width="200px" align="center" src="https://tianyuhao.cn/images/coco-ui/weixin.jpg" alt="weixin"><img width="200px" align="center" src="https://tianyuhao.cn/images/coco-ui/zhifubao.jpg" alt="zhifubao">
 
 ## Thank a lot
 
-Thank you all for tyh-ui [People who contribute](https://github.com/Tyh2001/tyh-ui2/graphs/contributors)！
+Thank you all for coco-ui [People who contribute](https://github.com/Coco2001/coco-ui2/graphs/contributors)！
 
 **Star**
 
-[![Stargazers repo roster for @Tyh2001/tyh-ui](https://reporoster.com/stars/Tyh2001/tyh-ui)](https://github.com/Tyh2001/tyh-ui/stargazers)
+[![Stargazers repo roster for @Coco2001/coco-ui](https://reporoster.com/stars/Coco2001/coco-ui)](https://github.com/Coco2001/coco-ui/stargazers)
 
 **Fork**
 
-[![Forkers repo roster for @Tyh2001/tyh-ui](https://reporoster.com/forks/Tyh2001/tyh-ui)](https://github.com/Tyh2001/tyh-ui/network/members)
+[![Forkers repo roster for @Coco2001/coco-ui](https://reporoster.com/forks/Coco2001/coco-ui)](https://github.com/Coco2001/coco-ui/network/members)

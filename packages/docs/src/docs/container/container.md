@@ -4,158 +4,158 @@
 
 用于布局的容器组件，方便快速搭建页面的基本结构：
 
-`<tyh-container>`：外层容器
+`<coco-container>`：外层容器
 
-`<tyh-header>`：顶栏容器
+`<coco-header>`：顶栏容器
 
-`<tyh-aside>`：侧边栏容器
+`<coco-aside>`：侧边栏容器
 
-`<tyh-main>`：主要区域容器
+`<coco-main>`：主要区域容器
 
-`<tyh-footer>`：底栏容器
+`<coco-footer>`：底栏容器
 
 常见页面布局
 
-  <tyh-container>
-    <tyh-header>Header</tyh-header>
-    <tyh-main>Main</tyh-main>
-  </tyh-container>
+  <coco-container>
+    <coco-header>Header</coco-header>
+    <coco-main>Main</coco-main>
+  </coco-container>
 
-  <tyh-container>
-    <tyh-header>Header</tyh-header>
-    <tyh-main>Main</tyh-main>
-    <tyh-footer>Footer</tyh-footer>
-  </tyh-container>
+  <coco-container>
+    <coco-header>Header</coco-header>
+    <coco-main>Main</coco-main>
+    <coco-footer>Footer</coco-footer>
+  </coco-container>
 
-  <tyh-container>
-    <tyh-aside width="200px">Aside</tyh-aside>
-    <tyh-main>Main</tyh-main>
-  </tyh-container>
+  <coco-container>
+    <coco-aside width="200px">Aside</coco-aside>
+    <coco-main>Main</coco-main>
+  </coco-container>
 
-  <tyh-container>
-    <tyh-header>Header</tyh-header>
-    <tyh-container>
-      <tyh-aside width="200px">Aside</tyh-aside>
-      <tyh-main>Main</tyh-main>
-    </tyh-container>
-  </tyh-container>
+  <coco-container>
+    <coco-header>Header</coco-header>
+    <coco-container>
+      <coco-aside width="200px">Aside</coco-aside>
+      <coco-main>Main</coco-main>
+    </coco-container>
+  </coco-container>
 
-  <tyh-container>
-    <tyh-header>Header</tyh-header>
-    <tyh-container>
-      <tyh-aside width="200px">Aside</tyh-aside>
-      <tyh-container>
-        <tyh-main>Main</tyh-main>
-        <tyh-footer>Footer</tyh-footer>
-      </tyh-container>
-    </tyh-container>
-  </tyh-container>
+  <coco-container>
+    <coco-header>Header</coco-header>
+    <coco-container>
+      <coco-aside width="200px">Aside</coco-aside>
+      <coco-container>
+        <coco-main>Main</coco-main>
+        <coco-footer>Footer</coco-footer>
+      </coco-container>
+    </coco-container>
+  </coco-container>
 
-  <tyh-container>
-    <tyh-aside width="200px">Aside</tyh-aside>
-    <tyh-container>
-      <tyh-header>Header</tyh-header>
-      <tyh-main>Main</tyh-main>
-    </tyh-container>
-  </tyh-container>
+  <coco-container>
+    <coco-aside width="200px">Aside</coco-aside>
+    <coco-container>
+      <coco-header>Header</coco-header>
+      <coco-main>Main</coco-main>
+    </coco-container>
+  </coco-container>
 
-  <tyh-container>
-    <tyh-aside width="200px">Aside</tyh-aside>
-    <tyh-container>
-      <tyh-header>Header</tyh-header>
-      <tyh-main>Main</tyh-main>
-      <tyh-footer>Footer</tyh-footer>
-    </tyh-container>
-  </tyh-container>
+  <coco-container>
+    <coco-aside width="200px">Aside</coco-aside>
+    <coco-container>
+      <coco-header>Header</coco-header>
+      <coco-main>Main</coco-main>
+      <coco-footer>Footer</coco-footer>
+    </coco-container>
+  </coco-container>
 
 ```html
 <template>
-  <tyh-container>
-    <tyh-header>Header</tyh-header>
-    <tyh-main>Main</tyh-main>
-  </tyh-container>
+  <coco-container>
+    <coco-header>Header</coco-header>
+    <coco-main>Main</coco-main>
+  </coco-container>
 
-  <tyh-container>
-    <tyh-header>Header</tyh-header>
-    <tyh-main>Main</tyh-main>
-    <tyh-footer>Footer</tyh-footer>
-  </tyh-container>
+  <coco-container>
+    <coco-header>Header</coco-header>
+    <coco-main>Main</coco-main>
+    <coco-footer>Footer</coco-footer>
+  </coco-container>
 
-  <tyh-container>
-    <tyh-aside width="200px">Aside</tyh-aside>
-    <tyh-main>Main</tyh-main>
-  </tyh-container>
+  <coco-container>
+    <coco-aside width="200px">Aside</coco-aside>
+    <coco-main>Main</coco-main>
+  </coco-container>
 
-  <tyh-container>
-    <tyh-header>Header</tyh-header>
-    <tyh-container>
-      <tyh-aside width="200px">Aside</tyh-aside>
-      <tyh-main>Main</tyh-main>
-    </tyh-container>
-  </tyh-container>
+  <coco-container>
+    <coco-header>Header</coco-header>
+    <coco-container>
+      <coco-aside width="200px">Aside</coco-aside>
+      <coco-main>Main</coco-main>
+    </coco-container>
+  </coco-container>
 
-  <tyh-container>
-    <tyh-header>Header</tyh-header>
-    <tyh-container>
-      <tyh-aside width="200px">Aside</tyh-aside>
-      <tyh-container>
-        <tyh-main>Main</tyh-main>
-        <tyh-footer>Footer</tyh-footer>
-      </tyh-container>
-    </tyh-container>
-  </tyh-container>
+  <coco-container>
+    <coco-header>Header</coco-header>
+    <coco-container>
+      <coco-aside width="200px">Aside</coco-aside>
+      <coco-container>
+        <coco-main>Main</coco-main>
+        <coco-footer>Footer</coco-footer>
+      </coco-container>
+    </coco-container>
+  </coco-container>
 
-  <tyh-container>
-    <tyh-aside width="200px">Aside</tyh-aside>
-    <tyh-container>
-      <tyh-header>Header</tyh-header>
-      <tyh-main>Main</tyh-main>
-    </tyh-container>
-  </tyh-container>
+  <coco-container>
+    <coco-aside width="200px">Aside</coco-aside>
+    <coco-container>
+      <coco-header>Header</coco-header>
+      <coco-main>Main</coco-main>
+    </coco-container>
+  </coco-container>
 
-  <tyh-container>
-    <tyh-aside width="200px">Aside</tyh-aside>
-    <tyh-container>
-      <tyh-header>Header</tyh-header>
-      <tyh-main>Main</tyh-main>
-      <tyh-footer>Footer</tyh-footer>
-    </tyh-container>
-  </tyh-container>
+  <coco-container>
+    <coco-aside width="200px">Aside</coco-aside>
+    <coco-container>
+      <coco-header>Header</coco-header>
+      <coco-main>Main</coco-main>
+      <coco-footer>Footer</coco-footer>
+    </coco-container>
+  </coco-container>
 </template>
 
 <style scoped>
-  .tyh-header,
-  .tyh-footer {
+  .coco-header,
+  .coco-footer {
     background-color: #b3c0d1;
     color: #333;
     text-align: center;
     line-height: 60px;
   }
 
-  .tyh-aside {
+  .coco-aside {
     background-color: #d3dce6;
     color: #333;
     text-align: center;
     line-height: 200px;
   }
 
-  .tyh-main {
+  .coco-main {
     background-color: #e9eef3;
     color: #333;
     text-align: center;
     line-height: 160px;
   }
 
-  body > .tyh-container {
+  body > .coco-container {
     margin-bottom: 40px;
   }
 
-  .tyh-container:nth-child(5) .tyh-aside,
-  .tyh-container:nth-child(6) .tyh-aside {
+  .coco-container:nth-child(5) .coco-aside,
+  .coco-container:nth-child(6) .coco-aside {
     line-height: 260px;
   }
 
-  .tyh-container:nth-child(7) .tyh-aside {
+  .coco-container:nth-child(7) .coco-aside {
     line-height: 320px;
   }
 </style>
@@ -163,35 +163,35 @@
 
 ## Attributes
 
-tyh-container
+coco-container
 
 | 参数      | 说明             | 类型   | 可选值                | 默认值 |
 | --------- | ---------------- | ------ | --------------------- | ------ |
 | direction | 子元素的排列方向 | string | horizontal / vertical | ——     |
 
-tyh-header
+coco-header
 
 | 参数   | 说明     | 类型   | 可选值 | 默认值 |
 | ------ | -------- | ------ | ------ | ------ |
 | height | 顶栏高度 | string | ——     | 60px   |
 
-tyh-aside
+coco-aside
 
 | 参数  | 说明       | 类型   | 可选值 | 默认值 |
 | ----- | ---------- | ------ | ------ | ------ |
 | width | 侧边栏宽度 | string | ——     | 200px  |
 
-tyh-footer
+coco-footer
 
 | 参数   | 说明     | 类型   | 可选值 | 默认值 |
 | ------ | -------- | ------ | ------ | ------ |
 | height | 底栏高度 | string | ——     | 60px   |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/color">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/color">
     Color 色彩
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/button">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/button">
     Button 按钮
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

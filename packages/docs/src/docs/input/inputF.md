@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-input v-model="text9" icon="tyh-ui-electronics" />
+  <coco-input v-model="text9" icon="coco-ui-electronics" />
 </template>
 
 <script setup>

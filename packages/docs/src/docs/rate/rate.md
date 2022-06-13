@@ -8,7 +8,7 @@ v-model 绑定评分值
 
 ```html
 <template>
-  <tyh-rate v-model="value1" />
+  <coco-rate v-model="value1" />
 </template>
 
 <script setup>
@@ -25,8 +25,8 @@ voidColor 属性可以配置未选中的 icon 颜色
 
 ```html
 <template>
-  <tyh-rate v-model="value2" />
-  <tyh-rate v-model="value2" color="red" voidColor="#eee" />
+  <coco-rate v-model="value2" />
+  <coco-rate v-model="value2" color="red" voidColor="#eee" />
 </template>
 
 <script setup>
@@ -43,8 +43,8 @@ SayText 属性可以配置辅助文字数组
 
 ```html
 <template>
-  <tyh-rate v-model="value3" showText />
-  <tyh-rate
+  <coco-rate v-model="value3" showText />
+  <coco-rate
     v-model="value3"
     showText
     :sayText="['1星', '2星', '3星', '4星', '5星']"

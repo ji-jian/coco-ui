@@ -10,16 +10,16 @@ direction 属性可以配置抽屉的弹出方向
 
 ```html
 <template>
-  <tyh-button type="primary" @click="open = true">点我打开</tyh-button>
+  <coco-button type="primary" @click="open = true">点我打开</coco-button>
 
-  <tyh-radio v-model="radio" label="right">从右面弹出</tyh-radio>
-  <tyh-radio v-model="radio" label="left">从左面弹出</tyh-radio>
-  <tyh-radio v-model="radio" label="bottom">从下面弹出</tyh-radio>
-  <tyh-radio v-model="radio" label="top">从上面弹出</tyh-radio>
+  <coco-radio v-model="radio" label="right">从右面弹出</coco-radio>
+  <coco-radio v-model="radio" label="left">从左面弹出</coco-radio>
+  <coco-radio v-model="radio" label="bottom">从下面弹出</coco-radio>
+  <coco-radio v-model="radio" label="top">从上面弹出</coco-radio>
 
-  <tyh-drawer v-model="open" :direction="radio" title="这是标题">
-    hello，欢迎使用 tyh-ui!
-  </tyh-drawer>
+  <coco-drawer v-model="open" :direction="radio" title="这是标题">
+    hello，欢迎使用 coco-ui!
+  </coco-drawer>
 </template>
 
 <script setup>
@@ -37,11 +37,11 @@ showHeader 属性可以配置不带头部信息
 
 ```html
 <template>
-  <tyh-button type="primary" @click="open2 = true">点我打开</tyh-button>
+  <coco-button type="primary" @click="open2 = true">点我打开</coco-button>
 
-  <tyh-drawer v-model="open2" direction="right" :showHeader="false">
-    hello，欢迎使用 tyh-ui!
-  </tyh-drawer>
+  <coco-drawer v-model="open2" direction="right" :showHeader="false">
+    hello，欢迎使用 coco-ui!
+  </coco-drawer>
 </template>
 
 <script setup>
@@ -56,13 +56,13 @@ size 属性可以配置宽度或者高度
 
 ```html
 <template>
-  <tyh-button type="primary" @click="open3 = true">点我打开</tyh-button>
+  <coco-button type="primary" @click="open3 = true">点我打开</coco-button>
 
-  <tyh-drawer v-model="open3" direction="right" size="50%">
-    <tyh-button type="primary" @click="open4 = true">点我打开内层</tyh-button>
-    hello，欢迎使用 tyh-ui!
-    <tyh-drawer v-model="open4" direction="right"> 这是内层的 </tyh-drawer>
-  </tyh-drawer>
+  <coco-drawer v-model="open3" direction="right" size="50%">
+    <coco-button type="primary" @click="open4 = true">点我打开内层</coco-button>
+    hello，欢迎使用 coco-ui!
+    <coco-drawer v-model="open4" direction="right"> 这是内层的 </coco-drawer>
+  </coco-drawer>
 </template>
 
 <script setup>

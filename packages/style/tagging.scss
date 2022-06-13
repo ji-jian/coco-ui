@@ -3,7 +3,7 @@ $success: #54c600;
 $danger: #d10f1b;
 $warning: #fbcc30;
 
-.tyh-tagging {
+.coco-tagging {
   display: inline-block;
   border-radius: 6px;
   padding: 2px 8px;
@@ -11,24 +11,24 @@ $warning: #fbcc30;
   color: #fff;
 }
 
-.tyh-tagging-,
-.tyh-tagging-default {
+.coco-tagging-,
+.coco-tagging-default {
   color: #333;
   background: #e7e7e7;
 }
 
-.tyh-tagging-primary {
+.coco-tagging-primary {
   background: $primary;
 }
 
-.tyh-tagging-success {
+.coco-tagging-success {
   background: $success;
 }
 
-.tyh-tagging-danger {
+.coco-tagging-danger {
   background: $danger;
 }
 
-.tyh-tagging-warning {
+.coco-tagging-warning {
   background: $warning;
 }

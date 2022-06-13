@@ -4,81 +4,81 @@
 
 面包屑的基本用法
 
-<tyh-crumbs>
-  <tyh-crumbs-item to="/">首页</tyh-crumbs-item>
-  <tyh-crumbs-item>学员管理</tyh-crumbs-item>
-  <tyh-crumbs-item>文章管理</tyh-crumbs-item>
-  <tyh-crumbs-item>设置</tyh-crumbs-item>
-</tyh-crumbs>
+<coco-crumbs>
+  <coco-crumbs-item to="/">首页</coco-crumbs-item>
+  <coco-crumbs-item>学员管理</coco-crumbs-item>
+  <coco-crumbs-item>文章管理</coco-crumbs-item>
+  <coco-crumbs-item>设置</coco-crumbs-item>
+</coco-crumbs>
 
 ```html
-<tyh-crumbs>
-  <tyh-crumbs-item to="/">首页</tyh-crumbs-item>
-  <tyh-crumbs-item>学员管理</tyh-crumbs-item>
-  <tyh-crumbs-item>文章管理</tyh-crumbs-item>
-  <tyh-crumbs-item>设置</tyh-crumbs-item>
-</tyh-crumbs>
+<coco-crumbs>
+  <coco-crumbs-item to="/">首页</coco-crumbs-item>
+  <coco-crumbs-item>学员管理</coco-crumbs-item>
+  <coco-crumbs-item>文章管理</coco-crumbs-item>
+  <coco-crumbs-item>设置</coco-crumbs-item>
+</coco-crumbs>
 ```
 
 ## 不同的分隔符
 
 通过给父组件 separator 属性可以配置不同的分隔符，使用 icon 类名
 
-<tyh-crumbs separator="tyh-ui-link">
-  <tyh-crumbs-item to="/">首页</tyh-crumbs-item>
-  <tyh-crumbs-item>学员管理</tyh-crumbs-item>
-  <tyh-crumbs-item>文章管理</tyh-crumbs-item>
-  <tyh-crumbs-item>设置</tyh-crumbs-item>
-</tyh-crumbs>
+<coco-crumbs separator="coco-ui-link">
+  <coco-crumbs-item to="/">首页</coco-crumbs-item>
+  <coco-crumbs-item>学员管理</coco-crumbs-item>
+  <coco-crumbs-item>文章管理</coco-crumbs-item>
+  <coco-crumbs-item>设置</coco-crumbs-item>
+</coco-crumbs>
 
 ```html
-<tyh-crumbs separator="tyh-ui-link">
-  <tyh-crumbs-item to="/">首页</tyh-crumbs-item>
-  <tyh-crumbs-item>学员管理</tyh-crumbs-item>
-  <tyh-crumbs-item>文章管理</tyh-crumbs-item>
-  <tyh-crumbs-item>设置</tyh-crumbs-item>
-</tyh-crumbs>
+<coco-crumbs separator="coco-ui-link">
+  <coco-crumbs-item to="/">首页</coco-crumbs-item>
+  <coco-crumbs-item>学员管理</coco-crumbs-item>
+  <coco-crumbs-item>文章管理</coco-crumbs-item>
+  <coco-crumbs-item>设置</coco-crumbs-item>
+</coco-crumbs>
 ```
 
 ## 跳转路由
 
 通过给子组件 to 属性可以配置跳转路径，添加该属性后文章点击会跳转，并且加粗显示
 
-<tyh-crumbs>
-<tyh-crumbs-item to="/">首页</tyh-crumbs-item>
-<tyh-crumbs-item to="/student">学员管理</tyh-crumbs-item>
-<tyh-crumbs-item>文章管理</tyh-crumbs-item>
-<tyh-crumbs-item>设置</tyh-crumbs-item>
-</tyh-crumbs>
+<coco-crumbs>
+<coco-crumbs-item to="/">首页</coco-crumbs-item>
+<coco-crumbs-item to="/student">学员管理</coco-crumbs-item>
+<coco-crumbs-item>文章管理</coco-crumbs-item>
+<coco-crumbs-item>设置</coco-crumbs-item>
+</coco-crumbs>
 
 ```html
-<tyh-crumbs>
-  <tyh-crumbs-item to="/">首页</tyh-crumbs-item>
-  <tyh-crumbs-item to="/student">学员管理</tyh-crumbs-item>
-  <tyh-crumbs-item>文章管理</tyh-crumbs-item>
-  <tyh-crumbs-item>设置</tyh-crumbs-item>
-</tyh-crumbs>
+<coco-crumbs>
+  <coco-crumbs-item to="/">首页</coco-crumbs-item>
+  <coco-crumbs-item to="/student">学员管理</coco-crumbs-item>
+  <coco-crumbs-item>文章管理</coco-crumbs-item>
+  <coco-crumbs-item>设置</coco-crumbs-item>
+</coco-crumbs>
 ```
 
 ## Attributes
 
-tyh-crumbs
+coco-crumbs
 
 | 参数      | 说明                | 类型   | 可选值 | 默认值            |
 | --------- | ------------------- | ------ | ------ | ----------------- |
-| separator | 分隔符，icon 的类名 | string | ——     | tyh-ui-xiexian-01 |
+| separator | 分隔符，icon 的类名 | string | ——     | coco-ui-xiexian-01 |
 
-tyh-crumbs-item
+coco-crumbs-item
 
 | 参数 | 说明       | 类型   | 可选值 | 默认值 |
 | ---- | ---------- | ------ | ------ | ------ |
 | to   | 跳转的路径 | string | ——     | ——     |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/icon">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/icon">
     Icon 图标
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/turnpage">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/turnpage">
     TurnPage 翻页
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

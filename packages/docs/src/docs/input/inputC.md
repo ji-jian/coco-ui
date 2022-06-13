@@ -1,7 +1,7 @@
 ```html
 <template>
-  <tyh-input type="text" v-model="text2" />
-  <tyh-input type="password" v-model="text3" />
+  <coco-input type="text" v-model="text2" />
+  <coco-input type="password" v-model="text3" />
 </template>
 
 <script setup>

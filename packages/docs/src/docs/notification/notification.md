@@ -5,7 +5,7 @@
 使用前，你必须先引入它
 
 ```js
-import { Notification } from 'tyh-ui2'
+import { Notification } from 'coco-ui2'
 ```
 
 ## 基本使用
@@ -20,11 +20,11 @@ message 属性可以定义内容
 
 ```html
 <template>
-  <tyh-button type="primary" @click="open1">展示通知</tyh-button>
+  <coco-button type="primary" @click="open1">展示通知</coco-button>
 </template>
 
 <script setup>
-  import { Notification } from 'tyh-ui2'
+  import { Notification } from 'coco-ui2'
   function open1() {
     Notification({
       title: '提示',
@@ -40,14 +40,14 @@ type 属性可以配置不同类型的通知
 
 ```html
 <template>
-  <tyh-button type="primary" @click="open2">主要通知</tyh-button>
-  <tyh-button type="success" @click="open3">成功通知</tyh-button>
-  <tyh-button type="danger" @click="open4">危险通知</tyh-button>
-  <tyh-button type="warning" @click="open5">警告通知</tyh-button>
+  <coco-button type="primary" @click="open2">主要通知</coco-button>
+  <coco-button type="success" @click="open3">成功通知</coco-button>
+  <coco-button type="danger" @click="open4">危险通知</coco-button>
+  <coco-button type="warning" @click="open5">警告通知</coco-button>
 </template>
 
 <script setup>
-  import { Notification } from 'tyh-ui2'
+  import { Notification } from 'coco-ui2'
   function open2() {
     Notification({
       title: '主要提示',
@@ -85,14 +85,14 @@ position 属性可以配置不同类型的通知
 
 ```html
 <template>
-  <tyh-button type="primary" @click="open6">上左</tyh-button>
-  <tyh-button type="primary" @click="open7">上右</tyh-button>
-  <tyh-button type="primary" @click="open8">下左</tyh-button>
-  <tyh-button type="primary" @click="open9">下右</tyh-button>
+  <coco-button type="primary" @click="open6">上左</coco-button>
+  <coco-button type="primary" @click="open7">上右</coco-button>
+  <coco-button type="primary" @click="open8">下左</coco-button>
+  <coco-button type="primary" @click="open9">下右</coco-button>
 </template>
 
 <script setup>
-  import { Notification } from 'tyh-ui2'
+  import { Notification } from 'coco-ui2'
   function open6() {
     Notification({
       title: '提示',
@@ -130,11 +130,11 @@ time 属性可以自定义通知展示的时长
 
 ```html
 <template>
-  <tyh-button type="primary" @click="open10">4000 毫秒后自动关闭</tyh-button>
+  <coco-button type="primary" @click="open10">4000 毫秒后自动关闭</coco-button>
 </template>
 
 <script setup>
-  import { Notification } from 'tyh-ui2'
+  import { Notification } from 'coco-ui2'
   function open10() {
     Notification({
       title: '提示',

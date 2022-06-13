@@ -4,74 +4,74 @@
 
 导航栏的基本使用
 
-<tyh-menu>
-  <tyh-menu-item>首页</tyh-menu-item>
-  <tyh-menu-item>内容</tyh-menu-item>
-  <tyh-menu-item>设置</tyh-menu-item>
-  <tyh-menu-item>回收站</tyh-menu-item>
-</tyh-menu>
+<coco-menu>
+  <coco-menu-item>首页</coco-menu-item>
+  <coco-menu-item>内容</coco-menu-item>
+  <coco-menu-item>设置</coco-menu-item>
+  <coco-menu-item>回收站</coco-menu-item>
+</coco-menu>
 
 ```html
-<tyh-menu>
-  <tyh-menu-item>首页</tyh-menu-item>
-  <tyh-menu-item>内容</tyh-menu-item>
-  <tyh-menu-item>设置</tyh-menu-item>
-  <tyh-menu-item>回收站</tyh-menu-item>
-</tyh-menu>
+<coco-menu>
+  <coco-menu-item>首页</coco-menu-item>
+  <coco-menu-item>内容</coco-menu-item>
+  <coco-menu-item>设置</coco-menu-item>
+  <coco-menu-item>回收站</coco-menu-item>
+</coco-menu>
 ```
 
 ## 主题配置
 
 通过 theme 属性可以配置主题
 
-<tyh-menu theme="dark">
-  <tyh-menu-item>首页</tyh-menu-item>
-  <tyh-menu-item>内容</tyh-menu-item>
-  <tyh-menu-item>设置</tyh-menu-item>
-  <tyh-menu-item>回收站</tyh-menu-item>
-</tyh-menu>
+<coco-menu theme="dark">
+  <coco-menu-item>首页</coco-menu-item>
+  <coco-menu-item>内容</coco-menu-item>
+  <coco-menu-item>设置</coco-menu-item>
+  <coco-menu-item>回收站</coco-menu-item>
+</coco-menu>
 
-<tyh-menu theme="light">
-  <tyh-menu-item>首页</tyh-menu-item>
-  <tyh-menu-item>内容</tyh-menu-item>
-  <tyh-menu-item>设置</tyh-menu-item>
-  <tyh-menu-item>回收站</tyh-menu-item>
-</tyh-menu>
+<coco-menu theme="light">
+  <coco-menu-item>首页</coco-menu-item>
+  <coco-menu-item>内容</coco-menu-item>
+  <coco-menu-item>设置</coco-menu-item>
+  <coco-menu-item>回收站</coco-menu-item>
+</coco-menu>
 
 ```html
-<tyh-menu theme="dark">
-  <tyh-menu-item>首页</tyh-menu-item>
-  <tyh-menu-item>内容</tyh-menu-item>
-  <tyh-menu-item>设置</tyh-menu-item>
-  <tyh-menu-item>回收站</tyh-menu-item>
-</tyh-menu>
+<coco-menu theme="dark">
+  <coco-menu-item>首页</coco-menu-item>
+  <coco-menu-item>内容</coco-menu-item>
+  <coco-menu-item>设置</coco-menu-item>
+  <coco-menu-item>回收站</coco-menu-item>
+</coco-menu>
 
-<tyh-menu theme="light">
-  <tyh-menu-item>首页</tyh-menu-item>
-  <tyh-menu-item>内容</tyh-menu-item>
-  <tyh-menu-item>设置</tyh-menu-item>
-  <tyh-menu-item>回收站</tyh-menu-item>
-</tyh-menu>
+<coco-menu theme="light">
+  <coco-menu-item>首页</coco-menu-item>
+  <coco-menu-item>内容</coco-menu-item>
+  <coco-menu-item>设置</coco-menu-item>
+  <coco-menu-item>回收站</coco-menu-item>
+</coco-menu>
 ```
 
 ## 禁用状态
 
 通过 prohibit 属性可以配置子组件链接是否禁用
 
-<tyh-menu>
-  <tyh-menu-item prohibit url="/home">首页</tyh-menu-item>
-  <tyh-menu-item prohibit url="/abc">内容</tyh-menu-item>
-  <tyh-menu-item>设置</tyh-menu-item>
-  <tyh-menu-item>回收站</tyh-menu-item>
-</tyh-menu>
+<coco-menu>
+  <coco-menu-item prohibit url="/home">首页</coco-menu-item>
+  <coco-menu-item prohibit url="/abc">内容</coco-menu-item>
+  <coco-menu-item>设置</coco-menu-item>
+  <coco-menu-item>回收站</coco-menu-item>
+</coco-menu>
 
 ```html
-<tyh-menu>
-  <tyh-menu-item prohibit url="/home">首页</tyh-menu-item>
-  <tyh-menu-item prohibit url="/abc">内容</tyh-menu-item>
-  <tyh-menu-item>设置</tyh-menu-item>
-  <tyh-menu-item>回收站</tyh-menu-item>
-</tyh-menu>
+<coco-menu>
+  <coco-menu-item prohibit url="/home">首页</coco-menu-item>
+  <coco-menu-item prohibit url="/abc">内容</coco-menu-item>
+  <coco-menu-item>设置</coco-menu-item>
+  <coco-menu-item>回收站</coco-menu-item>
+</coco-menu>
 ```
 
 ## 不同排列状态

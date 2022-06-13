@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-list
+  <coco-list
     zebra
     num
     :content="arr"

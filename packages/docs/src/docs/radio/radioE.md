@@ -1,44 +1,44 @@
 ```html
 <template>
-  <tyh-radio v-model="radio4" label="备选项1" border size="large">
+  <coco-radio v-model="radio4" label="备选项1" border size="large">
     备选项1
-  </tyh-radio>
-  <tyh-radio v-model="radio4" label="备选项2" border size="large">
+  </coco-radio>
+  <coco-radio v-model="radio4" label="备选项2" border size="large">
     备选项2
-  </tyh-radio>
-  <tyh-radio v-model="radio4" label="备选项3" border size="large">
+  </coco-radio>
+  <coco-radio v-model="radio4" label="备选项3" border size="large">
     备选项3
-  </tyh-radio>
+  </coco-radio>
 
-  <tyh-radio v-model="radio4" label="备选项1" border size="medium">
+  <coco-radio v-model="radio4" label="备选项1" border size="medium">
     备选项1
-  </tyh-radio>
-  <tyh-radio v-model="radio4" label="备选项2" border size="medium">
+  </coco-radio>
+  <coco-radio v-model="radio4" label="备选项2" border size="medium">
     备选项2
-  </tyh-radio>
-  <tyh-radio v-model="radio4" label="备选项3" border size="medium">
+  </coco-radio>
+  <coco-radio v-model="radio4" label="备选项3" border size="medium">
     备选项3
-  </tyh-radio>
+  </coco-radio>
 
-  <tyh-radio v-model="radio4" label="备选项1" border size="small">
+  <coco-radio v-model="radio4" label="备选项1" border size="small">
     备选项1
-  </tyh-radio>
-  <tyh-radio v-model="radio4" label="备选项2" border size="small">
+  </coco-radio>
+  <coco-radio v-model="radio4" label="备选项2" border size="small">
     备选项2
-  </tyh-radio>
-  <tyh-radio v-model="radio4" label="备选项3" border size="small">
+  </coco-radio>
+  <coco-radio v-model="radio4" label="备选项3" border size="small">
     备选项3
-  </tyh-radio>
+  </coco-radio>
 
-  <tyh-radio v-model="radio4" label="备选项1" border size="mini">
+  <coco-radio v-model="radio4" label="备选项1" border size="mini">
     备选项1
-  </tyh-radio>
-  <tyh-radio v-model="radio4" label="备选项2" border size="mini">
+  </coco-radio>
+  <coco-radio v-model="radio4" label="备选项2" border size="mini">
     备选项2
-  </tyh-radio>
-  <tyh-radio v-model="radio4" label="备选项3" border size="mini">
+  </coco-radio>
+  <coco-radio v-model="radio4" label="备选项3" border size="mini">
     备选项3
-  </tyh-radio>
+  </coco-radio>
 </template>
 
 <script setup>
@@ -64,11 +64,11 @@
 | -------- | ----------------- | -------- |
 | change   | 改变 Radio 时触发 | 选中的值 |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/calendar">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/calendar">
     Calendar 日历
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/tree">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/tree">
     Tree 树形控件
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

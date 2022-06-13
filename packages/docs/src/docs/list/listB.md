@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-list :content="arr" keys="name" />
+  <coco-list :content="arr" keys="name" />
 </template>
 
 <script setup>

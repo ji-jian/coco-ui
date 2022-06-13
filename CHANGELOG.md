@@ -2,7 +2,7 @@
 
 For more information, please refer to the Chinese update log.
 
-English | [Chinese](https://github.com/Tyh2001/tyh-ui2/blob/master/CHANGELOG_zh.md)
+English | [Chinese](https://github.com/Coco2001/coco-ui2/blob/master/CHANGELOG_zh.md)
 
 ## 3.5.0 (2022-05-06)
 
@@ -11,23 +11,23 @@ English | [Chinese](https://github.com/Tyh2001/tyh-ui2/blob/master/CHANGELOG_zh.
 
 ## 3.4.14 (2022-04-09)
 
-- Optimize the layout of TyhMenu components
-- Optimize TyhMenu component style
+- Optimize the layout of CocoMenu components
+- Optimize CocoMenu component style
 
 ## 3.4.13 (2022-04-08)
 
-- TyhMenu component light theme style update
+- CocoMenu component light theme style update
 
 ## 3.4.12 (2022-04-08)
 
-- The internal implementation logic of the TyhButton component is optimized
-- The TyhMenuitem component abolished the to attribute and changed the route attribute
-- The new title attribute of TyhMenuitem can configure the title, but the priority of the slot is greater than the title parameter
-- TyhMenuitem adds the link property to configure the specified URL of the jump
-- TyhMenu adds a backgroundColor property to configure the background color
-- TyhMenu adds textColor attribute to configure text color
-- TyhMenu adds the collapse attribute to configure whether to collapse
-- The light theme background color of the TyhMenu component is updated to light gray
+- The internal implementation logic of the CocoButton component is optimized
+- The CocoMenuitem component abolished the to attribute and changed the route attribute
+- The new title attribute of CocoMenuitem can configure the title, but the priority of the slot is greater than the title parameter
+- CocoMenuitem adds the link property to configure the specified URL of the jump
+- CocoMenu adds a backgroundColor property to configure the background color
+- CocoMenu adds textColor attribute to configure text color
+- CocoMenu adds the collapse attribute to configure whether to collapse
+- The light theme background color of the CocoMenu component is updated to light gray
 - Join strict mode
 
 ## 3.4.11 (2022-04-03)

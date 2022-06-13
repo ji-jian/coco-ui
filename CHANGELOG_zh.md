@@ -1,6 +1,6 @@
 # 更新日志
 
-[English](https://github.com/Tyh2001/tyh-ui2/blob/master/CHANGELOG.md) | Chinese
+[English](https://github.com/Coco2001/coco-ui2/blob/master/CHANGELOG.md) | Chinese
 
 ## 3.5.0 (2022-05-06)
 
@@ -9,23 +9,23 @@
 
 ## 3.4.14 (2022-04-09)
 
-- 优化 TyhMenu 组件布局
-- 优化 TyhMenu 组件样式
+- 优化 CocoMenu 组件布局
+- 优化 CocoMenu 组件样式
 
 ## 3.4.13 (2022-04-08)
 
-- TyhMenu 组件 light 主题样式更新
+- CocoMenu 组件 light 主题样式更新
 
 ## 3.4.12 (2022-04-08)
 
-- TyhButton 组件的内部实现逻辑进行优化
-- TyhMenuItem 组件废除 to 属性，改完 route 属性
-- TyhMenuItem 新增 title 属性可以配置标题，但是插槽的优先级大于 title 参数
-- TyhMenuItem 新增 link 属性可以配置跳转的指定 url
-- TyhMenu 新增 backgroundColor 属性可以配置背景色
-- TyhMenu 新增 textColor 属性可以配置文字颜色
-- TyhMenu 新增 collapse 属性可以配置是否折叠
-- TyhMenu 组件的浅色主题背景色更新为浅灰色
+- CocoButton 组件的内部实现逻辑进行优化
+- CocoMenuItem 组件废除 to 属性，改完 route 属性
+- CocoMenuItem 新增 title 属性可以配置标题，但是插槽的优先级大于 title 参数
+- CocoMenuItem 新增 link 属性可以配置跳转的指定 url
+- CocoMenu 新增 backgroundColor 属性可以配置背景色
+- CocoMenu 新增 textColor 属性可以配置文字颜色
+- CocoMenu 新增 collapse 属性可以配置是否折叠
+- CocoMenu 组件的浅色主题背景色更新为浅灰色
 - 加入严格模式
 
 ## 3.4.11 (2022-04-03)
@@ -68,7 +68,7 @@
 
 ## 3.4.2 (2022-03-13)
 
-> 目前已经将 `tyh-ui` 的所有组件都是有 `typeScript` 进行了重构对每条数据都做了强烈的类型限制，也优化了很多的样式和性能，也优化了部分配置项等。目前组件库的性能已经变得愈来愈强壮了，希望 tyh-ui 这个小朋友会越来越好～
+> 目前已经将 `coco-ui` 的所有组件都是有 `typeScript` 进行了重构对每条数据都做了强烈的类型限制，也优化了很多的样式和性能，也优化了部分配置项等。目前组件库的性能已经变得愈来愈强壮了，希望 coco-ui 这个小朋友会越来越好～
 
 - 修复 tagging 丢失样式问题
 
@@ -99,40 +99,40 @@
 
 ## 3.3.9 (2022-03-10)
 
-- TyhBackTop 组件代码进行优化
-- TyhBackTop 组件新增 behavior 属性，来配置滚动模式
-- TyhBackTop 组件新增 beyond 属性，在滚动超出指定值后显示返回按钮
+- CocoBackTop 组件代码进行优化
+- CocoBackTop 组件新增 behavior 属性，来配置滚动模式
+- CocoBackTop 组件新增 beyond 属性，在滚动超出指定值后显示返回按钮
 
 ## 3.3.8 (2022-03-09)
 
-- 加入 TyhDialog 对话框组件
+- 加入 CocoDialog 对话框组件
 
 ## 3.3.7 (2022-03-09)
 
 - 优化了所有组件的 index.js 文件注册组件代码，降低代码可读性，但是减少了包的体积
-- TyhButton 组件的样式有略微的调整
-- TyhButton 组件的 icon 更改了渲染方式
-- Container 布局容器组件的 `<tyh-container>：外层容器` 做了较大的调整，现在根据其内部的子元素来自动判断容器的排列方向
-- 废除了 tyh-container 的 flex 配置项
-- 新增 tyh-container 的 direction 配置项
-- TyhBackTop 组件的 bottom 和 right 属性现在必须要传递一个`字符串`的指定距离
-- TyhDivision 组件的 margin 属性现在必须要传递一个`字符串`的指定距离
+- CocoButton 组件的样式有略微的调整
+- CocoButton 组件的 icon 更改了渲染方式
+- Container 布局容器组件的 `<coco-container>：外层容器` 做了较大的调整，现在根据其内部的子元素来自动判断容器的排列方向
+- 废除了 coco-container 的 flex 配置项
+- 新增 coco-container 的 direction 配置项
+- CocoBackTop 组件的 bottom 和 right 属性现在必须要传递一个`字符串`的指定距离
+- CocoDivision 组件的 margin 属性现在必须要传递一个`字符串`的指定距离
 - 还有其他若干出代码简化写法
 - 本次性能优化，包的体积从**174kb**降低到了**171kb**，基本上都是几十个字节几十个字节的减少的
 
 ## 3.3.6 (2022-03-08)
 
-- 修复 TyhDrawer 组件的样式
-- TyhDrawer 组件新增 zIndex 配置项
+- 修复 CocoDrawer 组件的样式
+- CocoDrawer 组件新增 zIndex 配置项
 
 ## 3.3.5 (2022-03-08)
 
-- 新增 TyhDrawer 组件（我还是非常满意的，哈哈:blush::blush:）
+- 新增 CocoDrawer 组件（我还是非常满意的，哈哈:blush::blush:）
 
 ## 3.3.4 (2022-03-07)
 
-- 优化 TyhRate 组件样式细节
-- 优化 TyhRate、TyhTable 组件一些 props 的默认值编写方式
+- 优化 CocoRate 组件样式细节
+- 优化 CocoRate、CocoTable 组件一些 props 的默认值编写方式
 - 优化格式
 
 ## 3.3.3 (2022-03-07)
@@ -141,19 +141,19 @@
 
 ## 3.3.2 (2022-03-06)
 
-- 优化 TyhMenu 组件目前存在的 Bug
+- 优化 CocoMenu 组件目前存在的 Bug
 - 优化代码结构
 
 ## 3.3.1 (2022-03-06)
 
-以前开发的组件，仍然存在很多不足之处，比如 TyhMenu 导航栏，所以在接下来几个版本中，需要将其进行修复或重做
+以前开发的组件，仍然存在很多不足之处，比如 CocoMenu 导航栏，所以在接下来几个版本中，需要将其进行修复或重做
 
-- TyhMenuItem 组件 废除 url 配置项，新增 to 配置项（你可以理解为该了一个称呼，其实使用方式是一样的）
-- TyhMenuItem 组件 废除 color 配置项
-- TyhMenu 组件废除 background 属性
-- TyhMenu 组件新增 theme 属性，可以配置导航栏的主题
-- TyhMenu 组件新增 mode 属性，配置导航栏的排列方式
-- 加入 `v-if="$slots.default"` 属性判断 TyhMenu 和 TyhMenuItem
+- CocoMenuItem 组件 废除 url 配置项，新增 to 配置项（你可以理解为该了一个称呼，其实使用方式是一样的）
+- CocoMenuItem 组件 废除 color 配置项
+- CocoMenu 组件废除 background 属性
+- CocoMenu 组件新增 theme 属性，可以配置导航栏的主题
+- CocoMenu 组件新增 mode 属性，配置导航栏的排列方式
+- 加入 `v-if="$slots.default"` 属性判断 CocoMenu 和 CocoMenuItem
 - 导航栏的整体样式也做了略微的调整
 - 暂时移除了 hove 状态
 - 删除了冗余的 console.log
@@ -162,34 +162,34 @@
 
 ## 3.3.0 (2022-03-05)
 
-- 优化 TyhNotification、TyhMessage 组件的模块共享
-- 更新 TyhMessage 组件是 icon 展示方式
+- 优化 CocoNotification、CocoMessage 组件的模块共享
+- 更新 CocoMessage 组件是 icon 展示方式
 - 优化样式文件
 
 ## 3.2.20 (2022-03-05)
 
-- 加入 TyhNotification 组件
+- 加入 CocoNotification 组件
 - 更改按钮组件的样式目录位置
 
 ## 3.2.19 (2022-03-03)
 
-- 优化 TyhCard 组件
-- 启用 TyhCard 组件 simple 属性
-- 新增 TyhCard 组件 body-style 属性
+- 优化 CocoCard 组件
+- 启用 CocoCard 组件 simple 属性
+- 新增 CocoCard 组件 body-style 属性
 
 ## 3.2.18 (2022-03-03)
 
-- 优化按钮组件，解决 `TyhButton` 组件在禁用状态鼠标 `hover` 在 `icon` 上仍显示 `pointer` 的问题
+- 优化按钮组件，解决 `CocoButton` 组件在禁用状态鼠标 `hover` 在 `icon` 上仍显示 `pointer` 的问题
 - 按钮组件的样式优化了一些细节
 - 按钮组件的插槽加入 `slots.default` 判断
-- TyhIcon 组件默认大小改为 `16px`
-- TyhIcon 样式表合并到总样式表中
+- CocoIcon 组件默认大小改为 `16px`
+- CocoIcon 样式表合并到总样式表中
 - style 目录结构略有变化，加入字体文件夹
 - 代码片段优化了很多
 
 ## 3.2.17 (2022-03-02)
 
-- 修改 TyhTree 组件样式文件路径的问题，紧急修复了一下
+- 修改 CocoTree 组件样式文件路径的问题，紧急修复了一下
 
 ## 3.2.16 (2022-03-02)
 
@@ -197,34 +197,34 @@
 
 ## 3.2.15 (2022-02-28)
 
-- 新增 TyhMessage 组件的 round 属性
-- 优化 TyhMessage 组件的细节样式
+- 新增 CocoMessage 组件的 round 属性
+- 优化 CocoMessage 组件的细节样式
 
 ## 3.2.14 (2022-02-28)
 
-- 优化 TyhMessage 组件样式
+- 优化 CocoMessage 组件样式
 
 ## 3.2.13 (2022-02-28)
 
-- TyhMessage 组件优化
+- CocoMessage 组件优化
 
 ## 3.2.12 (2022-02-23)
 
-- 优化 TyhInput 组件代码，现在更加简洁了，删除冗余代码段，减少标签渲染
+- 优化 CocoInput 组件代码，现在更加简洁了，删除冗余代码段，减少标签渲染
 
 ## 3.2.11 (2022-02-22)
 
-- 更新 TyhTagging 组件样式问题
+- 更新 CocoTagging 组件样式问题
 
 ## 3.2.10 (2022-02-21)
 
-- 加入 TyhTagging 组件
-- 优化 TyhAlert、TyhAlert、TyhButton、TyhCard、TyhRadio 组件 class 处理细节
-- TyhBackTop 组件的 `bottom` 和 `right` 属性现在可以传入数字或字符串了
-- TyhDivision 组件的 `margin` 属性现在可以传入数字或字符串了
-- TyhIcon 组件的 `size` 属性现在可以传入数字或字符串了
-- TyhSwitch 组件的 `width` 属性现在可以传入数字或字符串了
-- TyhText 组件的 `size` 属性现在可以传入数字或字符串了
+- 加入 CocoTagging 组件
+- 优化 CocoAlert、CocoAlert、CocoButton、CocoCard、CocoRadio 组件 class 处理细节
+- CocoBackTop 组件的 `bottom` 和 `right` 属性现在可以传入数字或字符串了
+- CocoDivision 组件的 `margin` 属性现在可以传入数字或字符串了
+- CocoIcon 组件的 `size` 属性现在可以传入数字或字符串了
+- CocoSwitch 组件的 `width` 属性现在可以传入数字或字符串了
+- CocoText 组件的 `size` 属性现在可以传入数字或字符串了
 
 ## 3.2.9 (2022-02-19)
 
@@ -237,33 +237,33 @@
 
 ## 3.2.7 (2022-02-17)
 
-- 新增 TyhSelect 选择器组件（组件尚未完善，还咋开发中，测试版本）
+- 新增 CocoSelect 选择器组件（组件尚未完善，还咋开发中，测试版本）
 
 ## 3.2.6 (2022-02-16)
 
-- 修改 TyhTextarea 组件 resize 配置项
+- 修改 CocoTextarea 组件 resize 配置项
 
 ## 3.2.5 (2022-02-16)
 
-- 新增 TyhTextarea 组件禁用状态的样式
+- 新增 CocoTextarea 组件禁用状态的样式
 
 ## 3.2.4 (2022-02-16)
 
-- 修改 TyhTextarea 组件 resize 配置项
+- 修改 CocoTextarea 组件 resize 配置项
 
 ## 3.2.3 (2022-02-16)
 
-- 新增 TyhTextarea 组件
-- 优化 TyhInput 组件部分细节
+- 新增 CocoTextarea 组件
+- 优化 CocoInput 组件部分细节
 
 ## 3.2.2 (2022-02-12)
 
-- 更新 TyhInfo 组件
-- 优化 TyhAvatar 组件
+- 更新 CocoInfo 组件
+- 优化 CocoAvatar 组件
 
 ## 3.2.1 (2022-02-11)
 
-- 更新 TyhPageHeader 组件
+- 更新 CocoPageHeader 组件
 
 ## 3.2.0 (2022-02-10)
 
@@ -379,7 +379,7 @@
 
 ## 1.8.0 (2021-12-21)
 
-- 加入 TyhButtonGroup 组件
+- 加入 CocoButtonGroup 组件
 
 ## 1.7.0 (2021-12-21)
 
@@ -422,9 +422,9 @@
 
 ## 1.5.2 (2021-12-10)
 
-- 优化 TyhBackTop，TyhCard，TyhCrumbs，TyhCrumbsItem，TyhList，TyhMenuItem，TyhTurnPageItem 组件
+- 优化 CocoBackTop，CocoCard，CocoCrumbs，CocoCrumbsItem，CocoList，CocoMenuItem，CocoTurnPageItem 组件
 - 这些组件在书写上变得更加简洁清晰了，删除部分冗余代码，优化样式
-- TyhTurnPageItem 组件新增 prohibit 配置项
+- CocoTurnPageItem 组件新增 prohibit 配置项
 
 ## 1.5.1 (2021-12-10)
 
@@ -487,15 +487,15 @@
 
 ## 1.4.1 (2021-12-02)
 
-- 添加 Container 布局容器组件 tyh-aside 配置项
+- 添加 Container 布局容器组件 coco-aside 配置项
 
 ## 1.4.0 (2021-12-02)
 
-- 添加 Container 布局容器组件 tyh-footer,tyh-header 部分的配置项
+- 添加 Container 布局容器组件 coco-footer,coco-header 部分的配置项
 
 ## 1.3.8 (2021-12-02)
 
-- 更新 Container 布局容器组件 tyh-footer 部分
+- 更新 Container 布局容器组件 coco-footer 部分
 
 ## 1.3.7 (2021-12-02)
 

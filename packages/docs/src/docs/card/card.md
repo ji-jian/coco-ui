@@ -8,84 +8,84 @@ title 自定义卡片的主标题
 
 subtitle 自定义卡片的副标题
 
-<tyh-card>
+<coco-card>
   <template v-slot:title>主标题</template>
   <template v-slot:subtitle>副标题</template>
   <p>这是内容部分1</p>
   <p>这是内容部分2</p>
   <p>这是内容部分3</p>
   <p>这是内容部分4</p>
-</tyh-card>
+</coco-card>
 
 ```html
-<tyh-card>
+<coco-card>
   <template v-slot:title>主标题</template>
   <template v-slot:subtitle>副标题</template>
   <p>这是内容部分1</p>
   <p>这是内容部分2</p>
   <p>这是内容部分3</p>
   <p>这是内容部分4</p>
-</tyh-card>
+</coco-card>
 ```
 
 ## 简约卡片
 
-<tyh-card simple>
+<coco-card simple>
   <p>这是内容部分1</p>
   <p>这是内容部分2</p>
   <p>这是内容部分3</p>
   <p>这是内容部分4</p>
-</tyh-card>
+</coco-card>
 
 ```html
-<tyh-card simple>
+<coco-card simple>
   <p>这是内容部分1</p>
   <p>这是内容部分2</p>
   <p>这是内容部分3</p>
   <p>这是内容部分4</p>
-</tyh-card>
+</coco-card>
 ```
 
 ## 阴影显示时机
 
 shadow 属性可以配置阴影显示时机
 
-<tyh-card class="tyh-card-item" shadow="always">
+<coco-card class="coco-card-item" shadow="always">
   <template v-slot:title>主标题</template>
   <template v-slot:subtitle>副标题</template>
   <p>总是显示阴影</p>
-</tyh-card>
+</coco-card>
 
-<tyh-card class="tyh-card-item" shadow="hover">
+<coco-card class="coco-card-item" shadow="hover">
   <template v-slot:title>主标题</template>
   <template v-slot:subtitle>副标题</template>
   <p>鼠标移入显示</p>
-</tyh-card>
+</coco-card>
 
-<tyh-card class="tyh-card-item">
+<coco-card class="coco-card-item">
   <template v-slot:title>主标题</template>
   <template v-slot:subtitle>副标题</template>
   <p>从不显示</p>
-</tyh-card>
+</coco-card>
 
 ```html
-<tyh-card shadow="always">
+<coco-card shadow="always">
   <template v-slot:title>主标题</template>
   <template v-slot:subtitle>副标题</template>
   <p>总是显示阴影</p>
-</tyh-card>
+</coco-card>
 
-<tyh-card shadow="hover">
+<coco-card shadow="hover">
   <template v-slot:title>主标题</template>
   <template v-slot:subtitle>副标题</template>
   <p>鼠标移入显示</p>
-</tyh-card>
+</coco-card>
 
-<tyh-card>
+<coco-card>
   <template v-slot:title>主标题</template>
   <template v-slot:subtitle>副标题</template>
   <p>从不显示</p>
-</tyh-card>
+</coco-card>
 ```
 
 ## Attributes
@@ -102,11 +102,11 @@ shadow 属性可以配置阴影显示时机
 | title    | 自定义卡片的主标题 |
 | subtitle | 自定义卡片的副标题 |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/list">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/list">
     List 列表
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/tag">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/tag">
     Tag 标签
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

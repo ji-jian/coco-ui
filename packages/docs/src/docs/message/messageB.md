@@ -1,14 +1,14 @@
 ```html
 <template>
-  <tyh-button @click="change1">默认提示</tyh-button>
-  <tyh-button type="primary" @click="change2">主要提示</tyh-button>
-  <tyh-button type="success" @click="change3">成功提示</tyh-button>
-  <tyh-button type="danger" @click="change4">危险提示</tyh-button>
-  <tyh-button type="warning" @click="change5">警告提示</tyh-button>
+  <coco-button @click="change1">默认提示</coco-button>
+  <coco-button type="primary" @click="change2">主要提示</coco-button>
+  <coco-button type="success" @click="change3">成功提示</coco-button>
+  <coco-button type="danger" @click="change4">危险提示</coco-button>
+  <coco-button type="warning" @click="change5">警告提示</coco-button>
 </template>
 
 <script setup>
-  import { Message } from 'tyh-ui2'
+  import { Message } from 'coco-ui2'
   function change1() {
     Message({ message: '默认提示', type: 'default', round: true })
   }

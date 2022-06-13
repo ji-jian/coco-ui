@@ -4,7 +4,7 @@ $danger: #d10f1b;
 $warning: #fbcc30;
 $default: #484848;
 
-.tyh-message {
+.coco-message {
   position: fixed;
   display: inline-block;
   min-width: 150px;
@@ -20,7 +20,7 @@ $default: #484848;
   transform: translateX(-50%);
   transition: opacity 0.3s, transform 0.4s, top 0.4s;
 
-  .tyh-message-content {
+  .coco-message-content {
     text-align: center;
   }
 
@@ -29,40 +29,40 @@ $default: #484848;
     font-size: 16px;
   }
 
-  .tyh-ui-close {
+  .coco-ui-close {
     margin-left: 15px;
     font-size: 16px;
     cursor: pointer;
   }
 }
 
-.tyh-message-round {
+.coco-message-round {
   border-radius: 30px;
 }
 
-.tyh-message-,
-.tyh-message-default {
+.coco-message-,
+.coco-message-default {
   color: $default;
 }
 
-.tyh-message-primary {
+.coco-message-primary {
   color: $primary;
 }
 
-.tyh-message-success {
+.coco-message-success {
   color: $success;
 }
 
-.tyh-message-danger {
+.coco-message-danger {
   color: $danger;
 }
 
-.tyh-message-warning {
+.coco-message-warning {
   color: $warning;
 }
 
-.tyh-message-fade-enter-from,
-.tyh-message-fade-leave-to {
+.coco-message-fade-enter-from,
+.coco-message-fade-leave-to {
   opacity: 0;
   -webkit-transform: translate(-50%, -100%);
   transform: translate(-50%, -100%);

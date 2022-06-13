@@ -1,7 +1,7 @@
 ```html
 <template>
-  <tyh-rate v-model="value3" showText />
-  <tyh-rate
+  <coco-rate v-model="value3" showText />
+  <coco-rate
     v-model="value3"
     showText
     :sayText="['1星', '2星', '3星', '4星', '5星']"
@@ -30,11 +30,11 @@
 | -------- | ---------------- | -------- |
 | change   | 分值改变时的回调 | ——       |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/alert">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/alert">
     Alert 提示
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/image">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/image">
     Image 图片
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

@@ -4,50 +4,50 @@
 
 标签的基本使用
 
-<tyh-tag>标签一</tyh-tag>
-<tyh-tag type="primary">标签二</tyh-tag>
-<tyh-tag type="success">标签三</tyh-tag>
-<tyh-tag type="danger">标签四</tyh-tag>
-<tyh-tag type="warning">标签五</tyh-tag>
+<coco-tag>标签一</coco-tag>
+<coco-tag type="primary">标签二</coco-tag>
+<coco-tag type="success">标签三</coco-tag>
+<coco-tag type="danger">标签四</coco-tag>
+<coco-tag type="warning">标签五</coco-tag>
 
 ```html
-<tyh-tag>标签一</tyh-tag>
-<tyh-tag type="primary">标签二</tyh-tag>
-<tyh-tag type="success">标签三</tyh-tag>
-<tyh-tag type="danger">标签四</tyh-tag>
-<tyh-tag type="warning">标签五</tyh-tag>
+<coco-tag>标签一</coco-tag>
+<coco-tag type="primary">标签二</coco-tag>
+<coco-tag type="success">标签三</coco-tag>
+<coco-tag type="danger">标签四</coco-tag>
+<coco-tag type="warning">标签五</coco-tag>
 ```
 
 ## 不同尺寸
 
 size 属性可以配置不同的尺寸
 
-<tyh-tag type="primary">标签</tyh-tag>
-<tyh-tag size="small" type="primary">标签</tyh-tag>
-<tyh-tag size="mini" type="primary">标签</tyh-tag>
+<coco-tag type="primary">标签</coco-tag>
+<coco-tag size="small" type="primary">标签</coco-tag>
+<coco-tag size="mini" type="primary">标签</coco-tag>
 
 ```html
-<tyh-tag type="primary">标签</tyh-tag>
-<tyh-tag size="small" type="primary">标签</tyh-tag>
-<tyh-tag size="mini" type="primary">标签</tyh-tag>
+<coco-tag type="primary">标签</coco-tag>
+<coco-tag size="small" type="primary">标签</coco-tag>
+<coco-tag size="mini" type="primary">标签</coco-tag>
 ```
 
 ## 圆角标签
 
 round 属性可以配置圆角显示
 
-<tyh-tag round>标签一</tyh-tag>
-<tyh-tag round type="primary">标签二</tyh-tag>
-<tyh-tag round type="success">标签三</tyh-tag>
-<tyh-tag round type="danger">标签四</tyh-tag>
-<tyh-tag round type="warning">标签五</tyh-tag>
+<coco-tag round>标签一</coco-tag>
+<coco-tag round type="primary">标签二</coco-tag>
+<coco-tag round type="success">标签三</coco-tag>
+<coco-tag round type="danger">标签四</coco-tag>
+<coco-tag round type="warning">标签五</coco-tag>
 
 ```html
-<tyh-tag round>标签一</tyh-tag>
-<tyh-tag round type="primary">标签二</tyh-tag>
-<tyh-tag round type="success">标签三</tyh-tag>
-<tyh-tag round type="danger">标签四</tyh-tag>
-<tyh-tag round type="warning">标签五</tyh-tag>
+<coco-tag round>标签一</coco-tag>
+<coco-tag round type="primary">标签二</coco-tag>
+<coco-tag round type="success">标签三</coco-tag>
+<coco-tag round type="danger">标签四</coco-tag>
+<coco-tag round type="warning">标签五</coco-tag>
 ```
 
 ## 可关闭

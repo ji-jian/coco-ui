@@ -1,8 +1,8 @@
 ```html
 <template>
-  <tyh-radio v-model="radio2" disabled label="备选项1">备选项1</tyh-radio>
-  <tyh-radio v-model="radio2" label="备选项2">备选项2</tyh-radio>
-  <tyh-radio v-model="radio2" label="备选项3">备选项3</tyh-radio>
+  <coco-radio v-model="radio2" disabled label="备选项1">备选项1</coco-radio>
+  <coco-radio v-model="radio2" label="备选项2">备选项2</coco-radio>
+  <coco-radio v-model="radio2" label="备选项3">备选项3</coco-radio>
 </template>
 
 <script setup>

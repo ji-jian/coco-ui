@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-list hoverShow :content="arr" keys="name" />
+  <coco-list hoverShow :content="arr" keys="name" />
 </template>
 
 <script setup>
@@ -36,11 +36,11 @@
 | header   | 自定义头部内容 |
 | footer   | 自定义底部内容 |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/button">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/button">
     Button 按钮
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/card">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/card">
     Card 卡片
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

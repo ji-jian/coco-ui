@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-input v-model="text8" clear />
+  <coco-input v-model="text8" clear />
 </template>
 
 <script setup>

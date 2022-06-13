@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-switch v-model="value7" :width="60" />
+  <coco-switch v-model="value7" :width="60" />
 </template>
 
 <script setup>
@@ -27,11 +27,11 @@
 | -------- | ------------------------------- | ---------- |
 | change   | switch 状态发生变化时的回调函数 | 新状态的值 |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/table">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/table">
     Table 表格
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/calendar">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/calendar">
     Calendar 日历
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

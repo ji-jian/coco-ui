@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-textarea v-model="value6" max="10" />
+  <coco-textarea v-model="value6" max="10" />
 </template>
 
 <script setup>
@@ -30,11 +30,11 @@
 | onblur   | 失去焦点触发的回调 | ——       |
 | onfocus  | 获取焦点触发的回调 | ——       |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/info">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/info">
     Info 信息栏
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/select">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/select">
     Select 选择器
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

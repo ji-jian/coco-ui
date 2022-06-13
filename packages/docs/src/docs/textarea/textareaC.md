@@ -1,9 +1,9 @@
 ```html
 <template>
-  <tyh-textarea v-model="value7" />
-  <tyh-textarea v-model="value8" resize="vertical" />
-  <tyh-textarea v-model="value9" resize="horizontal" />
-  <tyh-textarea v-model="value10" resize="none" />
+  <coco-textarea v-model="value7" />
+  <coco-textarea v-model="value8" resize="vertical" />
+  <coco-textarea v-model="value9" resize="horizontal" />
+  <coco-textarea v-model="value10" resize="none" />
 </template>
 
 <script setup>

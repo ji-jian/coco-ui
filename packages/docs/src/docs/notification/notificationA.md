@@ -5,7 +5,7 @@
 使用前，你必须先引入它
 
 ```js
-import { Notification } from 'tyh-ui2'
+import { Notification } from 'coco-ui2'
 ```
 
 ## 基本使用

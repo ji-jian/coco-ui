@@ -1,44 +1,44 @@
 ```html
 <template>
-  <tyh-switch v-model="isCollapse" />
+  <coco-switch v-model="isCollapse" />
 
-  <tyh-menu theme="dark" mode="vertical" :collapse="isCollapse">
-    <tyh-menu-item>
-      <tyh-icon icon="tyh-ui-shouye-xianxing" />
+  <coco-menu theme="dark" mode="vertical" :collapse="isCollapse">
+    <coco-menu-item>
+      <coco-icon icon="coco-ui-shouye-xianxing" />
       <span>首页</span>
-    </tyh-menu-item>
-    <tyh-menu-item>
-      <tyh-icon icon="tyh-ui-pdf" />
+    </coco-menu-item>
+    <coco-menu-item>
+      <coco-icon icon="coco-ui-pdf" />
       <span>内容</span>
-    </tyh-menu-item>
-    <tyh-menu-item>
-      <tyh-icon icon="tyh-ui-setting" />
+    </coco-menu-item>
+    <coco-menu-item>
+      <coco-icon icon="coco-ui-setting" />
       <span>设置</span>
-    </tyh-menu-item>
-    <tyh-menu-item>
-      <tyh-icon icon="tyh-ui-ashbin" />
+    </coco-menu-item>
+    <coco-menu-item>
+      <coco-icon icon="coco-ui-ashbin" />
       <span>回收站</span>
-    </tyh-menu-item>
-  </tyh-menu>
+    </coco-menu-item>
+  </coco-menu>
 
-  <tyh-menu theme="light" mode="vertical" :collapse="isCollapse">
-    <tyh-menu-item>
-      <tyh-icon icon="tyh-ui-shouye-xianxing" />
+  <coco-menu theme="light" mode="vertical" :collapse="isCollapse">
+    <coco-menu-item>
+      <coco-icon icon="coco-ui-shouye-xianxing" />
       <span>首页</span>
-    </tyh-menu-item>
-    <tyh-menu-item>
-      <tyh-icon icon="tyh-ui-pdf" />
+    </coco-menu-item>
+    <coco-menu-item>
+      <coco-icon icon="coco-ui-pdf" />
       <span>内容</span>
-    </tyh-menu-item>
-    <tyh-menu-item>
-      <tyh-icon icon="tyh-ui-setting" />
+    </coco-menu-item>
+    <coco-menu-item>
+      <coco-icon icon="coco-ui-setting" />
       <span>设置</span>
-    </tyh-menu-item>
-    <tyh-menu-item>
-      <tyh-icon icon="tyh-ui-ashbin" />
+    </coco-menu-item>
+    <coco-menu-item>
+      <coco-icon icon="coco-ui-ashbin" />
       <span>回收站</span>
-    </tyh-menu-item>
-  </tyh-menu>
+    </coco-menu-item>
+  </coco-menu>
 </template>
 
 <script setup>
@@ -53,45 +53,45 @@ left 插槽可以定制左侧自定义内容
 
 right 插槽可以定制右侧自定义内容
 
-<tyh-menu>
+<coco-menu>
   <template v-slot:left>
-    <tyh-avatar
+    <coco-avatar
       :size="5"
       round
-      src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg"
+      src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg"
     />
   </template>
-  <tyh-menu-item>首页</tyh-menu-item>
-  <tyh-menu-item>内容</tyh-menu-item>
-  <tyh-menu-item>设置</tyh-menu-item>
-  <tyh-menu-item>回收站</tyh-menu-item>
+  <coco-menu-item>首页</coco-menu-item>
+  <coco-menu-item>内容</coco-menu-item>
+  <coco-menu-item>设置</coco-menu-item>
+  <coco-menu-item>回收站</coco-menu-item>
   <template v-slot:right>
-    <tyh-button style="margin:0" simple>右侧插槽</tyh-button>
+    <coco-button style="margin:0" simple>右侧插槽</coco-button>
   </template>
-</tyh-menu>
+</coco-menu>
 
 ```html
-<tyh-menu>
+<coco-menu>
   <template v-slot:left>
-    <tyh-avatar
+    <coco-avatar
       :size="5"
       round
-      src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg"
+      src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg"
     />
   </template>
-  <tyh-menu-item>首页</tyh-menu-item>
-  <tyh-menu-item>内容</tyh-menu-item>
-  <tyh-menu-item>设置</tyh-menu-item>
-  <tyh-menu-item>回收站</tyh-menu-item>
+  <coco-menu-item>首页</coco-menu-item>
+  <coco-menu-item>内容</coco-menu-item>
+  <coco-menu-item>设置</coco-menu-item>
+  <coco-menu-item>回收站</coco-menu-item>
   <template v-slot:right>
-    <tyh-button simple>右侧插槽</tyh-button>
+    <coco-button simple>右侧插槽</coco-button>
   </template>
-</tyh-menu>
+</coco-menu>
 ```
 
 ## Attributes
 
-tyh-menu
+coco-menu
 
 | 参数            | 说明             | 类型    | 可选值                | 默认值     |
 | --------------- | ---------------- | ------- | --------------------- | ---------- |
@@ -102,7 +102,7 @@ tyh-menu
 | textColor       | 自定义主题颜色   | string  | ——                    | ——         |
 | collapse        | 是否折叠         | boolean | ——                    | false      |
 
-tyh-menu-item
+coco-menu-item
 
 | 参数     | 说明                           | 类型    | 可选值 | 默认值 |
 | -------- | ------------------------------ | ------- | ------ | ------ |
@@ -119,11 +119,11 @@ tyh-menu-item
 | left     | 左侧插槽 |
 | right    | 右侧插槽 |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/input">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/input">
     Input 输入框
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/division">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/division">
     Division 分割线
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

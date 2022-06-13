@@ -1,11 +1,11 @@
-.tyh-rate {
+.coco-rate {
   position: relative;
   display: flex;
 
-  .tyh-rate-mouseout {
+  .coco-rate-mouseout {
     cursor: pointer;
 
-    .tyh-ui-favorite {
+    .coco-ui-favorite {
       font-size: 17px;
       color: rgb(217, 224, 235);
     }
@@ -19,7 +19,7 @@
       bottom: 0;
       overflow: hidden;
 
-      .tyh-ui-favorite-filling {
+      .coco-ui-favorite-filling {
         font-size: 17px;
       }
     }

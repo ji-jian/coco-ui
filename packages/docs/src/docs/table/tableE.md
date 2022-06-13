@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-table :data="tableData" :columns="columns" align="center" border zebra />
+  <coco-table :data="tableData" :columns="columns" align="center" border zebra />
 </template>
 
 <script setup>

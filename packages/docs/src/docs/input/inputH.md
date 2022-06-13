@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-input v-model="text11" type="password" showPassword />
+  <coco-input v-model="text11" type="password" showPassword />
 </template>
 
 <script setup>
@@ -33,11 +33,11 @@
 | onblur   | 失去焦点触发的回调     | ——       |
 | onfocus  | 获取焦点触发的回调     | ——       |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/link">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/link">
     Link 链接
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/menu">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/menu">
     Menu 导航栏
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

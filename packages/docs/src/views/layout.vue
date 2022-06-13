@@ -1,38 +1,38 @@
 <template>
-  <tyh-menu theme="light">
+  <coco-menu theme="light">
     <template v-slot:left>
       <div class="logoLink" url="/" @click="$router.push('/')">
         <img
           draggable="false"
           class="logo"
-          src="https://tianyuhao.cn/images/tyh-ui/tyh-ui-logo.svg"
+          src="https://tianyuhao.cn/images/coco-ui/coco-ui-logo.svg"
           alt="logo"
         />
-        <span class="name">Tyh UI</span>
+        <span class="name">Coco UI</span>
       </div>
     </template>
     <template v-slot:right>
-      <tyh-icon icon="tyh-ui-menu" @click="drawer = true" />
+      <coco-icon icon="coco-ui-menu" @click="drawer = true" />
       <div class="menu-list">
-        <tyh-menu-item
+        <coco-menu-item
           v-for="(list, index) in layoutList"
           :style="highLightStyle(list.url)"
           :key="index"
           :route="list.url"
         >
           {{ list.title }}
-        </tyh-menu-item>
+        </coco-menu-item>
       </div>
     </template>
-  </tyh-menu>
+  </coco-menu>
 
   <div id="content">
     <router-view />
   </div>
 
-  <tyh-drawer v-model="drawer" direction="right" size="200px">
+  <coco-drawer v-model="drawer" direction="right" size="200px">
     <Sidebar phone />
-  </tyh-drawer>
+  </coco-drawer>
 </template>
 
 <script setup>
@@ -65,7 +65,7 @@
 </script>
 
 <style scoped>
-  .tyh-menu {
+  .coco-menu {
     position: fixed;
     top: 0px;
     right: 0px;
@@ -73,17 +73,17 @@
     z-index: 20;
     display: flex;
   }
-  .tyh-menu .logoLink {
+  .coco-menu .logoLink {
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
   }
-  .tyh-menu .logoLink .logo {
+  .coco-menu .logoLink .logo {
     height: 36px;
     width: 36px;
   }
-  .tyh-menu .logoLink .name {
+  .coco-menu .logoLink .name {
     font-size: 20px;
     color: #6c63ff;
     font-weight: 600;
@@ -93,7 +93,7 @@
     margin-top: 120px;
   }
   @media screen and (min-width: 700px) {
-    .tyh-ui-menu {
+    .coco-ui-menu {
       display: none;
     }
     .menu-list {
@@ -101,7 +101,7 @@
     }
   }
   @media screen and (max-width: 700px) {
-    .tyh-ui-menu {
+    .coco-ui-menu {
       display: block;
     }
     .menu-list {
@@ -111,7 +111,7 @@
 </style>
 
 <style>
-  .tyh-drawer {
+  .coco-drawer {
     overflow-x: hidden !important;
     overflow-y: auto !important;
   }

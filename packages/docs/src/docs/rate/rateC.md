@@ -1,7 +1,7 @@
 ```html
 <template>
-  <tyh-rate v-model="value2" />
-  <tyh-rate v-model="value2" color="red" voidColor="#eee" />
+  <coco-rate v-model="value2" />
+  <coco-rate v-model="value2" color="red" voidColor="#eee" />
 </template>
 
 <script setup>

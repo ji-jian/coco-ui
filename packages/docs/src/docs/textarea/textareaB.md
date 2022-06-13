@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-textarea v-model="value1" placeholder="请输入内容..." />
+  <coco-textarea v-model="value1" placeholder="请输入内容..." />
 </template>
 
 <script setup>

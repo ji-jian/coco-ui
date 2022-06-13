@@ -1,14 +1,14 @@
 ```html
 <template>
-  <tyh-select v-model="value" placeholder="请选择">
-    <tyh-option
+  <coco-select v-model="value" placeholder="请选择">
+    <coco-option
       v-for="(item, index) in options"
       :key="index"
       :value="item.value"
     >
       {{ item.label }}
-    </tyh-option>
-  </tyh-select>
+    </coco-option>
+  </coco-select>
 </template>
 
 <script setup>
@@ -41,25 +41,25 @@
 
 ## Attributes
 
-tyh-select
+coco-select
 
 | 参数    | 说明      | 类型   | 可选值 | 默认值 |
 | ------- | --------- | ------ | ------ | ------ |
 | v-model | 绑定值    | string | ——     | ——     |
 | name    | 原生 name | string | ——     | ——     |
 
-tyh-option
+coco-option
 
 | 参数  | 说明       | 类型   | 可选值 | 默认值 |
 | ----- | ---------- | ------ | ------ | ------ |
 | value | 选项的值   | string | ——     | ——     |
 | label | 分组的组名 | string | ——     | ——     |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/textarea">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/textarea">
     Textarea 文本域
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/tagging">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/tagging">
     Tagging 标注
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

@@ -2,12 +2,12 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
-// https://github.com/Tyh2001/tyh-ui
-import tyhUi2 from './tyhUi'
-import '@tyh-ui/tyh-ui2/style/index.css' // 线上
-// import '@tyh-ui/style/index.ts' // 测试
+// https://github.com/Coco2001/coco-ui
+import cocoUi2 from './cocoUi'
+import '@coco-ui/coco-ui2/style/index.css' // 线上
+// import '@coco-ui/style/index.ts' // 测试
 
-// https://github.com/Tyh2001/bright-code
+// https://github.com/Coco2001/bright-code
 import brightCode from 'bright-code'
 import 'bright-code/theme/index.css'
 
@@ -19,7 +19,7 @@ import './style/global.scss'
 
 createApp(App)
   .use(router)
-  .use(tyhUi2)
+  .use(cocoUi2)
   .use((app) => {
     app.directive('high', {
       mounted(el) {

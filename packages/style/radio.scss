@@ -1,11 +1,11 @@
 $radioColor: #3a6ff4;
 
-.tyh-radio {
+.coco-radio {
   margin-right: 19px;
   user-select: none;
 
   // 选择的圆圈
-  .tyh-radio-o {
+  .coco-radio-o {
     width: 12px;
     height: 12px;
     display: inline-block;
@@ -20,7 +20,7 @@ $radioColor: #3a6ff4;
   }
 
   // 小点点
-  .tyh-radio-o::after {
+  .coco-radio-o::after {
     content: '';
     width: 4px;
     height: 4px;
@@ -32,43 +32,43 @@ $radioColor: #3a6ff4;
   }
 
   // 文字
-  .tyh-radio-text {
+  .coco-radio-text {
     font-size: 14px;
     margin-left: 6px;
     transition: 0.3s;
   }
 
   // 选中的
-  .tyh-radio-hig {
+  .coco-radio-hig {
     background-color: $radioColor;
     border: 1px solid $radioColor;
     position: relative;
   }
 
-  .tyh-radio-disabled {
+  .coco-radio-disabled {
     background-color: #b6b5b5;
     border: 1px solid #b6b5b5;
     position: relative;
   }
 }
 
-.tyh-radio-border {
+.coco-radio-border {
   border-radius: 4px;
   display: inline-block;
 }
 
-.tyh-radio-large {
+.coco-radio-large {
   padding: 7px 20px 10px 20px;
 }
 
-.tyh-radio-medium {
+.coco-radio-medium {
   padding: 5px 17px 8px 17px;
 }
 
-.tyh-radio-small {
+.coco-radio-small {
   padding: 3px 14px 6px 14px;
 }
 
-.tyh-radio-mini {
+.coco-radio-mini {
   padding: 1px 11px 4px 11px;
 }

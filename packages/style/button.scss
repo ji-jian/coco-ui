@@ -16,7 +16,7 @@ $dangerActive: #b90510;
 $warningActive: #dfb118;
 $defaultActive: #dbdbdb;
 
-.tyh-button {
+.coco-button {
   min-width: 40px;
   padding: 0 22px;
   min-height: 35px;
@@ -31,7 +31,7 @@ $defaultActive: #dbdbdb;
   line-height: 1;
   font-size: 14px;
 
-  .tyh-ui-loading {
+  .coco-ui-loading {
     display: inline-block;
     animation: loading 1.2s linear infinite;
     -webkit-animation: loading 1.2s linear infinite;
@@ -39,7 +39,7 @@ $defaultActive: #dbdbdb;
 }
 
 // 基础按钮
-.tyh-button-primary {
+.coco-button-primary {
   background: $primary;
 
   &:hover {
@@ -53,7 +53,7 @@ $defaultActive: #dbdbdb;
   }
 }
 
-.tyh-button-success {
+.coco-button-success {
   background: $success;
 
   &:hover {
@@ -66,7 +66,7 @@ $defaultActive: #dbdbdb;
   }
 }
 
-.tyh-button-danger {
+.coco-button-danger {
   background: $danger;
 
   &:hover {
@@ -79,7 +79,7 @@ $defaultActive: #dbdbdb;
   }
 }
 
-.tyh-button-warning {
+.coco-button-warning {
   background: $warning;
 
   &:hover {
@@ -92,8 +92,8 @@ $defaultActive: #dbdbdb;
   }
 }
 
-.tyh-button-,
-.tyh-button-default {
+.coco-button-,
+.coco-button-default {
   background: $default;
   color: #333;
 
@@ -108,16 +108,16 @@ $defaultActive: #dbdbdb;
 }
 
 // 圆角按钮
-.tyh-button-round {
+.coco-button-round {
   border-radius: 30px;
 }
 
 // 简约按钮
-.tyh-button-simple-primary,
-.tyh-button-simple-success,
-.tyh-button-simple-danger,
-.tyh-button-simple-warning,
-.tyh-button-simple-default {
+.coco-button-simple-primary,
+.coco-button-simple-success,
+.coco-button-simple-danger,
+.coco-button-simple-warning,
+.coco-button-simple-default {
   background: $default;
 
   &:hover {
@@ -131,67 +131,67 @@ $defaultActive: #dbdbdb;
 }
 
 // 普通按钮禁用状态
-.tyh-button-disabled-primary,
-.tyh-button-disabled-success,
-.tyh-button-disabled-danger,
-.tyh-button-disabled-warning,
-.tyh-button-disabled-default {
+.coco-button-disabled-primary,
+.coco-button-disabled-success,
+.coco-button-disabled-danger,
+.coco-button-disabled-warning,
+.coco-button-disabled-default {
   opacity: 0.6;
   cursor: no-drop;
 }
 
-.tyh-button-disabled-primary {
+.coco-button-disabled-primary {
   background: $primary;
 }
 
-.tyh-button-disabled-success {
+.coco-button-disabled-success {
   background: $success;
 }
 
-.tyh-button-disabled-danger {
+.coco-button-disabled-danger {
   background: $danger;
 }
 
-.tyh-button-disabled-warning {
+.coco-button-disabled-warning {
   background: $warning;
 }
 
-.tyh-button-disabled-default {
+.coco-button-disabled-default {
   background: $default;
 }
 
 // 简约按钮禁用
-.tyh-button-simple-disabled-primary,
-.tyh-button-simple-disabled-success,
-.tyh-button-simple-disabled-danger,
-.tyh-button-simple-disabled-warning,
-.tyh-button-simple-disabled-default {
+.coco-button-simple-disabled-primary,
+.coco-button-simple-disabled-success,
+.coco-button-simple-disabled-danger,
+.coco-button-simple-disabled-warning,
+.coco-button-simple-disabled-default {
   opacity: 0.6;
   cursor: no-drop;
 }
 
 // 按钮大小
-.tyh-button-size-large {
+.coco-button-size-large {
   width: 100%;
 }
 
-.tyh-button-size-small {
+.coco-button-size-small {
   min-width: 30px;
   padding: 0 17px;
   height: 30px;
 }
 
-.tyh-button-size-mini {
+.coco-button-size-mini {
   min-width: 20px;
   padding: 0 12px;
   height: 25px;
 }
 
-.tyh-button-square {
+.coco-button-square {
   border-radius: 0;
 }
 
-.tyh-button [class*='tyh-icon'] + span {
+.coco-button [class*='coco-icon'] + span {
   margin-left: 5px;
 }
 

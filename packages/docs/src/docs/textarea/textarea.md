@@ -6,7 +6,7 @@
 
 ```html
 <template>
-  <tyh-textarea v-model="value1" placeholder="请输入内容..." />
+  <coco-textarea v-model="value1" placeholder="请输入内容..." />
 </template>
 
 <script setup>
@@ -21,10 +21,10 @@ resize 属性可以规定文本域的拉伸方式
 
 ```html
 <template>
-  <tyh-textarea v-model="value7" />
-  <tyh-textarea v-model="value8" resize="vertical" />
-  <tyh-textarea v-model="value9" resize="horizontal" />
-  <tyh-textarea v-model="value10" resize="none" />
+  <coco-textarea v-model="value7" />
+  <coco-textarea v-model="value8" resize="vertical" />
+  <coco-textarea v-model="value9" resize="horizontal" />
+  <coco-textarea v-model="value10" resize="none" />
 </template>
 
 <script setup>
@@ -44,8 +44,8 @@ cols 属性可以配置文本域的宽度
 
 ```html
 <template>
-  <tyh-textarea v-model="value3" rows="5" />
-  <tyh-textarea v-model="value4" cols="10" />
+  <coco-textarea v-model="value3" rows="5" />
+  <coco-textarea v-model="value4" cols="10" />
 </template>
 
 <script setup>
@@ -61,7 +61,7 @@ disabled 属性可以配置文本域禁用状态
 
 ```html
 <template>
-  <tyh-textarea v-model="value5" disabled />
+  <coco-textarea v-model="value5" disabled />
 </template>
 
 <script setup>
@@ -76,7 +76,7 @@ max 属性可以配置文本域输入的最大上限文本
 
 ```html
 <template>
-  <tyh-textarea v-model="value6" max="10" />
+  <coco-textarea v-model="value6" max="10" />
 </template>
 
 <script setup>

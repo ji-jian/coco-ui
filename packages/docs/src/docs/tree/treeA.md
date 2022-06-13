@@ -1,6 +1,6 @@
 # Tree 树形控件
 
-<tyh-alert type="danger" message="组件仍在完善中，谨慎使用！" />
+<coco-alert type="danger" message="组件仍在完善中，谨慎使用！" />
 
 ## 基本使用
 

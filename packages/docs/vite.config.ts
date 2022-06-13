@@ -10,7 +10,7 @@ export default defineConfig({
       include: [/\.vue$/, /\.md$/]
     }),
     Markdown({
-      wrapperClasses: 'tyh-markdown-body'
+      wrapperClasses: 'coco-markdown-body'
     })
   ],
   resolve: {

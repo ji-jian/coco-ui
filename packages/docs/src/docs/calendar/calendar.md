@@ -8,7 +8,7 @@ v-model 绑定一个日期
 
 ```html
 <template>
-  <tyh-calendar v-model="value" />
+  <coco-calendar v-model="value" />
 </template>
 
 <script setup>
@@ -25,8 +25,8 @@ cellWidth 属性可以配置日期单元格的宽度
 
 ```html
 <template>
-  <tyh-calendar v-model="value" :cellWidth="70" />
-  <tyh-calendar v-model="value" :cellWidth="10" />
+  <coco-calendar v-model="value" :cellWidth="70" />
+  <coco-calendar v-model="value" :cellWidth="10" />
 </template>
 
 <script setup>

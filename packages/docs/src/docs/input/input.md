@@ -6,7 +6,7 @@
 
 ```html
 <template>
-  <tyh-input v-model="text1" />
+  <coco-input v-model="text1" />
 </template>
 
 <script setup>
@@ -21,8 +21,8 @@ type 属性可以规定文本框类型
 
 ```html
 <template>
-  <tyh-input type="text" v-model="text2" />
-  <tyh-input type="password" v-model="text3" />
+  <coco-input type="text" v-model="text2" />
+  <coco-input type="password" v-model="text3" />
 </template>
 
 <script setup>
@@ -38,10 +38,10 @@ size 属性可以配置文本框尺寸
 
 ```html
 <template>
-  <tyh-input size="large" v-model="text4" />
-  <tyh-input size="medium" v-model="text5" />
-  <tyh-input size="small" v-model="text6" />
-  <tyh-input size="mini" v-model="text7" />
+  <coco-input size="large" v-model="text4" />
+  <coco-input size="medium" v-model="text5" />
+  <coco-input size="small" v-model="text6" />
+  <coco-input size="mini" v-model="text7" />
 </template>
 
 <script setup>
@@ -59,7 +59,7 @@ clear 属性可以配置带有清空按钮的文本框
 
 ```html
 <template>
-  <tyh-input v-model="text8" clear />
+  <coco-input v-model="text8" clear />
 </template>
 
 <script setup>
@@ -74,7 +74,7 @@ icon 属性可以配置文本框带有其他图标，直接传递 icon 的名字
 
 ```html
 <template>
-  <tyh-input v-model="text9" icon="tyh-ui-electronics" />
+  <coco-input v-model="text9" icon="coco-ui-electronics" />
 </template>
 
 <script setup>
@@ -89,7 +89,7 @@ disabled 属性可以配置文本框禁用状态
 
 ```html
 <template>
-  <tyh-input v-model="text10" disabled />
+  <coco-input v-model="text10" disabled />
 </template>
 
 <script setup>
@@ -104,7 +104,7 @@ showPassword 属性可以配置查看密码按钮，showPassword 优先级大于
 
 ```html
 <template>
-  <tyh-input v-model="text11" type="password" showPassword />
+  <coco-input v-model="text11" type="password" showPassword />
 </template>
 
 <script setup>

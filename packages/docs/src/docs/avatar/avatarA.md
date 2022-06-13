@@ -8,20 +8,20 @@ src 属性可以添加图片路径
 
 size 可以配置头像大小
 
-<tyh-avatar :size="10" src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg"/>
+<coco-avatar :size="10" src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg"/>
 
 ```html
-<tyh-avatar :size="10" src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg" />
+<coco-avatar :size="10" src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg" />
 ```
 
 ## 配置圆角
 
 round 属性配置头像的圆角
 
-<tyh-avatar round src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg" />
+<coco-avatar round src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg" />
 
 ```html
-<tyh-avatar round src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg" />
+<coco-avatar round src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg" />
 ```
 
 ## 如何适应容器框

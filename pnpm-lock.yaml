@@ -50,24 +50,24 @@ importers:
 
   packages/demo:
     specifiers:
-      '@tyh-ui/style': workspace:*
-      '@tyh-ui/tyh-ui2': workspace:*
+      '@coco-ui/style': workspace:*
+      '@coco-ui/coco-ui2': workspace:*
       element3: ^0.0.40
     dependencies:
-      '@tyh-ui/style': link:../style
-      '@tyh-ui/tyh-ui2': link:../tyh-ui2
+      '@coco-ui/style': link:../style
+      '@coco-ui/coco-ui2': link:../coco-ui2
       element3: 0.0.40
 
   packages/docs:
     specifiers:
-      '@tyh-ui/style': workspace:*
-      '@tyh-ui/tyh-ui2': workspace:*
+      '@coco-ui/style': workspace:*
+      '@coco-ui/coco-ui2': workspace:*
       bright-code: ^1.2.1
       clipboard: ^2.0.10
       vite-plugin-md: ^0.11.9
     dependencies:
-      '@tyh-ui/style': link:../style
-      '@tyh-ui/tyh-ui2': link:../tyh-ui2
+      '@coco-ui/style': link:../style
+      '@coco-ui/coco-ui2': link:../coco-ui2
       bright-code: 1.2.1
       clipboard: 2.0.10
       vite-plugin-md: 0.11.9
@@ -75,7 +75,7 @@ importers:
   packages/style:
     specifiers: {}
 
-  packages/tyh-ui2:
+  packages/coco-ui2:
     specifiers: {}
 
 packages:
@@ -3819,7 +3819,7 @@ packages:
   /read-pkg/5.2.0:
     resolution:
       {
-        integrity: sha512-Ug69mNOpfvKDAc2Q8DRpMjjzdtrnv9HcSMX+4VsZxD1aZ6ZzrIE7rlzXBtWTyhULSMKg076AW6WR5iZpD0JiOg==
+        integrity: sha512-Ug69mNOpfvKDAc2Q8DRpMjjzdtrnv9HcSMX+4VsZxD1aZ6ZzrIE7rlzXBtWCocoULSMKg076AW6WR5iZpD0JiOg==
       }
     engines: { node: '>=8' }
     dependencies:

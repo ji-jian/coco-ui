@@ -1,20 +1,20 @@
-# tyh-ui 贡献指南
+# coco-ui 贡献指南
 
 ## 前言
 
-你好！欢迎使用 tyh-ui :blush:
+你好！欢迎使用 coco-ui :blush:
 
 在这里，不需要你的技术有多么优秀，只希望你对做开源有足够的热爱。如果你有技术，你可以参加主要的开发；如果你是一个新手，可以来写 Ui 设计方面的开发，就算你技术水平一团糟，还可以看看文档，找一找错别字，提一提 issues 或 pr 呢，不是吗？
 
-我很高兴你有兴趣为 tyh-ui 做贡献。在提交您的贡献之前，请务必花点时间阅读以下指南。
+我很高兴你有兴趣为 coco-ui 做贡献。在提交您的贡献之前，请务必花点时间阅读以下指南。
 
 ## 安装启动
 
 先把项目跑起来
 
-- Fork [tyh-ui](https://github.com/Tyh2001/tyh-ui)
+- Fork [coco-ui](https://github.com/Coco2001/coco-ui)
 - `git clone xxxxx`
-- `cd tyh-ui`
+- `cd coco-ui`
 - `pnpm i`
 - `pnpm dev:docs`
 
@@ -63,9 +63,9 @@ git commit -m 'feat: 新增xxx功能'
 ├── .vscode
 ├── packages                      主要源文件
 |  ├── demo                       测试项目
-|  ├── docs                       tyh-ui2 文档
+|  ├── docs                       coco-ui2 文档
 |  ├── style                      主样式表
-|  └── tyh-ui2                    tyh-ui2 的源码
+|  └── coco-ui2                    coco-ui2 的源码
 ├── .editorconfig                 编辑器配置因为开发者的编辑器都不一样
 ├── .eslintignore                 不需要 eslint 校验的文件
 ├── .eslintrc.js                  eslintrc 规范的配置文件
@@ -99,16 +99,16 @@ git commit -m 'feat: 新增xxx功能'
 
 开发不易，欢迎大家赞助！
 
-<img width="200px" align="center" src="https://tianyuhao.cn/images/tyh-ui/weixin.jpg" alt="weixin"><img width="200px" align="center" src="https://tianyuhao.cn/images/tyh-ui/zhifubao.jpg" alt="zhifubao">
+<img width="200px" align="center" src="https://tianyuhao.cn/images/coco-ui/weixin.jpg" alt="weixin"><img width="200px" align="center" src="https://tianyuhao.cn/images/coco-ui/zhifubao.jpg" alt="zhifubao">
 
 ## 非常感谢
 
-感谢所有已经为 tyh-ui [做出贡献的人](https://github.com/Tyh2001/tyh-ui2/graphs/contributors)！
+感谢所有已经为 coco-ui [做出贡献的人](https://github.com/Coco2001/coco-ui2/graphs/contributors)！
 
 **Star**
 
-[![Stargazers repo roster for @Tyh2001/tyh-ui](https://reporoster.com/stars/Tyh2001/tyh-ui)](https://github.com/Tyh2001/tyh-ui/stargazers)
+[![Stargazers repo roster for @Coco2001/coco-ui](https://reporoster.com/stars/Coco2001/coco-ui)](https://github.com/Coco2001/coco-ui/stargazers)
 
 **Fork**
 
-[![Forkers repo roster for @Tyh2001/tyh-ui](https://reporoster.com/forks/Tyh2001/tyh-ui)](https://github.com/Tyh2001/tyh-ui/network/members)
+[![Forkers repo roster for @Coco2001/coco-ui](https://reporoster.com/forks/Coco2001/coco-ui)](https://github.com/Coco2001/coco-ui/network/members)

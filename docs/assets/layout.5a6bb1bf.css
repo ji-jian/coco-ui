@@ -1,1 +1,47 @@
-.tyh-menu[data-v-963b4082]{position:fixed;top:0px;right:0px;left:0px;z-index:20;display:flex}.tyh-menu .logoLink[data-v-963b4082]{display:flex;justify-content:center;align-items:center;cursor:pointer}.tyh-menu .logoLink .logo[data-v-963b4082]{height:36px;width:36px}.tyh-menu .logoLink .name[data-v-963b4082]{font-size:20px;color:#6c63ff;font-weight:600;margin-left:10px}#content[data-v-963b4082]{margin-top:120px}@media screen and (min-width: 700px){.tyh-ui-menu[data-v-963b4082]{display:none}.menu-list[data-v-963b4082]{display:flex}}@media screen and (max-width: 700px){.tyh-ui-menu[data-v-963b4082]{display:block}.menu-list[data-v-963b4082]{display:none}}.tyh-drawer{overflow-x:hidden!important;overflow-y:auto!important}
+.coco-menu[data-v-963b4082] {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 20;
+  display: flex;
+}
+.coco-menu .logoLink[data-v-963b4082] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.coco-menu .logoLink .logo[data-v-963b4082] {
+  height: 36px;
+  width: 36px;
+}
+.coco-menu .logoLink .name[data-v-963b4082] {
+  font-size: 20px;
+  color: #6c63ff;
+  font-weight: 600;
+  margin-left: 10px;
+}
+#content[data-v-963b4082] {
+  margin-top: 120px;
+}
+@media screen and (min-width: 700px) {
+  .coco-ui-menu[data-v-963b4082] {
+    display: none;
+  }
+  .menu-list[data-v-963b4082] {
+    display: flex;
+  }
+}
+@media screen and (max-width: 700px) {
+  .coco-ui-menu[data-v-963b4082] {
+    display: block;
+  }
+  .menu-list[data-v-963b4082] {
+    display: none;
+  }
+}
+.coco-drawer {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}

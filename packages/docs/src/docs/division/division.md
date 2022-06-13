@@ -4,71 +4,71 @@
 
 分割线的基本使用
 
-<tyh-division></tyh-division>
+<coco-division></coco-division>
 
 <p>这是一段文字</p>
-<tyh-division></tyh-division>
+<coco-division></coco-division>
 
 ```html
-<tyh-division></tyh-division>
+<coco-division></coco-division>
 <p>这是一段文字</p>
-<tyh-division></tyh-division>
+<coco-division></coco-division>
 ```
 
 ## 文字位置
 
 position 属性可以配置文字的位置
 
-<tyh-division position="left">这是左边文字</tyh-division>
+<coco-division position="left">这是左边文字</coco-division>
 
 <p>这是一段文字</p>
-<tyh-division position="center">这是中间文字</tyh-division>
+<coco-division position="center">这是中间文字</coco-division>
 <p>这是一段文字</p>
-<tyh-division position="right">这是右边文字</tyh-division>
+<coco-division position="right">这是右边文字</coco-division>
 
 ```html
-<tyh-division position="left">这是左边文字</tyh-division>
+<coco-division position="left">这是左边文字</coco-division>
 <p>这是一段文字</p>
-<tyh-division position="center">这是中间文字</tyh-division>
+<coco-division position="center">这是中间文字</coco-division>
 <p>这是一段文字</p>
-<tyh-division position="right">这是右边文字</tyh-division>
+<coco-division position="right">这是右边文字</coco-division>
 ```
 
 ## 文字颜色
 
 color 属性可以配置文字的颜色
-<tyh-division position="left" color="red">这是左边文字</tyh-division>
+<coco-division position="left" color="red">这是左边文字</coco-division>
 
 <p>这是一段文字</p>
-<tyh-division position="center" color="blue">这是中间文字</tyh-division>
+<coco-division position="center" color="blue">这是中间文字</coco-division>
 <p>这是一段文字</p>
-<tyh-division position="right" color="green">这是右边文字</tyh-division>
+<coco-division position="right" color="green">这是右边文字</coco-division>
 
 ```html
-<tyh-division position="left" color="red">这是左边文字</tyh-division>
+<coco-division position="left" color="red">这是左边文字</coco-division>
 <p>这是一段文字</p>
-<tyh-division position="center" color="blue">这是中间文字</tyh-division>
+<coco-division position="center" color="blue">这是中间文字</coco-division>
 <p>这是一段文字</p>
-<tyh-division position="right" color="green">这是右边文字</tyh-division>
+<coco-division position="right" color="green">这是右边文字</coco-division>
 ```
 
 ## 上下的边距
 
 margin 属性可以配置上下的边距
 
-<tyh-division position="left" margin="0px">这是左边文字</tyh-division>
+<coco-division position="left" margin="0px">这是左边文字</coco-division>
 
 <p>这是一段文字</p>
-<tyh-division position="center" margin="20px">这是中间文字</tyh-division>
+<coco-division position="center" margin="20px">这是中间文字</coco-division>
 <p>这是一段文字</p>
-<tyh-division position="right">这是右边文字</tyh-division>
+<coco-division position="right">这是右边文字</coco-division>
 
 ```html
-<tyh-division position="left" margin="0px">这是左边文字</tyh-division>
+<coco-division position="left" margin="0px">这是左边文字</coco-division>
 <p>这是一段文字</p>
-<tyh-division position="center" margin="20px">这是中间文字</tyh-division>
+<coco-division position="center" margin="20px">这是中间文字</coco-division>
 <p>这是一段文字</p>
-<tyh-division position="right">这是右边文字</tyh-division>
+<coco-division position="right">这是右边文字</coco-division>
 ```
 
 ## 带有 Icon
@@ -77,22 +77,22 @@ icon 属性可以配置 icon
 
 icon 的优先级大于描述文字
 
-<tyh-division position="left" color="red" icon="tyh-ui-githublogo" />
+<coco-division position="left" color="red" icon="coco-ui-githublogo" />
 <p>这是一段文字</p>
-<tyh-division position="center" color="blue" icon="tyh-ui-notification-filling"/>
+<coco-division position="center" color="blue" icon="coco-ui-notification-filling"/>
 <p>这是一段文字</p>
-<tyh-division position="right" color="black" icon="tyh-ui-cry"/>
+<coco-division position="right" color="black" icon="coco-ui-cry"/>
 
 ```html
-<tyh-division position="left" color="red" icon="tyh-ui-githublogo" />
+<coco-division position="left" color="red" icon="coco-ui-githublogo" />
 <p>这是一段文字</p>
-<tyh-division
+<coco-division
   position="center"
   color="blue"
-  icon="tyh-ui-notification-filling"
+  icon="coco-ui-notification-filling"
 />
 <p>这是一段文字</p>
-<tyh-division position="right" color="black" icon="tyh-ui-cry" />
+<coco-division position="right" color="black" icon="coco-ui-cry" />
 ```
 
 ## Attributes
@@ -104,11 +104,11 @@ icon 的优先级大于描述文字
 | margin   | 上下的边距 | string | ——                    | 25px    |
 | icon     | 配置 icon  | string | ——                    | ——      |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/menu">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/menu">
     Menu 导航栏
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/icon">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/icon">
     Icon 图标
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

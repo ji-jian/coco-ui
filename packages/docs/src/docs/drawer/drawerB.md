@@ -1,15 +1,15 @@
 ```html
 <template>
-  <tyh-button type="primary" @click="open = true">点我打开</tyh-button>
+  <coco-button type="primary" @click="open = true">点我打开</coco-button>
 
-  <tyh-radio v-model="radio" label="right">从右面弹出</tyh-radio>
-  <tyh-radio v-model="radio" label="left">从左面弹出</tyh-radio>
-  <tyh-radio v-model="radio" label="bottom">从下面弹出</tyh-radio>
-  <tyh-radio v-model="radio" label="top">从上面弹出</tyh-radio>
+  <coco-radio v-model="radio" label="right">从右面弹出</coco-radio>
+  <coco-radio v-model="radio" label="left">从左面弹出</coco-radio>
+  <coco-radio v-model="radio" label="bottom">从下面弹出</coco-radio>
+  <coco-radio v-model="radio" label="top">从上面弹出</coco-radio>
 
-  <tyh-drawer v-model="open" :direction="radio" title="这是标题">
-    hello，欢迎使用 tyh-ui!
-  </tyh-drawer>
+  <coco-drawer v-model="open" :direction="radio" title="这是标题">
+    hello，欢迎使用 coco-ui!
+  </coco-drawer>
 </template>
 
 <script setup>

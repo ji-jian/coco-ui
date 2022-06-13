@@ -1,12 +1,12 @@
 ```html
 <template>
-  <tyh-button type="primary" @click="change7">点击提示</tyh-button>
+  <coco-button type="primary" @click="change7">点击提示</coco-button>
 </template>
 
 <script setup>
-  import { Message } from 'tyh-ui2'
+  import { Message } from 'coco-ui2'
   function change7() {
-    Message({ message: '主要提示', type: 'primary', icon: 'tyh-ui-smile' })
+    Message({ message: '主要提示', type: 'primary', icon: 'coco-ui-smile' })
   }
 </script>
 ```

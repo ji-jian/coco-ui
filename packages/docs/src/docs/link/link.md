@@ -4,72 +4,72 @@
 
 链接的基本使用
 
-<tyh-link url="">链接一</tyh-link>
-<tyh-link url="" type="primary">链接二</tyh-link>
-<tyh-link url="" type="success">链接三</tyh-link>
-<tyh-link url="" type="danger">链接四</tyh-link>
-<tyh-link url="" type="warning">链接五</tyh-link>
+<coco-link url="">链接一</coco-link>
+<coco-link url="" type="primary">链接二</coco-link>
+<coco-link url="" type="success">链接三</coco-link>
+<coco-link url="" type="danger">链接四</coco-link>
+<coco-link url="" type="warning">链接五</coco-link>
 
 ```html
-<tyh-link url="">链接一</tyh-link>
-<tyh-link url="" type="primary">链接二</tyh-link>
-<tyh-link url="" type="success">链接三</tyh-link>
-<tyh-link url="" type="danger">链接四</tyh-link>
-<tyh-link url="" type="warning">链接五</tyh-link>
+<coco-link url="">链接一</coco-link>
+<coco-link url="" type="primary">链接二</coco-link>
+<coco-link url="" type="success">链接三</coco-link>
+<coco-link url="" type="danger">链接四</coco-link>
+<coco-link url="" type="warning">链接五</coco-link>
 ```
 
 ## 带有下划线
 
 underline 属性可以配置带有下划线
 
-<tyh-link :underline="false">链接一</tyh-link>
-<tyh-link :underline="false" type="primary">链接二</tyh-link>
-<tyh-link :underline="false" type="success">链接三</tyh-link>
-<tyh-link :underline="false" type="danger">链接四</tyh-link>
-<tyh-link :underline="false" type="warning">链接五</tyh-link>
+<coco-link :underline="false">链接一</coco-link>
+<coco-link :underline="false" type="primary">链接二</coco-link>
+<coco-link :underline="false" type="success">链接三</coco-link>
+<coco-link :underline="false" type="danger">链接四</coco-link>
+<coco-link :underline="false" type="warning">链接五</coco-link>
 
 ```html
-<tyh-link :underline="false">链接一</tyh-link>
-<tyh-link :underline="false" type="primary">链接二</tyh-link>
-<tyh-link :underline="false" type="success">链接三</tyh-link>
-<tyh-link :underline="false" type="danger">链接四</tyh-link>
-<tyh-link :underline="false" type="warning">链接五</tyh-link>
+<coco-link :underline="false">链接一</coco-link>
+<coco-link :underline="false" type="primary">链接二</coco-link>
+<coco-link :underline="false" type="success">链接三</coco-link>
+<coco-link :underline="false" type="danger">链接四</coco-link>
+<coco-link :underline="false" type="warning">链接五</coco-link>
 ```
 
 ## 禁用链接
 
 prohibit 属性可以禁用链接标签
 
-<tyh-link url="" prohibit>禁用链接一</tyh-link>
-<tyh-link url="" prohibit type="primary">禁用链接二</tyh-link>
-<tyh-link url="" prohibit type="success">禁用链接三</tyh-link>
-<tyh-link url="" prohibit type="danger">禁用链接四</tyh-link>
-<tyh-link url="" prohibit type="warning">禁用链接五</tyh-link>
+<coco-link url="" prohibit>禁用链接一</coco-link>
+<coco-link url="" prohibit type="primary">禁用链接二</coco-link>
+<coco-link url="" prohibit type="success">禁用链接三</coco-link>
+<coco-link url="" prohibit type="danger">禁用链接四</coco-link>
+<coco-link url="" prohibit type="warning">禁用链接五</coco-link>
 
 ```html
-<tyh-link url="" prohibit>禁用链接一</tyh-link>
-<tyh-link url="" prohibit type="primary">禁用链接二</tyh-link>
-<tyh-link url="" prohibit type="success">禁用链接三</tyh-link>
-<tyh-link url="" prohibit type="danger">禁用链接四</tyh-link>
-<tyh-link url="" prohibit type="warning">禁用链接五</tyh-link>
+<coco-link url="" prohibit>禁用链接一</coco-link>
+<coco-link url="" prohibit type="primary">禁用链接二</coco-link>
+<coco-link url="" prohibit type="success">禁用链接三</coco-link>
+<coco-link url="" prohibit type="danger">禁用链接四</coco-link>
+<coco-link url="" prohibit type="warning">禁用链接五</coco-link>
 ```
 
 ## 带有 Icon
 
 icon 属性可以配置 icon
 
-<tyh-link url="" icon="tyh-ui-favorite-filling">链接一</tyh-link>
-<tyh-link url="" icon="tyh-ui-attachment" type="primary">链接二</tyh-link>
-<tyh-link url="" icon="tyh-ui-customer-service" type="success">链接三</tyh-link>
-<tyh-link url="" icon="tyh-ui-filter" type="danger">链接四</tyh-link>
-<tyh-link url="" icon="tyh-ui-good" type="warning">链接五</tyh-link>
+<coco-link url="" icon="coco-ui-favorite-filling">链接一</coco-link>
+<coco-link url="" icon="coco-ui-attachment" type="primary">链接二</coco-link>
+<coco-link url="" icon="coco-ui-customer-service" type="success">链接三</coco-link>
+<coco-link url="" icon="coco-ui-filter" type="danger">链接四</coco-link>
+<coco-link url="" icon="coco-ui-good" type="warning">链接五</coco-link>
 
 ```html
-<tyh-link url="" icon="tyh-ui-favorite-filling">链接一</tyh-link>
-<tyh-link url="" icon="tyh-ui-attachment" type="primary">链接二</tyh-link>
-<tyh-link url="" icon="tyh-ui-customer-service" type="success">链接三</tyh-link>
-<tyh-link url="" icon="tyh-ui-filter" type="danger">链接四</tyh-link>
-<tyh-link url="" icon="tyh-ui-good" type="warning">链接五</tyh-link>
+<coco-link url="" icon="coco-ui-favorite-filling">链接一</coco-link>
+<coco-link url="" icon="coco-ui-attachment" type="primary">链接二</coco-link>
+<coco-link url="" icon="coco-ui-customer-service" type="success">链接三</coco-link>
+<coco-link url="" icon="coco-ui-filter" type="danger">链接四</coco-link>
+<coco-link url="" icon="coco-ui-good" type="warning">链接五</coco-link>
 ```
 
 ## Attributes
@@ -83,11 +83,11 @@ icon 属性可以配置 icon
 | icon      | icon           | string  | ——                                   | ——     |
 | prohibit  | 禁用状态       | boolean | ——                                   | false  |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/tag">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/tag">
     Tag 标签
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/input">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/input">
     Input 输入框
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

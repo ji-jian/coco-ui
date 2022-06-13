@@ -1,6 +1,6 @@
 ```html
 <template>
-  <tyh-table :data="tableData" :columns="columns2" align="center" />
+  <coco-table :data="tableData" :columns="columns2" align="center" />
 </template>
 
 <script setup>
@@ -61,11 +61,11 @@
 | important      | 重点行标注       | array   | ——                    | []      |
 | importantColor | 重点行标注背景色 | string  | ——                    | #fdf5e6 |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/text">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/text">
     Text 文字
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/switch">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/switch">
     Switch 开关
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

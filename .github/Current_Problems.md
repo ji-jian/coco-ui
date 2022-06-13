@@ -24,8 +24,8 @@
 
 **格式化配置**
 
-- [x]加入忽略格式化压缩样式文件 `src\packages\tyhUi\style\index.css`
-- [x]加入忽略格式化配置文件 `src\packages\tyhUi\package.json`
+- [x]加入忽略格式化压缩样式文件 `src\packages\cocoUi\style\index.css`
+- [x]加入忽略格式化配置文件 `src\packages\cocoUi\package.json`
 - 解决方案:配置 lint-staged 限制只格式化修改的代码
 - [ ] 函数名和括号前需要有一个空格的 eslint 配置
 

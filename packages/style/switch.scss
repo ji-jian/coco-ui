@@ -1,11 +1,11 @@
-.tyh-switch {
+.coco-switch {
   display: inline-block;
   transition: 0.3s;
   position: relative;
   border-radius: 20px;
   cursor: pointer;
 
-  .tyh-switch-roll {
+  .coco-switch-roll {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -16,23 +16,23 @@
   }
 }
 
-.tyh-switch-disabled {
+.coco-switch-disabled {
   opacity: 0.6;
   cursor: no-drop;
 }
 
-.tyh-switch-closeText,
-.tyh-switch-openText {
+.coco-switch-closeText,
+.coco-switch-openText {
   vertical-align: top;
   font-size: 13px;
   color: #333;
   transition: 0.3s;
 }
 
-.tyh-switch-closeText {
+.coco-switch-closeText {
   margin-right: 5px;
 }
 
-.tyh-switch-openText {
+.coco-switch-openText {
   margin-left: 5px;
 }

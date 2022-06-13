@@ -1,31 +1,31 @@
-.tyh-image {
+.coco-image {
   display: inline-block;
 
-  .tyh-image-select {
+  .coco-image-select {
     user-select: none;
   }
 
-  .tyh-image-fill {
+  .coco-image-fill {
     object-fit: fill;
   }
 
-  .tyh-image-contain {
+  .coco-image-contain {
     object-fit: contain;
   }
 
-  .tyh-image-cover {
+  .coco-image-cover {
     object-fit: cover;
   }
 
-  .tyh-image-none {
+  .coco-image-none {
     object-fit: none;
   }
 
-  .tyh-image-scale-down {
+  .coco-image-scale-down {
     object-fit: scale-down;
   }
 
-  .tyh-image-error {
+  .coco-image-error {
     background-color: #eee;
     padding: 5px;
     border-radius: 5px;

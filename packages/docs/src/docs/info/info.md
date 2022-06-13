@@ -12,118 +12,118 @@ photo 插槽可以插入一个头像
 
 right 插槽可以插入右侧内容
 
-<tyh-info userInfo="Tyh2001" describe="hello world">
+<coco-info userInfo="Coco2001" describe="hello world">
   <template v-slot:photo>
-    <tyh-avatar
+    <coco-avatar
       round
       :size="5"
-      src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg"
+      src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg"
     />
   </template>
   <template v-slot:right>
-    <tyh-button simple type="primary" size="mini">关注 TA</tyh-button>
+    <coco-button simple type="primary" size="mini">关注 TA</coco-button>
   </template>
-</tyh-info>
+</coco-info>
 
 ```html
-<tyh-info userInfo="Tyh2001" describe="hello world">
+<coco-info userInfo="Coco2001" describe="hello world">
   <template v-slot:photo>
-    <tyh-avatar
+    <coco-avatar
       round
       :size="5"
-      src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg"
+      src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg"
     />
   </template>
   <template v-slot:right>
-    <tyh-button simple type="primary" size="mini">关注 TA</tyh-button>
+    <coco-button simple type="primary" size="mini">关注 TA</coco-button>
   </template>
-</tyh-info>
+</coco-info>
 ```
 
 ## 更多扩展
 
 body 和 footer 插槽可以进行插入身体和页脚的内容
 
-<tyh-info userInfo="Tyh2001" describe="hello world">
+<coco-info userInfo="Coco2001" describe="hello world">
   <template v-slot:photo>
-    <tyh-avatar
+    <coco-avatar
       round
       :size="5"
-      src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg"
+      src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg"
     />
   </template>
   <template v-slot:right>
-    <tyh-button simple type="primary" size="mini">关注 TA</tyh-button>
+    <coco-button simple type="primary" size="mini">关注 TA</coco-button>
   </template>
 
   <template v-slot:body>
-    <tyh-text block type="success">这是我今天拍的照片，好看吗？</tyh-text>
-    <tyh-image
+    <coco-text block type="success">这是我今天拍的照片，好看吗？</coco-text>
+    <coco-image
       width="300px"
-      src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg"
+      src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg"
     />
   </template>
 
   <template v-slot:footer>
-    <tyh-text type="danger">2022-02-12</tyh-text>
+    <coco-text type="danger">2022-02-12</coco-text>
   </template>
-</tyh-info>
+</coco-info>
 
 ```html
-<tyh-info userInfo="Tyh2001" describe="hello world">
+<coco-info userInfo="Coco2001" describe="hello world">
   <template v-slot:photo>
-    <tyh-avatar
+    <coco-avatar
       round
       :size="5"
-      src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg"
+      src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg"
     />
   </template>
   <template v-slot:right>
-    <tyh-button simple type="primary" size="mini">关注 TA</tyh-button>
+    <coco-button simple type="primary" size="mini">关注 TA</coco-button>
   </template>
 
   <template v-slot:body>
-    <tyh-text block type="success">这是我今天拍的照片，好看吗？</tyh-text>
-    <tyh-image
+    <coco-text block type="success">这是我今天拍的照片，好看吗？</coco-text>
+    <coco-image
       width="300px"
-      src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg"
+      src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg"
     />
   </template>
 
   <template v-slot:footer>
-    <tyh-text type="danger">2022-02-12</tyh-text>
+    <coco-text type="danger">2022-02-12</coco-text>
   </template>
-</tyh-info>
+</coco-info>
 ```
 
 ## 昵称超链接
 
 使用 linkUrl 属性，传入一个 url 可以配置点击昵称的时候进行超链接跳转
 
-<tyh-info userInfo="Tyh2001" describe="hello world" linkUrl="https://tianyuhao.cn">  
+<coco-info userInfo="Coco2001" describe="hello world" linkUrl="https://tianyuhao.cn">  
   <template v-slot:photo>
-    <tyh-avatar
+    <coco-avatar
       round
       :size="5"
-      src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg"
+      src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg"
     />
   </template>
-</tyh-info>
+</coco-info>
 
 ```html
-<tyh-info
-  userInfo="Tyh2001"
+<coco-info
+  userInfo="Coco2001"
   describe="hello world"
   linkUrl="https://tianyuhao.cn"
 >
   <template v-slot:photo>
-    <tyh-avatar
+    <coco-avatar
       round
       :size="5"
-      src="https://tianyuhao.cn/images/tyh-ui/giraffe.jpg"
+      src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg"
     />
   </template>
-</tyh-info>
+</coco-info>
 ```
 
 ## Attributes
@@ -143,11 +143,11 @@ body 和 footer 插槽可以进行插入身体和页脚的内容
 | body     | 自定义信息栏的主要部分 |
 | footer   | 自定义信息栏的页脚部分 |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/pageHeader">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/pageHeader">
     PageHeader 页头
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/textarea">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/textarea">
     Textarea 文本域
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

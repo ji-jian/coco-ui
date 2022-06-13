@@ -6,32 +6,32 @@
 
 type 属性可以配置标注的类型
 
-<tyh-tagging>标注 1</tyh-tagging>
-<tyh-tagging type="primary">标注 2</tyh-tagging>
-<tyh-tagging type="success">标注 3</tyh-tagging>
-<tyh-tagging type="danger">标注 4</tyh-tagging>
-<tyh-tagging type="warning">标注 5</tyh-tagging>
+<coco-tagging>标注 1</coco-tagging>
+<coco-tagging type="primary">标注 2</coco-tagging>
+<coco-tagging type="success">标注 3</coco-tagging>
+<coco-tagging type="danger">标注 4</coco-tagging>
+<coco-tagging type="warning">标注 5</coco-tagging>
 
 ```html
-<tyh-tagging>标注1</tyh-tagging>
-<tyh-tagging type="primary">标注2</tyh-tagging>
-<tyh-tagging type="success">标注3</tyh-tagging>
-<tyh-tagging type="danger">标注4</tyh-tagging>
-<tyh-tagging type="warning">标注5</tyh-tagging>
+<coco-tagging>标注1</coco-tagging>
+<coco-tagging type="primary">标注2</coco-tagging>
+<coco-tagging type="success">标注3</coco-tagging>
+<coco-tagging type="danger">标注4</coco-tagging>
+<coco-tagging type="warning">标注5</coco-tagging>
 ```
 
 ## 文字配置
 
 size 属性可以配置标注的文字大小
 
-<tyh-tagging size="14">
+<coco-tagging size="14">
   使用方便，配置简单，目录清晰，结构简单，组件轻量级，上手简单，像复制粘贴一样容易。
-</tyh-tagging>
+</coco-tagging>
 
 ```html
-<tyh-tagging size="14">
+<coco-tagging size="14">
   使用方便，配置简单，目录清晰，结构简单，组件轻量级，上手简单，像复制粘贴一样容易。
-</tyh-tagging>
+</coco-tagging>
 ```
 
 ## Attributes
@@ -42,11 +42,11 @@ size 属性可以配置标注的文字大小
 | size  | 文字大小 | string | ——                                             | 13      |
 | color | 文字颜色 | string | ——                                             | ——      |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/select">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/select">
     Select 选择器
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/notification">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/notification">
     Notification 通知
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

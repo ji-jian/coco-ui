@@ -6,8 +6,8 @@
 
 ```html
 <template>
-  <tyh-switch v-model="value1" />
-  <tyh-switch v-model="value1" />
+  <coco-switch v-model="value1" />
+  <coco-switch v-model="value1" />
 </template>
 
 <script setup>
@@ -24,7 +24,7 @@ openText 属性可以配置右侧的文字
 
 ```html
 <template>
-  <tyh-switch v-model="value2" closeText="关闭" openText="开启" />
+  <coco-switch v-model="value2" closeText="关闭" openText="开启" />
 </template>
 
 <script setup>
@@ -39,8 +39,8 @@ disabled 属性可以配置禁用开关
 
 ```html
 <template>
-  <tyh-switch v-model="value3" disabled />
-  <tyh-switch v-model="value4" disabled />
+  <coco-switch v-model="value3" disabled />
+  <coco-switch v-model="value4" disabled />
 </template>
 
 <script setup>
@@ -58,8 +58,8 @@ openColor 属性可以配置自定义开启颜色
 
 ```html
 <template>
-  <tyh-switch v-model="value5" closeColor="red" openColor="green" />
-  <tyh-switch v-model="value6" closeColor="black" openColor="#eee" />
+  <coco-switch v-model="value5" closeColor="red" openColor="green" />
+  <coco-switch v-model="value6" closeColor="black" openColor="#eee" />
 </template>
 
 <script setup>
@@ -75,7 +75,7 @@ width 属性可以自定义开关的尺寸 最小宽度为 20
 
 ```html
 <template>
-  <tyh-switch v-model="value7" :width="60" />
+  <coco-switch v-model="value7" :width="60" />
 </template>
 
 <script setup>

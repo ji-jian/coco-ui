@@ -1,14 +1,14 @@
 ```html
 <template>
-  <tyh-button simple @click="open3 = true">点我打开第一层</tyh-button>
+  <coco-button simple @click="open3 = true">点我打开第一层</coco-button>
 
-  <tyh-dialog v-model="open3" title="这是标题" width="50%">
-    欢迎使用 tyh-ui 的 dialog 对话框！
-    <tyh-button type="success" @click="open4 = true">打开第二层</tyh-button>
-    <tyh-dialog v-model="open4" title="这是标题" top="10vh">
+  <coco-dialog v-model="open3" title="这是标题" width="50%">
+    欢迎使用 coco-ui 的 dialog 对话框！
+    <coco-button type="success" @click="open4 = true">打开第二层</coco-button>
+    <coco-dialog v-model="open4" title="这是标题" top="10vh">
       hi～我是第二层的 dialog 对话框
-    </tyh-dialog>
-  </tyh-dialog>
+    </coco-dialog>
+  </coco-dialog>
 </template>
 
 <script setup>
@@ -50,11 +50,11 @@
 | footer   | 自定义操作区 |
 | default  | 内容         |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/drawer">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/drawer">
     Drawer 抽屉
-  </tyh-turn-page-item>
-  <!-- <tyh-turn-page-item direction="right" url="/component/rate">
+  </coco-turn-page-item>
+  <!-- <coco-turn-page-item direction="right" url="/component/rate">
     Rate 评分
-  </tyh-turn-page-item> -->
-</tyh-turn-page>
+  </coco-turn-page-item> -->
+</coco-turn-page>

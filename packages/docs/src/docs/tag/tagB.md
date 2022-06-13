@@ -1,18 +1,18 @@
 ```html
 <template>
-  <tyh-tag v-show="show1" isClose @close="show1 = false">标签一</tyh-tag>
-  <tyh-tag v-show="show2" type="primary" isClose @close="show2 = false">
+  <coco-tag v-show="show1" isClose @close="show1 = false">标签一</coco-tag>
+  <coco-tag v-show="show2" type="primary" isClose @close="show2 = false">
     标签二
-  </tyh-tag>
-  <tyh-tag v-show="show3" type="success" isClose @close="show3 = false">
+  </coco-tag>
+  <coco-tag v-show="show3" type="success" isClose @close="show3 = false">
     标签三
-  </tyh-tag>
-  <tyh-tag v-show="show4" type="danger" isClose @close="show4 = false">
+  </coco-tag>
+  <coco-tag v-show="show4" type="danger" isClose @close="show4 = false">
     标签四
-  </tyh-tag>
-  <tyh-tag v-show="show5" type="warning" isClose @close="show5 = false">
+  </coco-tag>
+  <coco-tag v-show="show5" type="warning" isClose @close="show5 = false">
     标签五
-  </tyh-tag>
+  </coco-tag>
 </template>
 
 <script setup>
@@ -40,11 +40,11 @@
 | -------- | --------------------- | -------- |
 | close    | 关闭 Tag 时触发的回调 | ——       |
 
-<tyh-turn-page style="margin: 50px 0">
-  <tyh-turn-page-item direction="left" url="/component/card">
+<coco-turn-page style="margin: 50px 0">
+  <coco-turn-page-item direction="left" url="/component/card">
     Card 卡片
-  </tyh-turn-page-item>
-  <tyh-turn-page-item direction="right" url="/component/link">
+  </coco-turn-page-item>
+  <coco-turn-page-item direction="right" url="/component/link">
     link 链接
-  </tyh-turn-page-item>
-</tyh-turn-page>
+  </coco-turn-page-item>
+</coco-turn-page>

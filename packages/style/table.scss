@@ -1,25 +1,25 @@
-.tyh-table {
+.coco-table {
   background: #fff;
   overflow: auto;
   display: inline-block;
   width: 100%;
 
-  .tyh-table-table {
+  .coco-table-table {
     border-collapse: collapse;
 
-    .tyh-thead-td,
-    .tyh-tbody-td {
+    .coco-thead-td,
+    .coco-tbody-td {
       padding: 10px;
       box-sizing: border-box;
     }
 
-    .tyh-thead {
+    .coco-thead {
       border-bottom: 1px solid #dcdfe6;
       color: rgb(110, 110, 110);
     }
 
-    .tyh-tbody {
-      .tyh-tbody-tr {
+    .coco-tbody {
+      .coco-tbody-tr {
         border-bottom: 1px solid #dcdfe6;
         color: rgb(128, 128, 128);
 
@@ -28,12 +28,12 @@
         }
       }
 
-      .tyh-tbody-tr-zebra:nth-child(odd) {
+      .coco-tbody-tr-zebra:nth-child(odd) {
         background: #fafafa;
       }
     }
 
-    .tyh-table-border {
+    .coco-table-border {
       border: 1px solid #dcdfe6;
     }
   }

@@ -1,6 +1,6 @@
 $primary: #3a6ff4;
 
-.tyh-menu-item {
+.coco-menu-item {
   height: 58px;
   padding: 0 26px;
   font-size: 14px;
@@ -14,14 +14,14 @@ $primary: #3a6ff4;
   list-style: none;
   border-bottom: 2px solid transparent;
 
-  .tyh-icon {
+  .coco-icon {
     margin-right: 5px;
   }
 }
 
 // hover 类型
 // 竖的
-.tyh-menu-item-hover-vertical {
+.coco-menu-item-hover-vertical {
   &:hover {
     transition: 0.4s;
     color: $primary !important;
@@ -29,7 +29,7 @@ $primary: #3a6ff4;
 }
 
 // 水平的
-.tyh-menu-item-hover-horizontal {
+.coco-menu-item-hover-horizontal {
   &:hover {
     transition: 0.4s;
     border-bottom: 2px solid $primary;
@@ -37,7 +37,7 @@ $primary: #3a6ff4;
 }
 
 // 禁用状态
-.tyh-menu-item-prohibit {
+.coco-menu-item-prohibit {
   cursor: not-allowed;
   color: #bbbbbb !important;
 

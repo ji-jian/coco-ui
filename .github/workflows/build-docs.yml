@@ -11,20 +11,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2.2.2
+      - name: Install pnpm
+        run: npm i pnpm@7 -g
 
-      - name: Setup node
-        uses: actions/setup-node@v3
+      - uses: actions/setup-node@v2
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: '16'
           cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm i --frozen-lockfile
+        run: pnpm install
 
-      - name: Generate common locale
-        run: pnpm build:docs
+      - name: Build Site
+        run: npm run build:docs
 
       - name: copy # 运行 yarn build
         run: rm -r ./docs/* && cp ./packages/docs/dist/* ./docs

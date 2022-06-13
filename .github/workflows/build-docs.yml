@@ -15,5 +15,6 @@ jobs:
           node-version: 14.x # 指定版本
       - run: npm install -g pnpm # 运行 yarn
       - run: pnpm install
+      - run: ls
       - run: npm run build:docs # 运行 yarn build
       - run: rm -r ./docs/* && cp ./packages/docs/dist/* ./docs

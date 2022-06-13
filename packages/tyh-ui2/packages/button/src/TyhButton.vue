@@ -5,6 +5,7 @@
       :class="['tyh-icon', loading ? 'tyh-ui-loading' : icon]"
       :style="{ color }"
     />
+    <div>124</div>
     <span v-if="$slots.default" :style="{ color }"><slot /></span>
   </button>
 </template>

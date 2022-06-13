@@ -27,5 +27,12 @@ jobs:
       - name: Build Site
         run: npm run build:docs
 
-      - name: copy # 运行 yarn build
-        run: rm -r ./docs/* && cp -r ./packages/docs/dist/* ./docs
+      # - name: copy # 运行 yarn build
+      #   run: rm -r ./docs/* && cp -r ./packages/docs/dist/* ./docs
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages
+          folder: packages/docs/dist
+          clean: false

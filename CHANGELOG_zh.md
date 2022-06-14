@@ -18,7 +18,7 @@
 
 ## 3.4.12 (2022-04-08)
 
-- CocoButton 组件的内部实现逻辑进行优化
+- CocoButton 对组件的内部实现逻辑进行优化
 - CocoMenuItem 组件废除 to 属性，改完 route 属性
 - CocoMenuItem 新增 title 属性可以配置标题，但是插槽的优先级大于 title 参数
 - CocoMenuItem 新增 link 属性可以配置跳转的指定 url

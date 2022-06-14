@@ -2,14 +2,12 @@
   "name": "@coco-ui/docs",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
+    "dev": "vitepress dev .",
+    "build": "vitepress build ."
   },
-  "dependencies": {
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.1",
     "@coco-ui/coco-ui2": "workspace:*",
-    "@coco-ui/style": "workspace:*",
-    "bright-code": "^1.2.1",
-    "clipboard": "^2.0.10",
-    "vite-plugin-md": "^0.11.9"
+    "@coco-ui/style": "workspace:*"
   }
 }

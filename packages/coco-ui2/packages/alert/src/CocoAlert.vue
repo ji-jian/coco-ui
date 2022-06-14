@@ -10,7 +10,7 @@
 
 <script lang="ts" setup>
   import { computed } from 'vue'
-  import { alertProps } from './props.ts'
+  import { alertProps } from './props'
 
   const props = defineProps(alertProps)
   const emit = defineEmits(['close'])

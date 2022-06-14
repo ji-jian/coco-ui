@@ -1,0 +1,13 @@
+import{a as n,o as a,c as u,b as o,d as c,e as t,q as p,j as i,s as m,x as g,h as k,f}from"./index.df163828.js";const x={class:"coco-markdown-body"},w=t("h1",null,"Skeleton \u9AA8\u67B6",-1),b=t("h2",null,"\u57FA\u672C\u4F7F\u7528",-1),v=t("p",null,"\u9AA8\u67B6\u7684\u57FA\u672C\u4F7F\u7528",-1),y=t("pre",null,[t("code",{class:"language-html"},`<coco-skeleton />
+<coco-skeleton />
+<coco-skeleton />
+`)],-1),B=t("h2",null,"\u5706\u89D2\u7684",-1),N=t("p",null,"round \u5C5E\u6027\u53EF\u4EE5\u914D\u7F6E\u5706\u89D2",-1),V=t("pre",null,[t("code",{class:"language-html"},`<coco-skeleton round />
+<coco-skeleton round />
+<coco-skeleton round />
+`)],-1),A=t("h2",null,"\u81EA\u5B9A\u4E49\u5BBD\u9AD8",-1),C=t("p",null,"width \u5C5E\u6027\u53EF\u4EE5\u914D\u7F6E\u5BBD\u5EA6",-1),D=t("p",null,"height \u5C5E\u6027\u53EF\u4EE5\u914D\u7F6E\u9AD8\u5EA6",-1),S=t("pre",null,[t("code",{class:"language-html"},`<coco-skeleton width="75%" />
+<coco-skeleton width="150px" />
+<coco-skeleton width="100px" height="100px" />
+`)],-1),j=t("h2",null,"\u542F\u7528\u52A8\u753B",-1),q=t("p",null,"animation \u5C5E\u6027\u53EF\u4EE5\u914D\u7F6E\u663E\u793A\u52A8\u753B",-1),E=p(`<pre><code class="language-html">&lt;coco-skeleton animation /&gt;
+&lt;coco-skeleton animation /&gt;
+&lt;coco-skeleton animation /&gt;
+</code></pre><h2>Attributes</h2><table><thead><tr><th>\u53C2\u6570</th><th>\u8BF4\u660E</th><th>\u7C7B\u578B</th><th>\u53EF\u9009\u503C</th><th>\u9ED8\u8BA4\u503C</th></tr></thead><tbody><tr><td>round</td><td>\u5706\u89D2</td><td>boolean</td><td>\u2014\u2014</td><td>false</td></tr><tr><td>width</td><td>\u5BBD\u5EA6</td><td>string</td><td>\u2014\u2014</td><td>100%</td></tr><tr><td>height</td><td>\u9AD8\u5EA6</td><td>string</td><td>\u2014\u2014</td><td>15px</td></tr><tr><td>animation</td><td>\u662F\u5426\u542F\u7528\u52A8\u753B</td><td>boolean</td><td>\u2014\u2014</td><td>false</td></tr></tbody></table>`,3),M=i(" Message \u63D0\u793A\u6846 "),T=i(" Alert \u63D0\u793A "),$={__name:"skeleton",setup(r,{expose:s}){return s({frontmatter:{}}),(d,z)=>{const e=n("coco-skeleton"),l=n("coco-turn-page-item"),h=n("coco-turn-page");return a(),u("div",x,[w,b,v,o(e),o(e),o(e),y,B,N,o(e,{round:""}),o(e,{round:""}),o(e,{round:""}),V,A,C,D,o(e,{width:"75%"}),o(e,{width:"150px"}),o(e,{width:"100px",height:"100px"}),S,j,q,o(e,{animation:""}),o(e,{animation:""}),o(e,{animation:""}),E,o(h,{style:{margin:"50px 0"}},{default:c(()=>[o(l,{direction:"left",url:"/component/message"},{default:c(()=>[M]),_:1}),o(l,{direction:"right",url:"/component/alert"},{default:c(()=>[T]),_:1})]),_:1})])}}},G={__name:"skeleton",setup(r){return(s,_)=>{const d=m("high");return g((a(),k(f($),null,null,512)),[[d]])}}};export{G as default};

@@ -66,7 +66,10 @@ importers:
     specifiers:
       '@coco-ui/coco-ui2': workspace:*
       '@coco-ui/style': workspace:*
+      clipboard: ^2.0.10
       vitepress: 1.0.0-alpha.1
+    dependencies:
+      clipboard: 2.0.11
     devDependencies:
       '@coco-ui/coco-ui2': link:../coco-ui2
       '@coco-ui/style': link:../style
@@ -613,7 +616,7 @@ packages:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.9.12_sass@1.52.3
+      vite: 2.9.12
       vue: 3.2.37
     dev: true
 

@@ -1,6 +1,7 @@
 import cocoUi2 from '@coco-ui/coco-ui2'
 import '@coco-ui/coco-ui2/style/index.css'
 import DefaultTheme from 'vitepress/theme'
+import '../style/global.scss'
 
 export default {
   ...DefaultTheme,

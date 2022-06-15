@@ -6,8 +6,11 @@
     "build": "vitepress build ."
   },
   "devDependencies": {
-    "vitepress": "1.0.0-alpha.1",
     "@coco-ui/coco-ui2": "workspace:*",
-    "@coco-ui/style": "workspace:*"
+    "@coco-ui/style": "workspace:*",
+    "vitepress": "1.0.0-alpha.1"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.10"
   }
 }

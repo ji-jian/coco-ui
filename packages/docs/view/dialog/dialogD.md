@@ -49,12 +49,3 @@
 | title    | 自定义标题   |
 | footer   | 自定义操作区 |
 | default  | 内容         |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/drawer">
-    Drawer 抽屉
-  </coco-turn-page-item>
-  <!-- <coco-turn-page-item direction="right" url="/component/rate">
-    Rate 评分
-  </coco-turn-page-item> -->
-</coco-turn-page>

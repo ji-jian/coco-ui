@@ -1,7 +1,5 @@
 # Tree 树形控件
 
-<coco-alert type="danger" message="组件仍在完善中，谨慎使用！" />
-
 ## 基本使用
 
 tree 的基本使用

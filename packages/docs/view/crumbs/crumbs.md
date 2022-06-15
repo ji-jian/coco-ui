@@ -64,8 +64,8 @@
 
 coco-crumbs
 
-| 参数      | 说明                | 类型   | 可选值 | 默认值            |
-| --------- | ------------------- | ------ | ------ | ----------------- |
+| 参数      | 说明                | 类型   | 可选值 | 默认值             |
+| --------- | ------------------- | ------ | ------ | ------------------ |
 | separator | 分隔符，icon 的类名 | string | ——     | coco-ui-xiexian-01 |
 
 coco-crumbs-item
@@ -73,12 +73,3 @@ coco-crumbs-item
 | 参数 | 说明       | 类型   | 可选值 | 默认值 |
 | ---- | ---------- | ------ | ------ | ------ |
 | to   | 跳转的路径 | string | ——     | ——     |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/icon">
-    Icon 图标
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/turnpage">
-    TurnPage 翻页
-  </coco-turn-page-item>
-</coco-turn-page>

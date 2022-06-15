@@ -186,12 +186,3 @@ coco-footer
 | 参数   | 说明     | 类型   | 可选值 | 默认值 |
 | ------ | -------- | ------ | ------ | ------ |
 | height | 底栏高度 | string | ——     | 60px   |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/color">
-    Color 色彩
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/button">
-    Button 按钮
-  </coco-turn-page-item>
-</coco-turn-page>

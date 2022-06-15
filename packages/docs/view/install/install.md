@@ -37,12 +37,3 @@ import 'coco-ui2/style/index.css'
 
 createApp(App).use(CocoButton).use(CocoCard).mount('#app')
 ```
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/" icon="coco-ui-shouye-xianxing">
-    首页
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/color">
-    Color 色彩
-  </coco-turn-page-item>
-</coco-turn-page>

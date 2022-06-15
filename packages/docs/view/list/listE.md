@@ -35,12 +35,3 @@
 | -------- | -------------- |
 | header   | 自定义头部内容 |
 | footer   | 自定义底部内容 |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/button">
-    Button 按钮
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/card">
-    Card 卡片
-  </coco-turn-page-item>
-</coco-turn-page>

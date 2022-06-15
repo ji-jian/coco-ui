@@ -63,12 +63,3 @@
 | 事件名称 | 说明              | 回调参数 |
 | -------- | ----------------- | -------- |
 | change   | 改变 Radio 时触发 | 选中的值 |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/calendar">
-    Calendar 日历
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/tree">
-    Tree 树形控件
-  </coco-turn-page-item>
-</coco-turn-page>

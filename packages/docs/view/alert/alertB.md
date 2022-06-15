@@ -98,12 +98,3 @@ simple 属性可以配置简约提示
 | 事件名称 | 说明                    | 回调参数 |
 | -------- | ----------------------- | -------- |
 | close    | 关闭 Alert 时触发的回调 |          |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/skeleton">
-    Skeleton 骨架
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/rate">
-    Rate 评分
-  </coco-turn-page-item>
-</coco-turn-page>

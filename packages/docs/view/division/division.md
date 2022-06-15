@@ -103,12 +103,3 @@ icon 的优先级大于描述文字
 | color    | 文字颜色   | string | ——                    | #515a6e |
 | margin   | 上下的边距 | string | ——                    | 25px    |
 | icon     | 配置 icon  | string | ——                    | ——      |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/menu">
-    Menu 导航栏
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/icon">
-    Icon 图标
-  </coco-turn-page-item>
-</coco-turn-page>

@@ -32,12 +32,3 @@
 | enter    | 按下回车触发的回调     | ——       |
 | onblur   | 失去焦点触发的回调     | ——       |
 | onfocus  | 获取焦点触发的回调     | ——       |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/link">
-    Link 链接
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/menu">
-    Menu 导航栏
-  </coco-turn-page-item>
-</coco-turn-page>

@@ -29,12 +29,3 @@
 | -------- | ------------------ | -------- |
 | onblur   | 失去焦点触发的回调 | ——       |
 | onfocus  | 获取焦点触发的回调 | ——       |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/info">
-    Info 信息栏
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/select">
-    Select 选择器
-  </coco-turn-page-item>
-</coco-turn-page>

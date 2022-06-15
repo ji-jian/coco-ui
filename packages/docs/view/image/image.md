@@ -11,7 +11,10 @@ width，height 可以配置图片宽高
 <coco-image width="300px" src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg" />
 
 ```html
-<coco-image width="300px" src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg" />
+<coco-image
+  width="300px"
+  src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg"
+/>
 ```
 
 ## 如何适应容器框
@@ -72,12 +75,3 @@ fit 属性配置图片如何适应到容器框，同原生 [object-fit](https://
 | 插槽名称 | 说明说明       |
 | -------- | -------------- |
 | error    | 自定义失败提示 |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/rate">
-    Rate 评分
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/avatar">
-    Avatar 头像
-  </coco-turn-page-item>
-</coco-turn-page>

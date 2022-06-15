@@ -101,12 +101,3 @@ shadow 属性可以配置阴影显示时机
 | -------- | ------------------ |
 | title    | 自定义卡片的主标题 |
 | subtitle | 自定义卡片的副标题 |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/list">
-    List 列表
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/tag">
-    Tag 标签
-  </coco-turn-page-item>
-</coco-turn-page>

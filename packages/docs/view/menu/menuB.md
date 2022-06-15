@@ -118,12 +118,3 @@ coco-menu-item
 | default  | 默认插槽 |
 | left     | 左侧插槽 |
 | right    | 右侧插槽 |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/input">
-    Input 输入框
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/division">
-    Division 分割线
-  </coco-turn-page-item>
-</coco-turn-page>

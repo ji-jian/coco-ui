@@ -234,12 +234,3 @@ loading 属性可以配置 loading 状态下的按钮
 | size     | 按钮尺寸       | string  | large / small / mini                           | ——      |
 | square   | 方形按钮       | boolean | ——                                             | false   |
 | loading  | loading 状态   | boolean | ——                                             | false   |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/container">
-    Container 布局容器
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/list">
-    List 列表
-  </coco-turn-page-item>
-</coco-turn-page>

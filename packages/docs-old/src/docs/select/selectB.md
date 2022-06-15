@@ -54,12 +54,3 @@ coco-option
 | ----- | ---------- | ------ | ------ | ------ |
 | value | 选项的值   | string | ——     | ——     |
 | label | 分组的组名 | string | ——     | ——     |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/textarea">
-    Textarea 文本域
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/tagging">
-    Tagging 标注
-  </coco-turn-page-item>
-</coco-turn-page>

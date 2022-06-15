@@ -46,12 +46,3 @@
 | -------- | ---------- |
 | title    | 自定义标题 |
 | default  | 内容       |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/notification">
-    Notification 通知
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/dialog">
-    Dialog 对话框
-  </coco-turn-page-item>
-</coco-turn-page>

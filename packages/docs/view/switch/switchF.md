@@ -26,12 +26,3 @@
 | 事件名称 | 说明                            | 回调参数   |
 | -------- | ------------------------------- | ---------- |
 | change   | switch 状态发生变化时的回调函数 | 新状态的值 |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/table">
-    Table 表格
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/calendar">
-    Calendar 日历
-  </coco-turn-page-item>
-</coco-turn-page>

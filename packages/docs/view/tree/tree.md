@@ -1,9 +1,10 @@
-```html
-<template>
-  <coco-tree :data="data" />
-</template>
+<TreeA />
+<coco-tree :data="data" />
+<TreeB />
 
 <script setup>
+  import TreeA from './treeA.md'
+  import TreeB from './treeB.md'
   const data = [
     {
       label: '一级 1',
@@ -62,10 +63,3 @@
     }
   ]
 </script>
-```
-
-## Attributes
-
-| 参数 | 说明     | 类型  | 可选值 | 默认值 |
-| ---- | -------- | ----- | ------ | ------ |
-| data | 展示数据 | array | ——     | []     |

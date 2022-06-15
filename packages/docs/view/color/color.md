@@ -1,58 +1,47 @@
-<!-- <template> -->
-  <colorA />
-  <div id="colorList">
-    <div
-      class="colorList-item colorList-item1"
-      v-for="(list1, index) in colorList1"
-      :style="ListBackgroundColor(list1)"
-      :key="index"
-      :data-clipboard-text="list1.color"
-      @click="copyColor('.colorList-item1')"
-    >
-      <p>类型：{{ list1.type }}</p>
-      <p>{{ list1.color }}</p>
-    </div>
+<colorA />
+<div id="colorList">
+  <div
+    class="colorList-item colorList-item1"
+    v-for="(list1, index) in colorList1"
+    :style="ListBackgroundColor(list1)"
+    :key="index"
+    :data-clipboard-text="list1.color"
+    @click="copyColor('.colorList-item1')"
+  >
+    <p>类型：{{ list1.type }}</p>
+    <p>{{ list1.color }}</p>
   </div>
+</div>
 
-  <colorB />
-  <div id="colorList">
-    <div
-      class="colorList-item colorList-item2"
-      v-for="(list2, index) in colorList2"
-      :style="ListBackgroundColor(list2)"
-      :key="index"
-      :data-clipboard-text="list2.color"
-      @click="copyColor('.colorList-item2')"
-    >
-      <p>类型：{{ list2.type }}</p>
-      <p>{{ list2.color }}</p>
-    </div>
+<colorB />
+<div id="colorList">
+  <div
+    class="colorList-item colorList-item2"
+    v-for="(list2, index) in colorList2"
+    :style="ListBackgroundColor(list2)"
+    :key="index"
+    :data-clipboard-text="list2.color"
+    @click="copyColor('.colorList-item2')"
+  >
+    <p>类型：{{ list2.type }}</p>
+    <p>{{ list2.color }}</p>
   </div>
+</div>
 
-  <colorC />
-  <div id="colorList">
-    <div
-      class="colorList-item colorList-item3"
-      v-for="(list3, index) in colorList3"
-      :style="ListBackgroundColor(list3)"
-      :key="index"
-      :data-clipboard-text="list3.color"
-      @click="copyColor('.colorList-item3')"
-    >
-      <p>类型：{{ list3.type }}</p>
-      <p>{{ list3.color }}</p>
-    </div>
+<colorC />
+<div id="colorList">
+  <div
+    class="colorList-item colorList-item3"
+    v-for="(list3, index) in colorList3"
+    :style="ListBackgroundColor(list3)"
+    :key="index"
+    :data-clipboard-text="list3.color"
+    @click="copyColor('.colorList-item3')"
+  >
+    <p>类型：{{ list3.type }}</p>
+    <p>{{ list3.color }}</p>
   </div>
-
-  <!-- <coco-turn-page style="margin: 50px 0">
-    <coco-turn-page-item direction="left" url="/component/install">
-      快速上手
-    </coco-turn-page-item>
-    <coco-turn-page-item direction="right" url="/component/container">
-      Container 布局容器
-    </coco-turn-page-item>
-  </coco-turn-page> -->
-<!-- </template> -->
+</div>
 
 <script setup>
   import colorA from './colorA.md'

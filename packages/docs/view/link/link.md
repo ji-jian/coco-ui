@@ -67,7 +67,9 @@ icon 属性可以配置 icon
 ```html
 <coco-link url="" icon="coco-ui-favorite-filling">链接一</coco-link>
 <coco-link url="" icon="coco-ui-attachment" type="primary">链接二</coco-link>
-<coco-link url="" icon="coco-ui-customer-service" type="success">链接三</coco-link>
+<coco-link url="" icon="coco-ui-customer-service" type="success"
+  >链接三</coco-link
+>
 <coco-link url="" icon="coco-ui-filter" type="danger">链接四</coco-link>
 <coco-link url="" icon="coco-ui-good" type="warning">链接五</coco-link>
 ```
@@ -82,12 +84,3 @@ icon 属性可以配置 icon
 | target    | 以新的窗口打开 | string  | 同原生 target 属性 \_blank           | ——     |
 | icon      | icon           | string  | ——                                   | ——     |
 | prohibit  | 禁用状态       | boolean | ——                                   | false  |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/tag">
-    Tag 标签
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/input">
-    Input 输入框
-  </coco-turn-page-item>
-</coco-turn-page>

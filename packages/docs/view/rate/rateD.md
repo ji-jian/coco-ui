@@ -29,12 +29,3 @@
 | 事件名称 | 说明             | 回调参数 |
 | -------- | ---------------- | -------- |
 | change   | 分值改变时的回调 | ——       |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/alert">
-    Alert 提示
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/image">
-    Image 图片
-  </coco-turn-page-item>
-</coco-turn-page>

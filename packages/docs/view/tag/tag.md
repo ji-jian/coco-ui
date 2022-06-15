@@ -1,0 +1,26 @@
+  <TagA />
+  <coco-tag v-show="show1" isClose @close="show1 = false">标签一</coco-tag>
+  <coco-tag v-show="show2" type="primary" isClose @close="show2 = false">
+    标签二
+  </coco-tag>
+  <coco-tag v-show="show3" type="success" isClose @close="show3 = false">
+    标签三
+  </coco-tag>
+  <coco-tag v-show="show4" type="danger" isClose @close="show4 = false">
+    标签四
+  </coco-tag>
+  <coco-tag v-show="show5" type="warning" isClose @close="show5 = false">
+    标签五
+  </coco-tag>
+  <TagB />
+
+<script setup>
+  import TagA from './tagA.md'
+  import TagB from './tagB.md'
+  import { ref } from 'vue'
+  const show1 = ref(true)
+  const show2 = ref(true)
+  const show3 = ref(true)
+  const show4 = ref(true)
+  const show5 = ref(true)
+</script>

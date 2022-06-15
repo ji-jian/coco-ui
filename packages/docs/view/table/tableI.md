@@ -60,12 +60,3 @@
 | num            | 是否显示序号     | boolean | ——                    | false   |
 | important      | 重点行标注       | array   | ——                    | []      |
 | importantColor | 重点行标注背景色 | string  | ——                    | #fdf5e6 |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/text">
-    Text 文字
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/switch">
-    Switch 开关
-  </coco-turn-page-item>
-</coco-turn-page>

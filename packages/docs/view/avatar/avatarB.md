@@ -26,7 +26,11 @@ border 属性配置头像的边框
 
 ```html
 <coco-avatar border src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg" />
-<coco-avatar border round src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg" />
+<coco-avatar
+  border
+  round
+  src="https://tianyuhao.cn/images/coco-ui/giraffe.jpg"
+/>
 ```
 
 ## 加载失败
@@ -56,7 +60,7 @@ errorIcon 属性配置加载失败的 icon
 | alt       | 原生 alt 属性      | string  | ——     | ——                          |
 | select    | 是否可以选择       | boolean | ——     | false                       |
 | draggable | 是否可以拖动       | boolean | ——     | false                       |
-| errorIcon | 失败时显示的 icon  | string  | ——     | coco-ui-user                 |
+| errorIcon | 失败时显示的 icon  | string  | ——     | coco-ui-user                |
 
 ## Events
 
@@ -70,12 +74,3 @@ errorIcon 属性配置加载失败的 icon
 | 插槽名称 | 说明说明       |
 | -------- | -------------- |
 | error    | 自定义失败提示 |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/image">
-    Image 头像
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/text">
-    Text 文字
-  </coco-turn-page-item>
-</coco-turn-page>

@@ -142,12 +142,3 @@ body 和 footer 插槽可以进行插入身体和页脚的内容
 | right    | 自定义信息栏的右侧内容 |
 | body     | 自定义信息栏的主要部分 |
 | footer   | 自定义信息栏的页脚部分 |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/pageHeader">
-    PageHeader 页头
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/textarea">
-    Textarea 文本域
-  </coco-turn-page-item>
-</coco-turn-page>

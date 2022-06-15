@@ -25,12 +25,3 @@
 | time     | 展示的市场       | number  | ——                                                | 3500      |
 | position | 弹出位置         | string  | top-left / top-right / bottom-left / bottom-right | top-right |
 | close    | 是否显示关闭按钮 | boolean | ——                                                | true      |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/tagging">
-    Tagging 标注
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/drawer">
-    Drawer 抽屉
-  </coco-turn-page-item>
-</coco-turn-page>

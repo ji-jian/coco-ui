@@ -39,12 +39,3 @@
 | 事件名称 | 说明                  | 回调参数 |
 | -------- | --------------------- | -------- |
 | close    | 关闭 Tag 时触发的回调 | ——       |
-
-<coco-turn-page style="margin: 50px 0">
-  <coco-turn-page-item direction="left" url="/component/card">
-    Card 卡片
-  </coco-turn-page-item>
-  <coco-turn-page-item direction="right" url="/component/link">
-    link 链接
-  </coco-turn-page-item>
-</coco-turn-page>

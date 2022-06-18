@@ -49,42 +49,42 @@ importers:
       vue-router: 4.0.16_vue@3.2.37
       vue-tsc: 0.29.8_typescript@4.7.3
 
-  packages/coco-ui2:
+  packages/components:
     specifiers: {}
 
   packages/demo:
     specifiers:
-      '@coco-ui/coco-ui2': workspace:*
+      '@coco-ui/components': workspace:*
       '@coco-ui/style': workspace:*
       element3: ^0.0.40
     dependencies:
-      '@coco-ui/coco-ui2': link:../coco-ui2
+      '@coco-ui/components': link:../components
       '@coco-ui/style': link:../style
       element3: 0.0.40
 
   packages/docs:
     specifiers:
-      '@coco-ui/coco-ui2': workspace:*
+      '@coco-ui/components': workspace:*
       '@coco-ui/style': workspace:*
       clipboard: ^2.0.10
       vitepress: 1.0.0-alpha.1
     dependencies:
       clipboard: 2.0.11
     devDependencies:
-      '@coco-ui/coco-ui2': link:../coco-ui2
+      '@coco-ui/components': link:../components
       '@coco-ui/style': link:../style
       vitepress: 1.0.0-alpha.1
 
   packages/docs-old:
     specifiers:
-      '@coco-ui/coco-ui2': workspace:*
+      '@coco-ui/components': workspace:*
       '@coco-ui/style': workspace:*
       bright-code: ^1.2.1
       clipboard: ^2.0.10
       vite-plugin-md: ^0.11.9
       vitepress: 1.0.0-alpha.1
     dependencies:
-      '@coco-ui/coco-ui2': link:../coco-ui2
+      '@coco-ui/components': link:../components
       '@coco-ui/style': link:../style
       bright-code: 1.2.2
       clipboard: 2.0.11
@@ -616,7 +616,7 @@ packages:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.9.12
+      vite: 2.9.12_sass@1.52.3
       vue: 3.2.37
     dev: true
 

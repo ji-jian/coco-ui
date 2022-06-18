@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "element3": "^0.0.40",
-    "@coco-ui/coco-ui2": "workspace:*",
+    "@coco-ui/components": "workspace:*",
     "@coco-ui/style": "workspace:*"
   }
 }

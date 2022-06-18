@@ -147,6 +147,14 @@ body > .coco-container {
   padding-bottom: 99px;
 }
 
-.vp-doc .coco-menu-item {
-  margin-top: 0;
+.vp-doc {
+  .coco-menu-item {
+    margin-top: 0;
+  }
+  .coco-icon {
+    line-height: normal;
+  }
+  .coco-switch-roll {
+    box-sizing: content-box;
+  }
 }

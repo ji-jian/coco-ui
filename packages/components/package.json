@@ -1,6 +1,6 @@
 {
-  "name": "@coco-ui/coco-ui2",
-  "version": "3.5.0",
+  "name": "@coco-ui/components",
+  "version": "1.0.0",
   "description": "The next generation ui component library of coco-ui is based on vue3 Version, fully embrace vue3.",
   "main": "src/index.ts",
   "keywords": [
@@ -18,12 +18,12 @@
   ],
   "author": {
     "name": "coco2001",
-    "url": "https://tianyuhao.cn"
+    "url": "https://github.com/ji-jian"
   },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Coco2001/coco-ui/issues"
   },
-  "homepage": "https://tianyuhao.cn/v3",
+  "homepage": "https://github.com/ji-jian",
   "repository": "https://github.com/Coco2001/coco-ui"
 }

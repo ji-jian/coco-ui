@@ -19,7 +19,7 @@
 
 <script setup>
   import Clipboard from 'clipboard'
-  import { Message } from '@coco-ui/coco-ui2'
+  import { Message } from '@coco-ui/components'
   import iconA from '@/docs/icon/iconA.md'
   import iconB from '@/docs/icon/iconB.md'
   const iconList = [

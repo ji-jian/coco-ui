@@ -146,3 +146,15 @@ body > .coco-container {
   box-sizing: border-box;
   padding-bottom: 99px;
 }
+
+.vp-doc {
+  .coco-menu-item {
+    margin-top: 0;
+  }
+  .coco-icon {
+    line-height: normal;
+  }
+  .coco-switch-roll {
+    box-sizing: content-box;
+  }
+}

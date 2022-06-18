@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import cocoUi2 from '@coco-ui/coco-ui2'
+import cocoUi2 from '@coco-ui/components'
 import '@coco-ui/style'
 import router from './router'
 

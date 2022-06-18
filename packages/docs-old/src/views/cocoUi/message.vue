@@ -20,7 +20,7 @@
   import messageC from '@/docs/message/messageC.md'
   import messageD from '@/docs/message/messageD.md'
   import messageE from '@/docs/message/messageE.md'
-  import { Message } from '@coco-ui/coco-ui2'
+  import { Message } from '@coco-ui/components'
   function change1() {
     Message({ message: '默认提示', type: 'default', round: true })
   }

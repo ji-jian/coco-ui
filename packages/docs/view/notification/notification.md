@@ -20,7 +20,7 @@
   import NotificationC from './notificationC.md'
   import NotificationD from './notificationD.md'
   import NotificationE from './notificationE.md'
-  import { Notification } from '@coco-ui/coco-ui2'
+  import { Notification } from '@coco-ui/components'
   function open1() {
     Notification({
       title: '提示',

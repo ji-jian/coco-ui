@@ -48,7 +48,7 @@
   import colorB from './colorB.md'
   import colorC from './colorC.md'
   import Clipboard from 'clipboard'
-  import { Message } from '@coco-ui/coco-ui2'
+  import { Message } from '@coco-ui/components'
   const colorList1 = [
     { color: '#3a6ff4', type: 'primary' },
     { color: '#54c600', type: 'success' },

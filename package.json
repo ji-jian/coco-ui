@@ -8,7 +8,7 @@
     "build:docs": "pnpm run -C packages/docs build",
     "dev:demo": "pnpm run -C packages/demo dev",
     "build:style": "vite build packages/style",
-    "build:components": "vite --config ./builds/build.config.js build",
+    "build:components": "vite --config ./internal/build/build.config.js build",
     "preinstall": "node ./scripts/preinstall.js",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.md,.json --max-warnings 0 && pretty-quick --check --branch master",
     "lint:fix": "eslint --fix . --ext .vue,.js,.ts,.jsx,.tsx,.md,.json && pretty-quick --branch master",

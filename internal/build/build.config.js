@@ -1,12 +1,16 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import fs from 'fs'
-import { vueComponentRoot, styleRoot } from './paths'
+import { projectRoot, vueComponentRoot, styleRoot } from './paths'
 
 let inputList = {}
 
-fs.readdirSync(vueComponentRoot).forEach((file) => {
-  inputList[file] = vueComponentRoot + '/' + file + '/index.ts'
+fs.readdirSync(vueComponentRoot + '/packages').forEach((dir) => {
+  inputList[dir] = vueComponentRoot + '/packages/' + dir + '/index.ts'
+})
+
+fs.readdirSync(vueComponentRoot + '/src').forEach((file) => {
+  inputList['index'] = vueComponentRoot + '/src/' + file
 })
 
 fs.readdirSync(styleRoot).forEach((file) => {
@@ -17,18 +21,27 @@ fs.readdirSync(styleRoot).forEach((file) => {
 })
 
 export default defineConfig({
-  base: '../',
+  mode: 'production',
+  base: projectRoot,
   plugins: [vue()],
   build: {
-    rollupOptions: {
-      input: inputList,
-      output: {
-        dir: 'dist',
-        format: 'es',
-        entryFileNames: `assets/[name].js`,
-        chunkFileNames: `assets/[name].js`,
-        assetFileNames: `assets/[name].[ext]`
-      }
+    // rollupOptions: {
+    //   input: inputList,
+    //   output: {
+    //     dir: 'dist',
+    //     format: 'es',
+    //     entryFileNames: `lib/[name].js`,
+    //     chunkFileNames: `lib/[name].js`,
+    //     assetFileNames: (info) => {
+    //       return `lib/theme-chalk/${info.name.replace('.scss', '')}`
+    //     }
+    //   }
+    // },
+    lib: {
+      entry: vueComponentRoot + '/src/index.ts',
+      name: 'hubojun123', // umd的变量名
+      fileName: (format) => `index.${format}.js`, // 输出文件名
+      formats: ['es', 'umd']
     }
   }
 })

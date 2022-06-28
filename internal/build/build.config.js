@@ -43,5 +43,6 @@ export default defineConfig({
       fileName: (format) => `index.${format}.js`, // 输出文件名
       formats: ['es', 'umd']
     }
+    // emptyOutDir: false
   }
 })

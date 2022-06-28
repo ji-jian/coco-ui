@@ -18,11 +18,14 @@ const pkgRoot = resolve(projectRoot, 'packages')
 
 const vueComponentRoot = resolve(pkgRoot, 'components')
 
+const cocoLibRoot = resolve(pkgRoot, 'coco-ui')
+
 const styleRoot = resolve(pkgRoot, 'style')
 
 module.exports = {
   projectRoot,
   pkgRoot,
   vueComponentRoot,
+  cocoLibRoot,
   styleRoot
 }

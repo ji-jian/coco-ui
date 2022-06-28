@@ -2,7 +2,7 @@
 const { build } = require('vite')
 const vue = require('@vitejs/plugin-vue')
 const fs = require('fs')
-const { projectRoot, vueComponentRoot, styleRoot } = require('./paths')
+const { vueComponentRoot, styleRoot, cocoLibRoot } = require('./paths')
 
 let inputList = {}
 
@@ -17,43 +17,45 @@ fs.readdirSync(styleRoot).forEach((file) => {
   }
 })
 
-// 全量打包构建
 const buildAll = async () => {
   await build({
     mode: 'production',
-    base: projectRoot,
     plugins: [vue()],
     build: {
       rollupOptions: {
         input: inputList,
         output: {
-          dir: 'dist',
-          format: 'es',
-          entryFileNames: `lib/[name].js`,
-          chunkFileNames: `lib/[name].js`,
+          format: 'umd',
+          preserveModules: true,
+          entryFileNames: (info) => {
+            console.log(1111, info)
+            return `[name].js`
+          },
+          chunkFileNames: `[name].js`,
           assetFileNames: (info) => {
-            return `lib/theme-chalk/${info.name.replace('.scss', '')}`
+            return `theme-chalk/${info.name.replace('.scss', '')}`
           }
-        }
-      }
+        },
+        preserveEntrySignatures: 'allow-extension'
+      },
+      outDir: cocoLibRoot + '/lib'
     }
   })
 
-  await build({
-    mode: 'production',
-    base: projectRoot,
-    plugins: [vue()],
-    build: {
-      lib: {
-        entry: vueComponentRoot + '/src/index.ts',
-        name: 'coco-ui', // umd的变量名
-        fileName: (format) => `index.${format}.js`, // 输出文件名
-        formats: ['es', 'umd']
-      },
-      emptyOutDir: false,
-      outDir: 'dist/lib'
-    }
-  })
+  // await build({
+  //   mode: 'production',
+  //   plugins: [vue()],
+  //   build: {
+  //     lib: {
+  //       entry: vueComponentRoot + '/src/index.ts',
+  //       name: 'coco-ui', // umd的变量名
+  //       fileName: (format) => `index.${format}.js`, // 输出文件名
+  //       formats: ['es', 'umd']
+  //     },
+  //     emptyOutDir: false,
+  //     outDir: cocoLibRoot + '/lib'
+  //   }
+  // })
 }
 const builds = async () => {
   await buildAll()

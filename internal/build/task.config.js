@@ -24,38 +24,44 @@ const buildAll = async () => {
     build: {
       rollupOptions: {
         input: inputList,
-        output: {
-          format: 'umd',
-          preserveModules: true,
-          entryFileNames: (info) => {
-            console.log(1111, info)
-            return `[name].js`
+        output: [
+          {
+            format: 'es',
+            entryFileNames: `es/[name].js`,
+            chunkFileNames: `es/[name].js`,
+            assetFileNames: (info) => {
+              return `theme-chalk/${info.name.replace('.scss', '')}`
+            }
           },
-          chunkFileNames: `[name].js`,
-          assetFileNames: (info) => {
-            return `theme-chalk/${info.name.replace('.scss', '')}`
+          {
+            format: 'cjs',
+            entryFileNames: `lib/[name].js`,
+            chunkFileNames: `lib/[name].js`,
+            assetFileNames: (info) => {
+              return `theme-chalk/${info.name.replace('.scss', '')}`
+            }
           }
-        },
-        preserveEntrySignatures: 'allow-extension'
+        ]
       },
-      outDir: cocoLibRoot + '/lib'
+      emptyOutDir: false,
+      outDir: cocoLibRoot
     }
   })
 
-  // await build({
-  //   mode: 'production',
-  //   plugins: [vue()],
-  //   build: {
-  //     lib: {
-  //       entry: vueComponentRoot + '/src/index.ts',
-  //       name: 'coco-ui', // umd的变量名
-  //       fileName: (format) => `index.${format}.js`, // 输出文件名
-  //       formats: ['es', 'umd']
-  //     },
-  //     emptyOutDir: false,
-  //     outDir: cocoLibRoot + '/lib'
-  //   }
-  // })
+  await build({
+    mode: 'production',
+    plugins: [vue()],
+    build: {
+      lib: {
+        entry: vueComponentRoot + '/src/index.ts',
+        name: 'coco-ui', // umd的变量名
+        fileName: (format) => `dist/index.${format}.js`, // 输出文件名
+        formats: ['umd']
+      },
+      emptyOutDir: false,
+      outDir: cocoLibRoot
+    }
+  })
 }
 const builds = async () => {
   await buildAll()

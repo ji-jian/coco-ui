@@ -10,6 +10,10 @@ fs.readdirSync(vueComponentRoot + '/packages').forEach((dir) => {
   inputList[dir] = vueComponentRoot + '/packages/' + dir + '/index.ts'
 })
 
+fs.readdirSync(vueComponentRoot + '/src').forEach((dir) => {
+  inputList['index'] = vueComponentRoot + '/src/' + dir
+})
+
 fs.readdirSync(styleRoot).forEach((file) => {
   if (/.scss/.test(file)) {
     console.log('styleRoot', file)
@@ -27,8 +31,8 @@ const buildAll = async () => {
         output: [
           {
             format: 'es',
-            entryFileNames: `es/[name].js`,
-            chunkFileNames: `es/[name].js`,
+            entryFileNames: `es/[name].mjs`,
+            chunkFileNames: `es/[name].mjs`,
             assetFileNames: (info) => {
               return `theme-chalk/${info.name.replace('.scss', '')}`
             }

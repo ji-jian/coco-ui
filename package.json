@@ -22,7 +22,8 @@
     "rollup": "^2.70.1",
     "sass": "^1.50.0",
     "vite-plugin-compression": "^0.5.1",
-    "vue": "^3.2.31"
+    "vue": "^3.2.31",
+    "@coco-ui/components": "workspace:^1.0.0"
   },
   "lint-staged": {
     "*.{vue,js,ts,md,json}": "prettier --write"

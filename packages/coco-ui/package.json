@@ -2,15 +2,10 @@
   "name": "@coco-ui/coco-ui",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build"
-  },
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "unpkg": "dist/index.umd.js",
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@coco-ui/components": "workspace:^1.0.0"
-  }
+  "license": "ISC"
 }

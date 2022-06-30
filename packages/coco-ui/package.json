@@ -1,5 +1,5 @@
 {
-  "name": "@coco-ui/coco-ui",
+  "name": "@coco/coco-ui",
   "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",

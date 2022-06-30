@@ -1,6 +1,6 @@
 {
-  "name": "@coco-bojun/coco-ui",
-  "version": "1.0.1",
+  "name": "coco-vui",
+  "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
   "module": "es/index.mjs",

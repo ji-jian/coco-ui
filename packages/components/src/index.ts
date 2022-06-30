@@ -96,16 +96,11 @@ const install = (app: any) => {
   })
 }
 
-const cocoUi2 = {
+const cocoUI = {
   install
 } as const
 
-const ab = {
-  a: 'ssssssss'
-}
-
 export {
-  ab,
   install,
   Message,
   Notification,
@@ -152,4 +147,4 @@ export {
   CocoCheckbox
 }
 
-export default cocoUi2
+export default cocoUI

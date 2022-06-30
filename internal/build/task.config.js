@@ -60,7 +60,7 @@ const buildAll = async () => {
         entry: vueComponentRoot + '/src/index.ts',
         name: 'coco-ui', // umd的变量名
         fileName: (format) => `dist/index.${format}.js`, // 输出文件名
-        formats: ['umd']
+        formats: ['umd', 'es', 'cjs']
       },
       emptyOutDir: false,
       outDir: cocoLibRoot

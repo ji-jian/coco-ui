@@ -6,6 +6,6 @@
   "module": "es/index.mjs",
   "unpkg": "dist/index.umd.js",
   "keywords": [],
-  "author": "",
+  "author": "xiaoxiaoxiao",
   "license": "ISC"
 }

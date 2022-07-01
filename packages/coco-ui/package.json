@@ -1,9 +1,9 @@
 {
-  "name": "coco-vui",
-  "version": "1.0.3",
+  "name": "@icoco/coco-ui",
+  "version": "1.0.0",
   "description": "",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.es.js",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
   "unpkg": "dist/index.umd.js",
   "files": [
     "dist",

@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import cocoUi2 from '@coco-ui/components'
-import '@coco-ui/style/index.scss'
+import cocoUi2 from '@icoco/components'
+import '@icoco/style/index.scss'
 import router from './router'
 
 import 'element3/lib/theme-chalk/index.css'

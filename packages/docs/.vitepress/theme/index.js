@@ -1,5 +1,5 @@
-import cocoUi2 from '@coco-ui/components'
-import '@coco-ui/components/style/index.css'
+import cocoUi2 from '@icoco/components'
+import '@icoco/components/style/index.css'
 import DefaultTheme from 'vitepress/theme'
 import '../style/global.scss'
 

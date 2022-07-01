@@ -1,13 +1,13 @@
 {
-  "name": "@coco-ui/docs-old",
+  "name": "@icoco/docs-old",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build"
   },
   "dependencies": {
-    "@coco-ui/components": "workspace:*",
-    "@coco-ui/style": "workspace:*",
+    "@icoco/components": "workspace:*",
+    "@icoco/style": "workspace:*",
     "bright-code": "^1.2.1",
     "clipboard": "^2.0.10",
     "vite-plugin-md": "^0.11.9"

@@ -1,4 +1,4 @@
-import cocoUi2 from '@coco-ui/components'
+import cocoUi2 from '@icoco/components'
 const version = cocoUi2.version
 
 export { version }

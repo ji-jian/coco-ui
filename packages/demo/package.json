@@ -1,12 +1,12 @@
 {
-  "name": "@icoco/demo",
+  "name": "@cocoui/demo",
   "private": true,
   "scripts": {
     "dev": "vite"
   },
   "dependencies": {
     "element3": "^0.0.40",
-    "@icoco/components": "workspace:*",
-    "@icoco/style": "workspace:*"
+    "@cocoui/components": "workspace:*",
+    "@cocoui/style": "workspace:*"
   }
 }

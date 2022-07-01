@@ -1,5 +1,5 @@
 {
-  "name": "@icoco/components",
+  "name": "@cocoui/components",
   "version": "1.0.0",
   "description": "The next generation ui component library of coco-ui is based on vue3 Version, fully embrace vue3.",
   "main": "src/index.ts",

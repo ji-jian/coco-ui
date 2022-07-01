@@ -4,8 +4,8 @@ import router from './router'
 
 // https://github.com/Coco2001/coco-ui
 import cocoUi2 from './cocoUi'
-import '@icoco/components/style/index.css' // 线上
-// import '@icoco/style/index.ts' // 测试
+import '@cocoui/components/style/index.css' // 线上
+// import '@cocoui/style/index.ts' // 测试
 
 // https://github.com/Coco2001/bright-code
 import brightCode from 'bright-code'

@@ -18,7 +18,7 @@
   import MessageC from './messageC.md'
   import MessageD from './messageD.md'
   import MessageE from './messageE.md'
-  import { Message } from '@icoco/components'
+  import { Message } from '@cocoui/components'
   function change1() {
     Message({ message: '默认提示', type: 'default', round: true })
   }

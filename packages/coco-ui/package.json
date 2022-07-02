@@ -1,10 +1,11 @@
 {
   "name": "@cocoui/coco-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "unpkg": "dist/index.umd.js",
+  "style": "theme-chalk/index.css",
   "files": [
     "dist",
     "es",

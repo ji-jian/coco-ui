@@ -1,15 +1,21 @@
-<template>
-  <coco-collapse v-model="value">
-    <coco-collapse-item title="标题1" name="1">哈哈哈哈</coco-collapse-item>
-    <coco-collapse-item title="标题2" name="2">哈哈哈哈</coco-collapse-item>
-    <coco-collapse-item title="标题3" name="3">哈哈哈哈</coco-collapse-item>
-    <coco-collapse-item title="标题4" name="4">哈哈哈哈</coco-collapse-item>
-  </coco-collapse>
-</template>
-
-<script lang="ts" setup>
-  import { ref } from 'vue'
-  const value = ref(['1', '3'])
+<script setup lang="ts">
+  // This starter template is using Vue 3 <script setup> SFCs
+  // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
+  import HelloWorld from './components/HelloWorld.vue'
 </script>
 
-<style scoped></style>
+<template>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <coco-button type="primary">主要按钮</coco-button>
+</template>
+
+<style>
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
+</style>

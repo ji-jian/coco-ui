@@ -5,7 +5,7 @@
 推荐使用 npm 的方式安装
 
 ```shell
-npm i coco-ui2
+npm i @cocoui/coco-ui
 ```
 
 ## 完整引入
@@ -15,10 +15,10 @@ npm i coco-ui2
 ```js
 import { createApp } from 'vue'
 import App from './App.vue'
-import cocoUi2 from 'coco-ui2'
-import 'coco-ui2/style/index.css'
+import cocoUI from '@cocoui/coco-ui'
+import '@cocoui/coco-ui/theme-chalk/index.css'
 
-createApp(App).use(cocoUi2).mount('#app')
+createApp(App).use(cocoUI).mount('#app')
 ```
 
 ## 按需引入
@@ -28,12 +28,8 @@ createApp(App).use(cocoUi2).mount('#app')
 ```js
 import { createApp } from 'vue'
 import App from './App.vue'
-import {
-  CocoButton,
-  CocoCard
-  // ...
-} from 'coco-ui2'
-import 'coco-ui2/style/index.css'
+import CocoButton from '@cocoui/coco-ui/lib/button.js'
+import '@cocoui/coco-ui/theme-chalk/button.css'
 
 createApp(App).use(CocoButton).use(CocoCard).mount('#app')
 ```

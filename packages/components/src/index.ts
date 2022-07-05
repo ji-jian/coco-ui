@@ -43,7 +43,6 @@ import CocoCollapse from '../packages/collapse'
 import CocoCollapseItem from '../packages/collapse-item'
 import { Message } from '../packages/message'
 import { Notification } from '../packages/notification'
-import { version } from '../package.json'
 
 const components: object[] = [
   CocoButton,
@@ -97,8 +96,7 @@ const install = (app: any) => {
   })
 }
 
-const cocoUi2 = {
-  version,
+const cocoUI = {
   install
 } as const
 
@@ -149,4 +147,4 @@ export {
   CocoCheckbox
 }
 
-export default cocoUi2
+export default cocoUI

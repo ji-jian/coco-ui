@@ -1,13 +1,13 @@
 {
-  "name": "@coco-ui/docs",
+  "name": "@cocoui/docs",
   "private": true,
   "scripts": {
     "dev": "vitepress dev .",
     "build": "vitepress build ."
   },
   "devDependencies": {
-    "@coco-ui/components": "workspace:*",
-    "@coco-ui/style": "workspace:*",
+    "@cocoui/components": "workspace:*",
+    "@cocoui/style": "workspace:*",
     "vitepress": "1.0.0-alpha.1"
   },
   "dependencies": {

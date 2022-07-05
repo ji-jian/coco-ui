@@ -8,6 +8,8 @@
     "build:docs": "pnpm run -C packages/docs build",
     "dev:demo": "pnpm run -C packages/demo dev",
     "build:style": "vite build packages/style",
+    "build:components": "vite --config ./internal/build/build.config.js build",
+    "build:task": "node ./internal/build/task.config.js",
     "preinstall": "node ./scripts/preinstall.js",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.md,.json --max-warnings 0 && pretty-quick --check --branch master",
     "lint:fix": "eslint --fix . --ext .vue,.js,.ts,.jsx,.tsx,.md,.json && pretty-quick --branch master",
@@ -20,7 +22,8 @@
     "rollup": "^2.70.1",
     "sass": "^1.50.0",
     "vite-plugin-compression": "^0.5.1",
-    "vue": "^3.2.31"
+    "vue": "^3.2.31",
+    "@cocoui/components": "workspace:^1.0.0"
   },
   "lint-staged": {
     "*.{vue,js,ts,md,json}": "prettier --write"

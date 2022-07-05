@@ -1,1 +1,0 @@
-import{R as r,S as c}from"./vendor.69ad1cd2.js";const m=(e,n)=>{const t=s(e,n);return document.body.append(t.vnode.el),t.proxy},d=(e,n)=>Object.assign(e,n),s=(e,n)=>{const t=r(e,n),o=document.createElement("div");return c(t,o),t.component};export{m as c,d as m};

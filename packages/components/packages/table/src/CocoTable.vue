@@ -72,14 +72,3 @@
     return [`coco-${key}-td`, { 'coco-table-border': props.border }]
   }
 </script>
-
-<style scoped>
-  ::-webkit-scrollbar {
-    width: 6px;
-    background-color: #ffffff;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: #dddddd;
-    border-radius: 6px;
-  }
-</style>

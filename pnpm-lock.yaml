@@ -66,6 +66,7 @@ importers:
       vue: ^3.2.25
       vue-tsc: ^0.34.7
     dependencies:
+      '@cocoui/coco-ui': link:../coco-ui
       vue: 3.2.37
     devDependencies:
       '@vitejs/plugin-vue': 2.3.3_vite@2.9.12+vue@3.2.37
@@ -583,7 +584,7 @@ packages:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.9.12
+      vite: 2.9.12_sass@1.52.3
       vue: 3.2.37
     dev: true
 

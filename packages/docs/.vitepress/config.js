@@ -1,6 +1,6 @@
 export default {
   title: 'CocoUI',
-  // base: '/coco-ui/',
+  base: '/coco-ui/',
   themeConfig: {
     // nav: [
     //   { text: 'Guide', link: '/guide' },

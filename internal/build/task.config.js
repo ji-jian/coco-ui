@@ -17,7 +17,6 @@ fs.readdirSync(vueComponentRoot + '/src').forEach((dir) => {
 
 fs.readdirSync(styleRoot).forEach((file) => {
   if (/.scss/.test(file)) {
-    console.log('styleRoot', file)
     styleList[file] = styleRoot + '/' + file
   }
 })
@@ -35,16 +34,13 @@ const buildAll = async () => {
             assetFileNames: (info) => {
               return `theme-chalk/${info.name.replace('.scss', '')}`
             }
-          },
-          {
-            assetFileNames: (info) => {
-              return `theme-chalk/${info.name.replace('.scss', '')}`
-            }
           }
         ]
       },
       emptyOutDir: false,
-      outDir: cocoLibRoot
+      outDir: cocoLibRoot,
+      publicDir: 'font',
+      assetsDir: 'theme-chalk/font'
     }
   })
 

@@ -2,9 +2,9 @@
 
 ## 基本使用
 
-按钮的基础用法
+按钮基础用法
 
-type 属性配置不同的按钮类型
+type 属性配置不同的按钮类型 
 
 <coco-button>默认按钮</coco-button>
 <coco-button type="primary">主要按钮</coco-button>

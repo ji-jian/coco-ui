@@ -44,6 +44,20 @@ const buildAll = async () => {
     }
   })
 
+  // 打包 style 样式
+  await build({
+    mode: 'production',
+    build: {
+      lib: {
+        entry: styleRoot+'/index.js',
+        formats: ['es', 'cjs'],
+        fileName: 'index.css'
+      },
+      emptyOutDir: false,
+      outDir: cocoLibRoot+'/a'
+    }
+  })
+
   // UMD 构建：组件库以 CDN 方式引入
   await build({
     mode: 'production',

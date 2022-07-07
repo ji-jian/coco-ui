@@ -91,6 +91,6 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */,
     "jsx": "preserve"
   },
-  "include": ["**/*.ts", "**/*.vue", "packages/coco-ui/index.js"],
+  "include": ["**/*.ts", "**/*.vue", "packages/coco-ui/index.js", "packages/style/index.js"],
   "exclude": ["node_modules"]
 }

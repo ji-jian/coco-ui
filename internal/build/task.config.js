@@ -39,22 +39,7 @@ const buildAll = async () => {
       },
       emptyOutDir: false,
       outDir: cocoLibRoot,
-      publicDir: 'font',
-      assetsDir: 'theme-chalk/font'
-    }
-  })
-
-  // 打包 style 样式
-  await build({
-    mode: 'production',
-    build: {
-      lib: {
-        entry: styleRoot+'/index.js',
-        formats: ['es', 'cjs'],
-        fileName: 'index.css'
-      },
-      emptyOutDir: false,
-      outDir: cocoLibRoot+'/a'
+      assetsInlineLimit: 4096000
     }
   })
 
